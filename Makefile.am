@@ -1,10 +1,10 @@
 ###############################################################################
-## Makefile for cv-tt
+## Makefile for chv-tat
 ###############################################################################
 
 VERSION=0.1.0
-LANG1=cv
-LANG2=tt
+LANG1=chv
+LANG2=tat
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -18,7 +18,7 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).mode $(PREFIX2).mode modes 
 
 ###############################################################################
-## cv transducer
+## chv transducer
 ###############################################################################
 
 .deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
@@ -52,7 +52,7 @@ $(PREFIX1).automorf.hfst: .deps/$(LANG1).LR.hfst
 	hfst-invert $< | hfst-fst2fst -O -o $@
 
 ###############################################################################
-## tt transducer
+## tat transducer
 ###############################################################################
 
 .deps/$(LANG2).twol.hfst: $(BASENAME).$(LANG2).twol
@@ -183,10 +183,10 @@ EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX2).t1x \
            modes.xml
 
-apertium_cv_ttmodesdir=$(prefix)/share/apertium/modes/
-apertium_cv_ttdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_chv_tatmodesdir=$(prefix)/share/apertium/modes/
+apertium_chv_tatdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_cv_tt_DATA=$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
+apertium_chv_tat_DATA=$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).autogen.hfst $(PREFIX2).autogen.hfst \
 		    $(PREFIX1).automorf.hfst $(PREFIX2).automorf.hfst \
@@ -206,11 +206,11 @@ install-data-local:
 	$(prefix)/bin/apertium-gen-modes modes.xml $(BASENAME)
 	rm -rf modes
 	mv modes~ modes
-	test -d $(DESTDIR)$(apertium_cv_ttmodesdir) || mkdir $(DESTDIR)$(apertium_cv_ttmodesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_cv_ttmodesdir)
+	test -d $(DESTDIR)$(apertium_chv_tatmodesdir) || mkdir $(DESTDIR)$(apertium_chv_tatmodesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_chv_tatmodesdir)
 	rm $(PREFIX1).mode
 	rm $(PREFIX2).mode
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_cv_ttdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_cv_ttdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_chv_tatdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_chv_tatdir)
 
 CLEANFILES = -r $(TARGETS_COMMON) .deps/
