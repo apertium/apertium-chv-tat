@@ -1,0 +1,14 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+SETS
+
+LIST N = n ; 
+LIST V = v ;
+LIST Pron = prn ;
+
+SECTION
+
+SELECT V IF (-1 Pron);
+SELECT N ;
+  ## 
