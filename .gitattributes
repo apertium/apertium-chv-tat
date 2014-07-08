@@ -9,13 +9,13 @@
 /apertium-chv-tat.chv-tat.lrx -text
 /apertium-chv-tat.chv-tat.rlx -text
 /apertium-chv-tat.chv-tat.t1x -text
+/apertium-chv-tat.chv-tat.t2x -text
 /apertium-chv-tat.tat-chv.lrx -text
 /apertium-chv-tat.tat-chv.rlx -text
 /apertium-chv-tat.tat-chv.t1x -text
+/apertium-chv-tat.tat-chv.t2x -text
 /autogen.sh -text
-/chv-tat.prob -text svneol=unset#unset
 /configure.ac -text
 /modes.xml -text
-/tat-chv.prob -text svneol=unset#unset
 text/cv.txt -text svneol=unset#application/octet-stream
 text/tt.txt -text svneol=unset#application/octet-stream
