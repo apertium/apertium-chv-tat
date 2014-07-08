@@ -7,15 +7,34 @@
     <sdef n="tv"  />
     <sdef n="iv"  />
     <sdef n="np"  />
-    <sdef n="pred" />
+    <sdef n="advl"  />
+    <sdef n="adv" />
     <sdef n="cnjcoo"  />
     <sdef n="adj"  />
     <sdef n="prn"  />
+    <sdef n="emph"  />
     <sdef n="dem"  />
     <sdef n="num"  />
+    <sdef n="qst"  />
+    <sdef n="pers"  />
+    <sdef n="cop"  />
+
+    <sdef n="sent" 	c=""/> 
+    <sdef n="guio" 	c=""/> 
+    <sdef n="cm" 	c=""/> 
+    <sdef n="apos" 	c=""/> 
+    <sdef n="rquot" 	c=""/> 
+    <sdef n="lquot" 	c=""/> 
+    <sdef n="rpar" 	c=""/> 
+    <sdef n="lpar" 	c=""/> 
+
   </sdefs>
   <section id="main" type="standard">
  
+    <e><p><l>и<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
+    <e><p><l>ӗ<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
+    <e><p><l>ах<s n="emph"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
+
     <!-- Раздел: Союзы -->
 
     <e><p><l>тата<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
@@ -24,11 +43,24 @@
 
     <e r="RL"><p><l></l><r>белән<s n="post"/></r></p></e>
 
-    <!-- Раздел: Союзы -->
+    <!-- Раздел: Местоимения -->
+
+    <e><p><l>эпӗ<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>вӑл<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>эсир<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>вӗсем<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
 
     <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
 
+    <!-- Раздел: Числа -->
+
+    <e><p><l>пӗр<s n="num"/></l><r>бир<s n="num"/></r></p></e>
+    <e><p><l>ултӑ<s n="num"/></l><r>алты<s n="num"/></r></p></e>
+    <e><p><l>пилӗк<s n="num"/></l><r>биш<s n="num"/></r></p></e>
+
     <!-- Раздел: Имена Существительные -->
+
+    <e><p><l>ум<s n="n"/></l><r>алд<s n="n"/></r></p></e>
 
     <e><p><l>алӑ<s n="n"/></l><r>кул<s n="n"/></r></p></e>
     <e><p><l>анне<s n="n"/></l><r>әни<s n="n"/></r></p></e>
@@ -40,7 +72,7 @@
     <e><p><l>йӑмӑк<s n="n"/></l><r>сеңел<s n="n"/></r></p></e>
     <e><p><l>кайӑк<s n="n"/></l><r>кош<s n="n"/></r></p></e>
     <e><p><l>кил<s n="n"/></l><r>өй<s n="n"/></r></p></e>
-    <e><p><l>кушак<s n="n"/></l><r>песие<s n="n"/></r></p></e>
+    <e><p><l>кушак<s n="n"/></l><r>песи<s n="n"/></r></p></e>
     <e><p><l>куҫ<s n="n"/></l><r>күз<s n="n"/></r></p></e>
     <e><p><l>пахча<s n="n"/></l><r>бакча<s n="n"/></r></p></e>
     <e><p><l>пукан<s n="n"/></l><r>утыргыч<s n="n"/></r></p></e>
@@ -57,7 +89,7 @@
     <e><p><l>ыйту<s n="n"/></l><r>сора<s n="n"/></r></p></e>
     <e><p><l>ҫанталӑк<s n="n"/></l><r>Һава<s n="n"/></r></p></e>
     <e><p><l>ҫул<s n="n"/></l><r>яш<s n="n"/></r></p></e>
-    <e><p><l>ҫурт<s n="n"/></l><r>ой<s n="n"/></r></p></e>
+    <e><p><l>ҫурт<s n="n"/></l><r>өй<s n="n"/></r></p></e>
     <e><p><l>ҫын<s n="n"/></l><r>кеше<s n="n"/></r></p></e>
     <e><p><l>ҫӗр<s n="n"/></l><r>урын<s n="n"/></r></p></e>
 
@@ -77,14 +109,21 @@
     <e><p><l>лайӑх<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>ӑшӑ <s n="adj"/></l><r>гына<s n="adj"/></r></p></e> 
     <e><p><l>сивӗ<s n="adj"/></l><r>суык<s n="adj"/></r></p></e>
-    <e><p><l>пысӑк<s n="adj"/></l><r>һәрвакыт<s n="adj"/></r></p></e>
     <e><p><l>хавас<s n="adj"/></l><r>шат<s n="adj"/></r></p></e>
     <e><p><l>савӑнӑҫлӑ<s n="adj"/></l><r>шат<s n="adj"/></r></p></e>
+    <e><p><l>пӗчӗк<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e>
+
+    <e><p><l>пысӑк<s n="adj"/><s n="advl"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
+
+    <!-- Раздел: Наречия -->
+
+    <e><p><l>питӗ<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>ялан<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
 
     <!-- Раздел: Глаголы -->
 
     <e><p><l>пул<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>выля<s n="v"/><s n="iv"/></l><r>уйна<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>выля<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>юрат<s n="v"/><s n="tv"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>шыра<s n="v"/><s n="tv"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>тап<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
@@ -106,6 +145,25 @@
     <e><p><l>пытан<s n="v"/><s n="iv"/></l><r>яшерен<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>пӗтер<s n="v"/><s n="iv"/></l><r>бет<s n="v"/><s n="iv"/></r></p></e>
  
+    <!-- SECTION: Punctuation -->
+
+
+    <e><p><l>,<s n="cm"/></l>                            <r>,<s n="cm"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l>                          <r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l>                          <r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l>                          <r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l>                          <r>]<s n="rpar"/></r></p></e>
+    <e><p><l>«<s n="lquot"/></l>                         <r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="rquot"/></l>                         <r>»<s n="rquot"/></r></p></e>
+    <e><p><l>“<s n="lquot"/></l>                         <r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="rquot"/></l>                         <r>”<s n="rquot"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l>                          <r>-<s n="guio"/></r></p></e>
+    <e><p><l>—<s n="guio"/></l>                          <r>—<s n="guio"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l>                          <r>'<s n="apos"/></r></p></e>
+    <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l>        <r><s n="sent"/></r></p></e>
+    <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+
 
   </section>
 </dictionary>

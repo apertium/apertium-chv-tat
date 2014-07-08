@@ -2,63 +2,206 @@
 
 <transfer>
   <section-def-cats>
-    
-    <def-cat n="nom">
-      <cat-item tags="n"/>
-      <cat-item tags="n.*"/>
-    </def-cat>
-   
-  </section-def-cats>
-  
-  <section-def-attrs>
-    
-    <def-attr n="case">
-      <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
-      <attr-item tags="gen"/>
-      <attr-item tags="loc"/>
-      <attr-item tags="abl"/>
-    </def-attr>
-       
-    <def-attr n="poss">
-      <attr-item tags="px1sg"/>
-      <attr-item tags="px2sg"/>
-      <attr-item tags="px3sp"/>
-      <attr-item tags="px1pl"/>
-      <attr-item tags="px2pl"/>
-    </def-attr>
 
-    <def-attr n="nbr">
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
-      <attr-item tags="ND"/>
-    </def-attr>
-       
-    <def-attr n="a_nom">
-      <attr-item tags="n"/>
-    </def-attr>
-    
-  </section-def-attrs>
- 
-  <section-def-vars>
-    <def-var n="number"/>
-  </section-def-vars>  
+    <!-- this shouldn't include 'sent' or other punctuation -->
+    <def-cat n="main-reading">
+      <cat-item tags="n"/> <!-- In case of abessive SIZ it's <n>+<post.*> without the <nom> tag-->
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
+      <cat-item tags="num.*"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="det.*"/>
+      <cat-item tags="v.*"/>
+      <cat-item tags="vaux.*"/>
+      <cat-item tags="adv.*"/>
+      <cat-item tags="post.*"/>
+      <cat-item tags="postadv.*"/>
+      <cat-item tags="cnjcoo.*"/>
+      <cat-item tags="cnjsub.*"/>
+      <cat-item tags="cnjadv.*"/>
+      <cat-item tags="ij.*"/>
+      <cat-item tags="abbr.*"/>
+      <cat-item tags="cop.*"/>
+      <cat-item tags="part.*"/>
+      <cat-item tags="ideo.*"/>
+    </def-cat>
+
+    <def-cat n="sub-reading1">
+      <!-- Personal copulas and abessive/privative postposition -->
+      <cat-item tags="cop.p1.*"/>
+      <cat-item tags="cop.p2.*"/>
+      <cat-item tags="cop.p3.*"/>
+      <cat-item lemma="сыз" tags="post"/>
+      <cat-item lemma="лы" tags="post"/>
+    </def-cat>
+
+    <def-cat n="sub-reading2">
+      <!-- Every other thing in Kazakh which most likely will be translated
+           with a clitic. Can appear after cat="sub-reading1" -->
+      <cat-item tags="qst"/>
+      <cat-item tags="mod_ass"/>
+      <cat-item tags="mod_ind"/>
+      <cat-item tags="emph"/>
+      <cat-item tags="mod"/>
+      <cat-item tags="postadv"/>
+      <cat-item lemma="да" tags="postadv"/>
+      <cat-item lemma="да" tags="cnjcoo"/>
+    </def-cat>
+
+  </section-def-cats>
+
+ <section-def-attrs>
+   <def-attr n="a_qst">
+     <attr-item tags="qst"/>
+   </def-attr>
+ </section-def-attrs>
+
+ <section-def-vars>
+    <def-var n="a" v="~"/>
+  </section-def-vars>
+
+  <section-def-lists>
+    <def-list n="tatar-clitics">
+      <list-item v="чы"/>
+      <list-item v="сана"/>
+      <list-item v="мы"/>
+      <list-item v="мыни"/>
+      <list-item v="ла"/>
+      <list-item v="дыр"/>
+      <list-item v="гына"/>
+      <list-item v="да"/>
+      <list-item v="ук"/>
+    </def-list>
+  </section-def-lists>
 
   <section-rules>
-    
-    <rule comment=""> 
+
+    <rule comment="REGLA: 1;">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="main-reading"/>
       </pattern>
       <action>
         <out>
+          <var n="a"/>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
         </out>
       </action>
     </rule>
-    
+
+    <rule comment="REGLA: 2a;
+      For sequence [stem + personal copula/abessive + other clitics]">
+      <pattern>
+        <pattern-item n="main-reading"/>
+        <pattern-item n="sub-reading1"/> <!-- Personal copulas/Abessive -->
+        <pattern-item n="sub-reading2"/> <!-- All other clitics -->
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="3" side="tl" part="lem"/>
+		<list n="tatar-clitics"/>
+	      </in>
+	    </test>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="3" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	      <b/>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: 2b; makes personal copulas/abessive to clitics">
+      <pattern>
+        <pattern-item n="main-reading"/>
+        <pattern-item n="sub-reading1"/> <!-- Personal copulas/Abessive -->
+      </pattern>
+      <action>
+        <out>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </mlu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA:3;
+      makes stuff contained in list=tatar-clitics to clitics">
+      <pattern>
+	<pattern-item n="main-reading"/>
+	<pattern-item n="sub-reading2"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	        <in caseless="yes">
+	     	  <clip pos="2" side="tl" part="lem"/>
+		  <list n="tatar-clitics"/>
+	        </in>
+	    </test>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <lu>
+		<clip pos="1" side="tl" part="whole"/>
+	      </lu>
+	      <b/>
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
   </section-rules>
+
 </transfer>
