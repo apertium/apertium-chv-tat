@@ -127,11 +127,11 @@ $(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
 ## Postgeneration dictionaries
 ###############################################################################
 
-$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+$(PREFIX1).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@
 
-$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG2).dix
+$(PREFIX2).autopgen.bin: $(AP_SRC2)/apertium-$(LANG2).post-$(LANG2).dix
 	apertium-validate-dictionary $< 
 	lt-comp lr $< $@
 

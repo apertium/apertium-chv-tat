@@ -10,7 +10,8 @@
     <sdef n="pred" />
     <sdef n="cnjcoo"  />
     <sdef n="adj"  />
-    <sdef n="pro"  />
+    <sdef n="prn"  />
+    <sdef n="dem"  />
     <sdef n="num"  />
   </sdefs>
   <section id="main" type="standard">
@@ -22,6 +23,10 @@
     <!-- Раздел: Послелоги -->
 
     <e r="RL"><p><l></l><r>белән<s n="post"/></r></p></e>
+
+    <!-- Раздел: Союзы -->
+
+    <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Раздел: Имена Существительные -->
 
@@ -58,7 +63,9 @@
 
     <!-- Раздел: -->
   
-    <e><p><l>Ахмет<s n="n"/></l><r>Әхмәт<s n="n"/></r></p></e>
+    <e><p><l>Ахмет<s n="np"/></l><r>Әхмәт<s n="np"/></r></p></e>
+    <e><p><l>Маша<s n="np"/></l><r>Маша<s n="np"/></r></p></e>
+    <e><p><l>Ваня<s n="np"/></l><r>Ваня<s n="np"/></r></p></e>
     <e><p><l>Гюльнара<s n="np"/></l><r>Гөлнара<s n="np"/></r></p></e>
 
 
