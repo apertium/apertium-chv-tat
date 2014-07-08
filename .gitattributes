@@ -17,5 +17,5 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
-text/cv.txt -text svneol=unset#application/octet-stream
-text/tt.txt -text svneol=unset#application/octet-stream
+text/rasskaz.chv.txt -text svneol=unset#application/octet-stream
+text/rasskaz.tat.txt -text svneol=unset#application/octet-stream
