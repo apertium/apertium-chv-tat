@@ -9,13 +9,9 @@
 /apertium-chv-tat.chv-tat.lrx -text
 /apertium-chv-tat.chv-tat.rlx -text
 /apertium-chv-tat.chv-tat.t1x -text
-/apertium-chv-tat.chv.lexc -text
-/apertium-chv-tat.chv.twol -text
 /apertium-chv-tat.tat-chv.lrx -text
 /apertium-chv-tat.tat-chv.rlx -text
 /apertium-chv-tat.tat-chv.t1x -text
-/apertium-chv-tat.tat.lexc -text
-/apertium-chv-tat.tat.twol -text
 /autogen.sh -text
 /chv-tat.prob -text svneol=unset#unset
 /configure.ac -text
