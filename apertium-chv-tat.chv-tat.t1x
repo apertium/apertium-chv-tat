@@ -2,10 +2,12 @@
 
 <transfer>
   <section-def-cats>
+    <def-cat n="default">
+      <cat-item tags="*"/>
+    </def-cat>
     
-    <def-cat n="nom">
-      <cat-item tags="n"/>
-      <cat-item tags="n.*"/>
+    <def-cat n="verb">
+      <cat-item tags="v.*"/>
     </def-cat>
    
   </section-def-cats>
@@ -19,8 +21,22 @@
       <attr-item tags="gen"/>
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+      <attr-item tags="ins"/>
     </def-attr>
        
+    <def-attr n="nbr-poss">
+      <attr-item tags="px1sg.pl"/>
+      <attr-item tags="px2sg.pl"/>
+      <attr-item tags="px3sp.pl"/>
+      <attr-item tags="px1pl.pl"/>
+      <attr-item tags="px2pl.pl"/>
+      <attr-item tags="pl.px1sg"/>
+      <attr-item tags="pl.px2sg"/>
+      <attr-item tags="pl.px3sp"/>
+      <attr-item tags="pl.px1pl"/>
+      <attr-item tags="pl.px2pl"/>
+    </def-attr>
+
     <def-attr n="poss">
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
@@ -35,23 +51,43 @@
       <attr-item tags="ND"/>
     </def-attr>
        
-    <def-attr n="a_nom">
-      <attr-item tags="n"/>
+    <def-attr n="a_gerund">
+      <attr-item tags="ger1"/>
+      <attr-item tags="inf"/>
     </def-attr>
     
   </section-def-attrs>
  
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="postposition"/>
   </section-def-vars>  
+
+  <section-def-macros>
+    <def-macro n="convert-nbr-poss1" npar="1">
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="nbr-poss"/><lit-tag v="px3sp.pl"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px3sp"/></let>
+          </when>
+        </choose>
+
+    </def-macro>
+  </section-def-macros>
 
   <section-rules>
     
     <rule comment=""> 
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="verb"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_gerund"/><lit-tag v="ger1"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_gerund"/><lit-tag v="inf"/></let>
+          </when>
+        </choose>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
@@ -59,6 +95,31 @@
         </out>
       </action>
     </rule>
-    
+ 
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <call-macro n="convert-nbr-poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="ins"/></equal></test>
+            <let><var n="postposition"/><concat><lit v=" ^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <var n="postposition"/>
+        </out>
+        <let><var n="postposition"/><lit v=""/></let>
+      </action>
+    </rule>
+        
   </section-rules>
 </transfer>
