@@ -51,7 +51,11 @@
       <attr-item tags="ND"/>
     </def-attr>
        
-    <def-attr n="a_gerund">
+    <def-attr n="a_abil">
+      <attr-item tags="abil"/>
+    </def-attr>
+
+     <def-attr n="a_gerund">
       <attr-item tags="ger1"/>
       <attr-item tags="inf"/>
     </def-attr>
@@ -71,8 +75,28 @@
             <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px3sp"/></let>
           </when>
         </choose>
+    </def-macro>
+
+    <def-macro n="convert-verb-screeve1" npar="1">
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_gerund"/><lit-tag v="ger1"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_gerund"/><lit-tag v="inf"/></let>
+          </when>
+        </choose>
 
     </def-macro>
+
+    <def-macro n="process-abil-form1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_abil"/><lit-tag v="abil"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_abil"/><concat><lit-tag v="prc_impf"/><lit v="$"/><lit v=" ^ал"/><lit-tag v="vaux"/></concat></let>
+        </when> 
+        
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -82,12 +106,12 @@
         <pattern-item n="verb"/>
       </pattern>
       <action>
-        <choose>
-          <when>
-            <test><equal><clip pos="1" side="sl" part="a_gerund"/><lit-tag v="ger1"/></equal></test>
-            <let><clip pos="1" side="tl" part="a_gerund"/><lit-tag v="inf"/></let>
-          </when>
-        </choose>
+        <call-macro n="convert-verb-screeve1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="process-abil-form1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
