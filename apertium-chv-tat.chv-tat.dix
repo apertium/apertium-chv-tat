@@ -9,6 +9,8 @@
     <sdef n="np"  />
     <sdef n="advl"  />
     <sdef n="adv" />
+    <sdef n="p3" />
+    <sdef n="sg" />
     <sdef n="itg" />
     <sdef n="cnjcoo"  />
     <sdef n="cnjadv"  />
@@ -74,7 +76,7 @@
     <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>ҫак<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
 
-    <e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
+    <e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
 
     <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>мӗн<s n="prn"/><s n="itg"/><s n="ben"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e>
@@ -124,7 +126,7 @@
     <e><p><l>чӗрчун<s n="n"/></l><r>хайван<s n="n"/></r></p></e>
     <e><p><l>чӳрече<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e>
     <e><p><l>шыв<s n="n"/></l><r>су<s n="n"/></r></p></e>
-    <e><p><l>ыйту<s n="n"/></l><r>сора<s n="n"/></r></p></e>
+    <e><p><l>ыйту<s n="n"/></l><r>сорау<s n="n"/></r></p></e>
     <e><p><l>ҫанталӑк<s n="n"/></l><r>Һава<s n="n"/></r></p></e>
     <e><p><l>ҫул<s n="n"/></l><r>яшь<s n="n"/></r></p></e>
     <e><p><l>ҫурт<s n="n"/></l><r>өй<s n="n"/></r></p></e>
