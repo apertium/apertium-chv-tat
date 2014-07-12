@@ -8,6 +8,7 @@
     <sdef n="iv"  />
     <sdef n="np"  />
     <sdef n="advl"  />
+    <sdef n="ij"  />
     <sdef n="adv" />
     <sdef n="p3" />
     <sdef n="sg" />
@@ -23,6 +24,7 @@
     <sdef n="dem"  />
     <sdef n="qnt"  />
     <sdef n="ref"  />
+    <sdef n="mod_ind"  />
     <sdef n="neg"  />
     <sdef n="ind"  />
     <sdef n="px3sp"  />
@@ -50,12 +52,14 @@
  
     <e><p><l>и<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
     <e><p><l>ӗ<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
-    <e><p><l>ах<s n="emph"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
+    <e r="LR"><p><l>ах<s n="emph"/></l><r></r></p></e>
+    <e><p><l>ха<s n="emph"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
 
     <!-- Раздел: Союзы -->
 
     <e><p><l>тата<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
     <e><p><l>анчах<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ҫапах<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>та<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>ҫавӑнпа<s n="adv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
     <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
@@ -64,6 +68,9 @@
 
     <e r="RL"><p><l></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>пуҫне<s n="post"/></l><r>баш<s n="n"/><s n="px3sp"/><s n="acc"/></r></p></e>
+    <e><p><l>витӗр<s n="post"/></l><r>аша<s n="post"/></r></p></e>
+    <e><p><l>хыҫҫӑн<s n="post"/></l><r>соң<s n="post"/></r></p></e>
+    <e><p><l>ҫине<s n="post"/></l><r>таба<s n="post"/></r></p></e>
 
     <!-- Раздел: Местоимения -->
 
@@ -101,6 +108,9 @@
 
     <e><p><l>ум<s n="n"/></l><r>алд<s n="n"/></r></p></e>
     <e><p><l>хыҫ<s n="n"/></l><r>арт<s n="n"/></r></p></e>
+    <e><p><l>пат<s n="n"/></l><r>ян<s n="n"/></r></p></e>
+    <e><p><l>ай<s n="n"/></l><r>аст<s n="n"/></r></p></e>
+    <e><p><l>йӗри-тавра<s n="n"/></l><r>тирә-як<s n="n"/></r></p></e>
 
     <e><p><l>алӑ<s n="n"/></l><r>кул<s n="n"/></r></p></e>
     <e><p><l>анне<s n="n"/></l><r>әни<s n="n"/></r></p></e>
@@ -167,16 +177,24 @@
     <e><p><l>ӑҫта<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>мӗншӗн<s n="adv"/><s n="itg"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e>
 
+    <e><p><l>ҫапла<s n="adv"/></l><r>шул<s n="prn"/><s n="dem"/><s n="adv"/></r></p></e>
+    <e><p><l>кӑшт<s n="adv"/></l><r>бераз<s n="adv"/></r></p></e>
+    <e><p><l>ҫапла<b/>вара<s n="adv"/></l><r>шулай<b/>итеп<s n="adv"/></r></p></e>
     <e><p><l>питӗ<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
-    <e><p><l>ялан<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
+    <e><p><l>ялан<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>
     <e><p><l>каярахпа<s n="adv"/></l><r>соңрак<s n="adv"/></r></p></e>
+    <e><p><l>тен<s n="adv"/></l><r>мөгаен<s n="ij"/></r></p></e>
     <e><p><l>каллех<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
+    <e><p><l>нихӑҫан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e>
     <e><p><l>пысӑк<s n="adj"/></l><r>зур<s n="adj"/></r></p></e>
     <e><p><l>пӗрле<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>паян<s n="adv"/></l><r>бүген<s n="adv"/></r></p></e>
     <e><p><l>ӗнер<s n="adv"/></l><r>кичә<s n="adv"/></r></p></e>
+    <e><p><l>тимлӗн<s n="adv"/></l><r>игътибар<b/>белән<s n="adv"/></r></p></e>
     <e><p><l>паллах<s n="adv"/></l><r>әлбәттә<s n="adv"/></r></p></e>
     <e><p><l>халӗ<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e>
+
+<!--    <e><p><l>чӗре<b/>сури<s n="adv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>-->
 
     <!-- Раздел: Глаголы -->
 
@@ -212,6 +230,9 @@
     <e><p><l>тӑрӑш<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>туп<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>кала<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>тӑр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>аташ<s n="v"/><s n="iv"/></l><r>адаш<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>пултар<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 
     <e><p><l>пыр<s n="v"/><s n="tv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e> <!-- WARNING -->
     <e><p><l>ҫӳре<s n="v"/><s n="tv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e> <!-- WARNING -->

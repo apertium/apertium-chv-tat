@@ -5,7 +5,15 @@
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
+
+    <def-cat n="prc-vol">
+      <cat-item tags="v.*.prc_vol"/>
+    </def-cat>
     
+    <def-cat n="cop-neg">
+      <cat-item tags="cop.neg.*"/>
+    </def-cat>
+ 
     <def-cat n="verb">
       <cat-item tags="v.*"/>
     </def-cat>
@@ -22,6 +30,7 @@
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
       <attr-item tags="ins"/>
+      <attr-item tags="all"/>
     </def-attr>
        
     <def-attr n="nbr-poss">
@@ -68,6 +77,17 @@
   </section-def-vars>  
 
   <section-def-macros>
+
+    <def-macro n="convert-case1" npar="1">
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="all"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="dat"/></let>
+          </when>
+        </choose>
+    </def-macro>
+
+
     <def-macro n="convert-nbr-poss1" npar="1">
         <choose>
           <when>
@@ -91,7 +111,8 @@
       <choose>
         <when>
           <test><equal><clip pos="1" side="sl" part="a_abil"/><lit-tag v="abil"/></equal></test>
-          <let><clip pos="1" side="tl" part="a_abil"/><concat><lit-tag v="prc_impf"/><lit v="$"/><lit v=" ^ал"/><lit-tag v="vaux"/></concat></let>
+          <let><clip pos="1" side="tl" part="a_abil"/><concat><lit-tag v="prc_impf"/><lit v="$"/>
+                                                              <lit v=" ^ал"/><lit-tag v="vaux"/></concat></let>
         </when> 
         
       </choose>
@@ -101,7 +122,33 @@
 
   <section-rules>
     
-    <rule comment=""> 
+    <rule comment="prc-vol cop-neg"> 
+      <pattern>
+        <pattern-item n="prc-vol"/>
+        <pattern-item n="cop-neg"/>
+      </pattern>
+      <action>
+        <call-macro n="convert-verb-screeve1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="process-abil-form1"> <!-- This will break -->
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <lit-tag v="p3.sg"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <lit v="кил"/>
+            <lit-tag v="vaux.neg.pres.p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="verb"> 
       <pattern>
         <pattern-item n="verb"/>
       </pattern>
@@ -125,6 +172,9 @@
         <pattern-item n="default"/>
       </pattern>
       <action>
+        <call-macro n="convert-case1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="convert-nbr-poss1">
           <with-param pos="1"/>
         </call-macro>
