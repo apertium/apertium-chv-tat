@@ -16,6 +16,13 @@
 /apertium-chv-tat.tat-chv.t2x -text
 /autogen.sh -text
 /configure.ac -text
+corpus/chv-tat-nova.txt -text
+corpus/chv-tat-origina.txt -text
+corpus/corpus.chv.txt -text
+corpus/corpus.tat.txt -text
 /modes.xml -text
+/qa.sh -text
+test-scripts/all.test -text
+test-scripts/chv-tat-corp.test -text
 text/rasskaz.chv.txt -text svneol=unset#application/octet-stream
 text/rasskaz.tat.txt -text svneol=unset#application/octet-stream

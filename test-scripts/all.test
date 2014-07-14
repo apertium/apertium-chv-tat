@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd ../../languages/apertium-chv
+make &&
+cd ../apertium-tat
+make &&
+cd ../../incubator/apertium-chv-tat
+make &&
+./qa.sh chv-tat-corp &&
+
+echo '[*@#] errors chv-tat before:'
+grep -o '[*@#]' corpus/chv-tat-origina.txt | wc -l
+echo '[*@#] errors chv-tat after:'
+grep -o '[*@#]' corpus/chv-tat-nova.txt | wc -l
+
+
+echo 'WER chv-tat before:'
+perl ../../trunk/apertium-eval-translator/apertium-eval-translator.pl -test corpus/chv-tat-origina.txt -ref corpus/corpus.tat.txt > /tmp/chv-tat-wer-origina.txt
+grep '(WER)' /tmp/chv-tat-wer-origina.txt
+echo 'WER chv-tat after:'
+perl ../../trunk/apertium-eval-translator/apertium-eval-translator.pl -test corpus/chv-tat-nova.txt -ref corpus/corpus.tat.txt > /tmp/chv-tat-wer-nova.txt
+grep '(WER)' /tmp/chv-tat-wer-nova.txt
