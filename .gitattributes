@@ -25,5 +25,5 @@ corpus/corpus.tat.txt -text
 test-scripts/all.test -text
 test-scripts/chv-tat-corp.test -text
 text/rasskaz.chv.txt -text svneol=unset#application/octet-stream
+text/rasskaz.tat.0.txt -text svneol=unset#application/octet-stream
 text/rasskaz.tat.1.txt -text svneol=unset#application/octet-stream
-text/rasskaz.tat.txt -text svneol=unset#application/octet-stream
