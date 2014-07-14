@@ -1,5 +1,6 @@
 <rules>
   <rule>
-    <match lemma="йытӑ" tags="n.*"><select lemma="эт" tags="n.*"/></match>
+    <match lemma="тинӗс"/>
+    <match lemma="ҫул" tags="n.*"><select lemma="юл" tags="n.*"/></match>
   </rule>
 </rules>
