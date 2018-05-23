@@ -74,29 +74,30 @@
     <e><p><l>урлӑ<s n="post"/></l><r>аша<s n="post"/></r></p></e>
     <e><p><l>ҫине<s n="post"/></l><r>таба<s n="post"/></r></p></e>
     <!--   <e><p><l>пирки   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>пула   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>пӗрле   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>тата   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>тӑрӑх   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>майӑн   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>кура   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>тӑршшӗпе   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>валли   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>пек   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>кашни   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>мӗнле   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>ҫинчен   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>таран   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>евӗр   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>хирӗҫ   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>мӗншӗн   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>ма</b>тесен   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>яхӑн   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>унсӑр   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>ҫитменнине   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-   <e><p><l>   <s n="post"/></l><r>   <s n="post"/></r></p></e>
+       <e><p><l>   <s n="post"/></l><r>   <s n="post"/></r></p></e>
     <e><p><l>   <s n="post"/></l><r>   <s n="post"/></r></p></e>
-    <e><p><l>   <s n="post"/></l><r>   <s n="post"/></r></p></e> -->
+    <e><p><l>   <s n="post"/></l><r>   <s n="post"/></r></p></e>
+    <e><p><l>пула<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>пӗрле<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>тата<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>тӑрӑх<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>майӑн<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>кура<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>тӑршшӗпе<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>валли<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>пек<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>кашни<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>мӗнле<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>ҫинчен<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>таран<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>евӗр<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>хирӗҫ<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>мӗншӗн<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>ма</b>тесен<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>яхӑн<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>унсӑр<s n="post"/></l><r><s n="post"/></r></p></e>
+ <e><p><l>ҫитменнине<s n="post"/></l><r><s n="post"/></r></p></e> -->
+
 
     <!-- Раздел: Местоимения -->
 
@@ -843,6 +844,7 @@
 <e><p><l>географи<s n="n"/></l><r>география<s n="n"/></r></p></e>
 <e r="RL"><p><l><s n="n"/></l><r>җәгрәфә<s n="n"/></r></p></e>
 <e><p><l>геолог<s n="n"/></l><r>гиюлыг<s n="n"/></r></p></e>
+<e><p><l>геоинформаци<s n="n"/></l><r>геоинформация<s n="n"/></r></p></e>
 <e><p><l>геофизика<s n="n"/></l><r>геофизика<s n="n"/></r></p></e>
 <e><p><l>германи<s n="n"/></l><r>германий<s n="n"/></r></p></e>
 <e><p><l>паттӑр<s n="n"/></l><r>баһадир<s n="n"/></r></p></e>
