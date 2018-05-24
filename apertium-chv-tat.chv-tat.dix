@@ -4653,6 +4653,14 @@
 
     <e><p><l>Атлантика<s n="np"/><s n="top"/></l><r>Атлантика<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Балтика<s n="np"/><s n="top"/></l><r>Балтика<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Обь<s n="np"/><s n="top"/></l><r>Об<s n="np"/><s n="top"/></r></p></e>
+    <e r="RL"><p><l>Обь<s n="np"/><s n="top"/></l><r>Уба<s n="np"/><s n="top"/></r></p></e>
+    <e r="RL"><p><l>Обь<s n="np"/><s n="top"/></l><r>Үмәр<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>РФ<s n="np"/><s n="top"/></l><r>РФ<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Иртыш<s n="np"/><s n="top"/></l><r>Иртеш<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Атӑл<s n="np"/><s n="top"/></l><r>Идел<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Чӑваш<b/>Ен<s n="np"/><s n="top"/></l><r>Чуашстан<s n="np"/><s n="top"/></r></p></e>
+    <e r="RL"><p><l>Чӑваш<b/>Республики<s n="np"/><s n="top"/></l><r>Чуашстан<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Раздел: Имена прилагательные-->
     
