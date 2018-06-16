@@ -227,210 +227,247 @@
 <!--   -->
 <!-- <e><p><l>эсӗ<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>-->
 <!--<e><p><l>вӑл<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>-->
-<e><p><l>эсир<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
- <e><p><l>вӗсем<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
+<e><p><l>эсир<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e><!--   -->
+ <e><p><l>вӗсем<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e><!--   -->
 <!---->
-  <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>ҫак<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
+  <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e><!--   -->
+    <e><p><l>ҫак<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e><!--   -->
 
-    <e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? -->
 
-    <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>мӗн<s n="prn"/><s n="itg"/><s n="ben"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>ним<s n="prn"/><s n="neg"/></l><r>бер<b/>нәрсә<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e><!--  что -->
+    <e><p><l>мӗн<s n="prn"/><s n="itg"/><s n="ben"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e><!--  что -->
+    <e><p><l>ним<s n="prn"/><s n="neg"/></l><r>бер<b/>нәрсә<s n="prn"/><s n="ind"/></r></p></e><!--  ? -->
 
-    <e><p><l>ниҫта<s n="prn"/><s n="adv"/><s n="nom"/></l><r>ул<s n="prn"/><s n="dem"/><s n="loc"/></r></p></e>
+    <e><p><l>ниҫта<s n="prn"/><s n="adv"/><s n="nom"/></l><r>ул<s n="prn"/><s n="dem"/><s n="loc"/></r></p></e><!--  никак(? че?) -->
 
 
 <e><p><l>эп<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>мин<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e> <!-- Я -->
 <e r="RL"><p><l>эп<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>бән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
-<e r="RL"><p><l>эп<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>мин<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
-<e><p><l>эпӗ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>мин<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
+<e r="RL"><p><l>эп<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>мән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
+<e><p><l>эпӗ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>мин<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e><!--   -->
 <e r="RL"><p><l>эпӗ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>мән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
 <e r="RL"><p><l>эпӗ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>бән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
 
-<e><p><l>ман<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>минем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>ман<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>минем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e><!--  мой -->
 <e r="RL"><p><l>ман<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>минеке<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
-<e><p><l>манӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>минем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>манӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>минем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e><!-- мой -->
 <e r="RL"><p><l>манӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>минеке<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
 
-<e><p><l>мана<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>миңа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
+<e><p><l>мана<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>миңа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e><!--  мне -->
 <e r="RL"><p><l>мана<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>минем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
 
-<e><p><l>манра<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>миннән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></r></p></e>
-<e><p><l>манпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>миндә<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></r></p></e>
+<e><p><l>манра<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>миннән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></r></p></e><!--  во мне -->
 
-<e><p><l>манран<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>миннән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></r></p></e>
+<e><p><l>манпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>миндә<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></r></p></e><!--  со мной -->
 
-<!--<e><p><l>манпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r> <s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e> -->
+<e><p><l>манран<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>миннән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></r></p></e><!--  от меня -->
 
-<!-- <e><p><l>маншӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e> -->
+<!--<e><p><l>манпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r> <s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e> --><!--   -->
+
+<!-- <e><p><l>маншӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e> --><!--   -->
 
 <!--  -->
 
 <e><p><l>эс<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>син<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>  <!-- ТЫ -->
 <e r="LR"><p><l>эсӗ<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>син<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
 
-<e><p><l>сан<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l><r>синең<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e>
+<e><p><l>сан<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l><r>синең<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e><!-- твой  -->
 <e r="RL"><p><l>сан<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l><r>синеке<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e>
 <e><p><l>санӑн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l><r>синең<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e>
 <e r="RL"><p><l>санӑн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l><r>синеке<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e>
 
-<e><p><l>сана<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></l><r>сине<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></r></p></e>
+<e><p><l>сана<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></l><r>сине<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></r></p></e><!--  тебе -->
 
-<e><p><l>санра<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="loc"/></l><r>синнән<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="loc"/></r></p></e>
+<e><p><l>санра<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="loc"/></l><r>синнән<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="loc"/></r></p></e><!-- в тебе  -->
 
-<e><p><l>санран<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="abl"/></l><r>синнән<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="abl"/></r></p></e>
+<e><p><l>санран<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="abl"/></l><r>синнән<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="abl"/></r></p></e><!--  от тебя -->
 
-<!--<e><p><l>санпа<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>саншӑн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>санпа<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>--><!--  с тобой -->
+<!--<e><p><l>саншӑн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>--><!-- для тебя  -->
 
 
 
 <e><p><l>вӑл<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nom"/></r></p></e>  <!-- ОН\ОНА -->
 
-<e><p><l>унӑн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l><r>аның<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>унӑн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l><r>аның<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e><!--  его\ее -->
 
-<e><p><l>уна<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>аңа<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></r></p></e>
+<e><p><l>уна<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>аңа<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></r></p></e><!--  его\ее -->
 <e r="LR"><p><l>уна<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>аңар<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></r></p></e>
 <e r="LR"><p><l>уна<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>аңарга<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></r></p></e>
 
-<e><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>анда<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e>
+<e><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>анда<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e><!-- в нем\в нее  -->
 <e r="RL"><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>аңарда<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e>
 <e r="RL"><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>андагы<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e>
 <e r="RL"><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>ңардагы<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e>
 
-<e r="RL"><p><l>унран<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>аннан<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></r></p></e>
+<e r="RL"><p><l>унран<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>аннан<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></r></p></e><!-- от него\от нее  -->
 <e r="RL"><p><l>унран<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>аңардан<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></r></p></e>
 <e r="RL"><p><l>унран<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>аннан<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></r></p></e>
-<!--<e><p><l>унпа<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>уншӑн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>унпа<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>--><!--  с ним\с ней -->
+<!--<e><p><l>уншӑн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>--><!-- для него\для нее  -->
 
 
 
 <!--<e><p><l>эпир<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></l><r>без<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e> --><!-- МЫ -->
 <!---->
-<!--<e><p><l>пирӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>пирӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  наш -->
 <!---->
-<!--<e><p><l>пире<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>пире<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  нам -->
 <!---->
-<!--<e><p><l>унра<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>пирте<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  в нас -->
 <!---->
-<!--<e><p><l>пиртен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>пиртен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  от нас -->
 <!---->
-<!--<e><p><l>пирӗнтен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>пирӗнтен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  от нас -->
 <!--e><p><l>пирӗнтен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
 
-<!--<e><p><l>пирӗнпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>пирӗншӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>пирӗнпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  с нами -->
 
-<!--<e><p><l>эсир<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>сез<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e> --> <!-- ВЫ -->
+<!--<e><p><l>пирӗншӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  для нас -->
+
+
+
+<!--<e><p><l>эсир<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>сез<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e> --> <!-- ВЫ -->
 <!---->
-<!--<e><p><l>сирӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>сирӗн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  ваш -->
 <!---->
-<!--<e><p><l>сире<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>сире<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  вам -->
 <!---->
-<!--<e><p><l>сирӗнте<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>сирӗнте<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!-- в вас  -->
 <!---->
-<!--<e><p><l>сирӗнтен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>сирӗнтен<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  от вас -->
 <!---->
-<!--<e><p><l>сирӗнпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>сирӗнпе<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!-- с вами  -->
 <!---->
-<!--<e><p><l>сирӗншӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>сирӗншӗн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  для вас -->
 <!---->
 <!---->
 <!---->
-<!--<e><p><l>вӗсем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>--> <!-- ОНИ -->
+<!--<e><p><l>вӗсем<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>--> <!-- ОНИ -->
 <!---->
-<!--<e><p><l>вӗсен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>вӗсен<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!-- их  -->
 <!---->
-<!--<e><p><l>вӗсене<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>вӗсене<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!-- им  -->
 <!---->
-<!--<e><p><l>вӗсенре<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>вӗсенре<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!-- в них  -->
 <!---->
-<!--<e><p><l>вӗсенрен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>вӗсенрен<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!-- от них  -->
 <!---->
-<!--<e><p><l>вӗсенпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>вӗсенпе<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!-- с ними  -->
 <!---->
-<!--<e><p><l>вӗсемшӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>вӗсемшӗн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--  для них -->
 <!---->
 <!---->
 <!--  теге, шул, ул; башка, бүтән, икенче; бусы, ансы   -->
-<!--<e><p><l>леш<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>шул<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e> --> <!-- ТОТ -->
-<!--<e><p><l>лешӗ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>леш<s n="prn"/><s n="pers"/><s n="sg"/></l><r>шул<s n="prn"/><s n="pers"/><s n="sg"/><s n="nom"/></r></p></e> --> <!-- ТОТ -->
+<!--<e><p><l>лешӗ<s n="prn"/><s n="pers"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>-->
 <!---->
-<!--<e><p><l>лешӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешӗн<s n="prn"/><s n="pers"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  того -->
 <!---->
-<!--<e><p><l>лешне<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешне<s n="prn"/><s n="pers"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  тому -->
 <!---->
-<!--<e><p><l>лешӗнче<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешӗнче<s n="prn"/><s n="pers"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  в том -->
 <!---->
-<!--<e><p><l>лешӗнчен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешӗнчен<s n="prn"/><s n="pers"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  от того -->
 <!---->
-<!--<e><p><l>лешӗнпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>лешпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешӗнпе<s n="prn"/><s n="pers"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  с тем -->
+<!--<e><p><l>лешпе<s n="prn"/><s n="pers"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>-->
 <!---->
-<!--<e><p><l>лешӗншӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!---->
-<!---->
-<!--<e><p><l>лешсем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e> --> <!--ТЕ-->
-<!---->
-<!--<e><p><l>лешсен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>лешсенӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>лешсене<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>лешсенче<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>лешсенчен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>лешсемпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>лешсемшӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешӗншӗн<s n="prn"/><s n="pers"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  для -->
+<!--<e><p><l>лешсшӗн<s n="prn"/><s n="pers"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  ALERT -->
 <!---->
 <!---->
 <!---->
-<!--<e><p><l>ку<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>анысы<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>-->  <!-- ЭТОТ -->
+<!--<e><p><l>лешсем<s n="prn"/><s n="pers"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/><s n="nom"/></r></p></e> --> <!--ТЕ-->
 <!---->
-<!--<e><p><l>кун<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>кунӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешсен<s n="prn"/><s n="pers"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- тех  -->
+<!--<e><p><l>лешсенӗн<s n="prn"/><s n="pers"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>-->
 <!---->
-<!--<e><p><l>куна<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешсене<s n="prn"/><s n="pers"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- тем  -->
 <!---->
-<!--<e><p><l>кунра<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешсенче<s n="prn"/><s n="pers"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  в тех -->
 <!---->
-<!--<e><p><l>кунран<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешсенчен<s n="prn"/><s n="pers"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  от тех -->
 <!---->
-<!--<e><p><l>кунпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешсемпе<s n="prn"/><s n="pers"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- с теми  -->
 <!---->
-<!--<e><p><l>куншӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!---->
-<!--<e><p><l>кусем<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->  <!-- ЭТИ -->
-<!---->
-<!--<e><p><l>кусен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>кусенӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>кусене<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>кусенче<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>кусенчен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>кусемпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>кусемшӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!---->
-<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
-<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+<!--<e><p><l>лешсемшӗн<s n="prn"/><s n="pers"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- для тех  -->
 <!---->
 <!---->
+<!---->
+<!--<e><p><l>ку<s n="prn"/><s n="pers"/><s n="sg"/></l><r>анысы<s n="prn"/><s n="pers"/><s n="sg"/><s n="nom"/></r></p></e>-->  <!-- ЭТО\ЭТОТ(?) -->
+<!---->
+<!--<e><p><l>кун<s n="prn"/><s n="pers"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  этого -->
+<!--<e><p><l>кунӑн<s n="prn"/><s n="pers"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>-->
+<!---->
+<!--<e><p><l>куна<s n="prn"/><s n="pers"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  этому -->
+<!---->
+<!--<e><p><l>кунра<s n="prn"/><s n="pers"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  в этом -->
+<!---->
+<!--<e><p><l>кунран<s n="prn"/><s n="pers"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- от этого  -->
+<!---->
+<!--<e><p><l>кунпа<s n="prn"/><s n="pers"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  с этим -->
+<!---->
+<!--<e><p><l>куншӑн<s n="prn"/><s n="pers"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  для этого -->
+<!---->
+<!---->
+<!--<e><p><l>кусем<s n="prn"/><s n="pers"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>-->  <!-- ЭТИ -->
+<!---->
+<!--<e><p><l>кусен<s n="prn"/><s n="pers"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- этих  -->
+<!--<e><p><l>кусенӗн<s n="prn"/><s n="pers"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>-->
+<!---->
+<!--<e><p><l>кусене<s n="prn"/><s n="pers"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- этим  -->
+<!---->
+<!--<e><p><l>кусенче<s n="prn"/><s n="pers"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!-- в этих  -->
+<!---->
+<!--<e><p><l>кусенчен<s n="prn"/><s n="pers"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  от этих -->
+<!---->
+<!--<e><p><l>кусемпе<s n="prn"/><s n="pers"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  с этими -->
+<!---->
+<!--<e><p><l>кусемшӗн<s n="prn"/><s n="pers"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>--><!--  для этих -->
+<!--   -->
+
+
+<!--<e><p><l>хӑй<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйне<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗнче<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗнчен<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗнпе<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗншӗн<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+
+
+<!--<e><p><l>хӑйсем<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйсемӗн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйсене<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗнче<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗнчен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗнпе<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑйӗншӗн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+
+
+<!--<e><p><l>ху<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑвӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑвна<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑвӑнра<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑвӑнран<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑвӑнпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>хӑвӑншӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+
+
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+
 <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
 <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
 <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
