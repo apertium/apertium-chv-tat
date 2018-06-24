@@ -10105,6 +10105,13 @@
 
     <e><p><l>пыр<s n="v"/><s n="tv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e> <!-- WARNING -->
     <e><p><l>ҫӳре<s n="v"/><s n="tv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e> <!-- WARNING -->
+
+    <e><p><l>хатӗрле<s n="v"/><s n="tv"/></l><r>әзерлә<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>вырнаҫ<s n="v"/><s n="iv"/></l><r>урнаш<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>кӗр<s n="v"/><s n="iv"/></l><r>кер<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>пурӑн<s n="v"/><s n="iv"/></l><r>яшә<s n="v"/><s n="iv"/></r></p></e>
+    <!--  -->
+    <!--  -->
      
     <!-- SECTION: Punctuation -->
  
