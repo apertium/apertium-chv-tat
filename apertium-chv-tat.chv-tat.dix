@@ -15,6 +15,7 @@
     <sdef n="p2"  />
     <sdef n="p3" />
     <sdef n="sg" />
+    <sdef n="pl" />
     <sdef n="itg" />
     <sdef n="cnjcoo"  />
     <sdef n="cnjadv"  />
@@ -484,6 +485,45 @@
 <!--<e><p><l>__<s n="prn"/><s n="dem"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>--><!--   -->
 <!--<e><p><l>__<s n="prn"/><s n="dem"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>--><!--   -->
 
+<e><p><l>ху<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>кавантест<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+<e><p><l>хӑй<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>кавантест<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+<e><p><l>хамӑр<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>кавантест<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+<e><p><l>хӑвӑр<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>кавантест<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+<e><p><l>хӑйсем<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>кавантест<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+<!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
 
 
 <!--теге, шул, ул; башка, бүтән, икенче; бусы, ансы-->
@@ -524,8 +564,7 @@
 
 
 
-
-<!--<e><p><l>хӑшӗ<s n="prn"/><s n="dem"/><s n="sg"/></l><r>__<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>--><!--   -->
+<e><p><l>хӑшӗ<s n="prn"/><s n="dem"/><s n="sg"/></l><r>кавантест<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e><!--   -->
 <!--<e><p><l>__<s n="prn"/><s n="dem"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>--><!--   -->
 <!--<e><p><l>__<s n="prn"/><s n="dem"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>--><!--   -->
 <!--<e><p><l>__<s n="prn"/><s n="dem"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>--><!--   -->
@@ -1564,6 +1603,7 @@
     <e><p><l>пӗвӗ<s n="n"/></l><r>буа<s n="n"/></r></p></e> <!-- дамба -->
     <e r="RL"><p><l>пӗвӗ<s n="n"/></l><r>дамба<s n="n"/></r></p></e> <!-- дамба -->
     <e><p><l>числа<s n="n"/></l><r>дата<s n="n"/></r></p></e> <!-- дата -->
+    <e><p><l>дата<s n="n"/></l><r>дата<s n="n"/></r></p></e> <!-- дата -->
     <e><p><l>алӑк<s n="n"/></l><r>ишек<s n="n"/></r></p></e> <!-- двери -->
     <e><p><l>алӑк<s n="n"/></l><r>ишек<s n="n"/></r></p></e> <!-- дверь -->
     <e><p><l>юхӑм<s n="n"/></l><r>хәрәкәт<s n="n"/></r></p></e> <!-- движение -->
@@ -2234,6 +2274,7 @@
     <e r="LR"><p><l>вӑрӑмтуна<s n="n"/></l><r>озынборын<s n="n"/></r></p></e> <!-- комар -->
     <e><p><l>вӑрӑм<b/>туна<s n="n"/></l><r>черки<s n="n"/></r></p></e> <!-- комар -->
     <e r="LR"><p><l>вӑрӑмтуна<s n="n"/></l><r>черки<s n="n"/></r></p></e> <!-- комар -->
+    <e><p><l>командир<s n="n"/></l><r>командир<s n="n"/></r></p></e> <!-- комета -->
     <e><p><l>вутлӑ<b/>хӳре<s n="n"/></l><r>комета<s n="n"/></r></p></e> <!-- комета -->
     <e r="LR"><p><l>комета<s n="n"/></l><r>комета<s n="n"/></r></p></e> <!-- комета -->
     <e><p><l>пӳлӗм<s n="n"/></l><r>бүлмә<s n="n"/></r></p></e> <!-- комната -->
@@ -5034,6 +5075,7 @@
     <e r="LR"><p><l>шут<s n="n"/></l><r>сан<s n="n"/></r></p></e> <!-- число -->
     <e><p><l>вулавҫӑ<s n="n"/></l><r>укучы<s n="n"/></r></p></e> <!-- читатель -->
     <e><p><l>пыршӑ<s n="n"/></l><r>карын<s n="n"/></r></p></e> <!-- чрево -->
+    <e><p><l>чӑваш<s n="n"/></l><r>чуваш<s n="n"/></r></p></e> <!-- чуваш -->
     <e><p><l>сисӗм<s n="n"/></l><r>тойгы<s n="n"/></r></p></e> <!-- чувство -->
     <e r="LR"><p><l>туйӑм<s n="n"/></l><r>тойгы<s n="n"/></r></p></e> <!-- чувство -->
     <e><p><l>сисӗм<s n="n"/></l><r>хис<s n="n"/></r></p></e> <!-- чувство -->
@@ -7557,6 +7599,7 @@
     <e r="LR"><p><l>чуман<s n="adj"/></l><r>ялкау<s n="adj"/></r></p></e> <!-- ленивый -->
     <e r="LR"><p><l>юлхав<s n="adj"/></l><r>ялкау<s n="adj"/></r></p></e> <!-- ленивый -->
     <e><p><l>вӑрман<s n="adj"/></l><r>урман<s n="adj"/></r></p></e> <!-- лесной -->
+    <e><p><l>ҫулхи<s n="adj"/></l><r>кавантест<s n="adj"/></r></p></e> <!-- летний -->
     <e><p><l>ҫу<s n="adj"/></l><r>җәйге<s n="adj"/></r></p></e> <!-- летний -->
     <e r="LR"><p><l>ҫуллахи<s n="adj"/></l><r>җәйге<s n="adj"/></r></p></e> <!-- летний -->
     <e><p><l>харпӑр<s n="adj"/></l><r>үз<s n="adj"/></r></p></e> <!-- личный -->
@@ -10104,6 +10147,7 @@
     <e><p><l>йӗркеле<s n="v"/><s n="tv"/></l><r>оештыр<s n="v"/><s n="tv"/></r></p></e>
 
     <e><p><l>пыр<s n="v"/><s n="tv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e> <!-- WARNING -->
+    <e><p><l>пурӑн<s n="v"/><s n="iv"/></l><r>яшә<s n="v"/><s n="iv"/></r></p></e> 
     <e><p><l>ҫӳре<s n="v"/><s n="tv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e> <!-- WARNING -->
 
     <e><p><l>хатӗрле<s n="v"/><s n="tv"/></l><r>әзерлә<s n="v"/><s n="tv"/></r></p></e>
