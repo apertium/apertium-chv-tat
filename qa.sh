@@ -13,4 +13,4 @@ else
     testToRun=$1.test
 fi
 
-bash "test-scripts/$testToRun" "$2"
+bash "tests/$testToRun" "$2"
