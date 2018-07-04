@@ -18,6 +18,7 @@
     <sdef n="pl" />
     <sdef n="itg" />
     <sdef n="cnjcoo"  />
+    <sdef n="cnjsub"  />    
     <sdef n="cnjadv"  />
     <sdef n="adj"  />
     <sdef n="prn"  />
@@ -147,7 +148,7 @@
     <e><p><l>ахалӗн<s n="cnjcoo"/></l><r>юкса<s n="cnjcoo"/></r></p></e>
     <!--ягъни-->
     <e><p><l>енчен<s n="cnjcoo"/></l><r>әгәр<b/>дә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ешлӗ<s n="cnjcoo"/></l><r> <s n="cnjcoo"/></r></p></e>
+    <e><p><l>ешлӗ<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
 
     <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
 
