@@ -23,13 +23,9 @@ fi
 
 cd "$(dirname $0)"
 
-transfout='/tmp/transfout'
-genout='/tmp/genout'
-sorted='/tmp/sorted'
-
-#transfout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
-#genout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
-#sorted=$(mktemp -t trimmed-coverage.XXXXXXXXX)
+transfout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
+genout=$(mktemp -t trimmed-coverage.XXXXXXXXX)
+sorted=$(mktemp -t trimmed-coverage.XXXXXXXXX)
 
 TODOstripwords="the The of oblast in In it if ki any will his this who we right 
                 new their kraj that OfNm you www com org Ob http px inst also na 
@@ -43,7 +39,7 @@ apertium "${SL_TL}-transfer2" -f none -d .. | apertium-cleanstream -n | tee "$tr
 
 ### Calculate stuff:
 # Make sorting and printf the same regardless of locale (has to be set after apertium commands):
-export LC_ALL='C.UTF-8'
+export LC_ALL='C'
 
 numwords=$(grep -cF '^' "$transfout")
 numstar=$(grep -cF '^*' "$transfout")
