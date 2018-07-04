@@ -58,6 +58,10 @@
   <section-rules>
     
     <rule comment="regla: n_nom_ (ат белән → утпа!)">
+      <!--
+      INPUT:  ^ат<n><nom>/ут<n><nom>$ ^белән<post>/$
+      OUTPUT: ^ут<n><ins>$
+      -->
       <pattern>
         <pattern-item n="n_nom"/>
         <pattern-item n="belan"/>
