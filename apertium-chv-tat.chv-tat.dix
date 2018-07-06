@@ -179,7 +179,7 @@
     <!--шул сәбәпле   -->      
     <!--шунлыктан     -->      
     <!--шуңа күрә           -->
-    <!--язуынча<e><p><l> <s n="cnjcoo"/></l><r> <s n="cnjcoo"/></r></p></e>-->
+    <!--язуынча<e><p><l> <s n="cnjcoo"/></l><r><s n="cnjcoo"/></r></p></e>-->
 
 
                 <!--<e><p><l>пулӗ<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>может быть -->
@@ -277,7 +277,7 @@
 
 <e><p><l>манран<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>миннән<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></r></p></e><!--  от меня -->
 
-<!--<e><p><l>манпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r> <s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e> --><!--   -->
+<!--<e><p><l>манпа<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e> --><!--   -->
 
 <!-- <e><p><l>маншӑн<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e> --><!--   -->
 
@@ -5515,7 +5515,7 @@
 <e><p><l>Гай<s n="np"/><s n="top"/></l><r>Гай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Галич<s n="np"/><s n="top"/></l><r>Галич<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Гатчина<s n="np"/><s n="top"/></l><r>Гатчина<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Гвардейск                          Гвардейское <s n="np"/><s n="top"/></l><r>Гвардейск                          Гвардейское <s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Гвардейск                          Гвардейское<s n="np"/><s n="top"/></l><r>Гвардейск                          Гвардейское<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Гдов<s n="np"/><s n="top"/></l><r>Гдов<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Геленджик<s n="np"/><s n="top"/></l><r>Геленджик<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Георгиевск<s n="np"/><s n="top"/></l><r>Георгиевск<s n="np"/><s n="top"/></r></p></e>
@@ -6370,7 +6370,7 @@
 <e><p><l>Чистополь<s n="np"/><s n="top"/></l><r>Чистополь<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чита<s n="np"/><s n="top"/></l><r>Чита<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чкаловск<s n="np"/><s n="top"/></l><r>Чкаловск<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>!Чудово <s n="np"/><s n="top"/></l><r>!Чудово <s n="np"/><s n="top"/></r></p></e>
+<e><p><l>!Чудово<s n="np"/><s n="top"/></l><r>!Чудово<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чулым<s n="np"/><s n="top"/></l><r>Чулым<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Часовой<s n="np"/><s n="top"/></l><r>Часовой<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чухлома<s n="np"/><s n="top"/></l><r>Чухлома<s n="np"/><s n="top"/></r></p></e>
@@ -8980,8 +8980,8 @@
    <!-- <e><p><l>кӑн-кӑвак   <s n="adj"/></l><r>шәмәхә   <s n="adj"/></r></p></e> синий-синий  -->
     <!--<e><p><l>шап-шурӑ   <s n="adj"/></l><r>шәмәхә   <s n="adj"/></r></p></e> белый-пребелый  -->
     <!--<e><p><l>хӑп-хӑмӑр   <s n="adj"/></l><r>шәмәхә   <s n="adj"/></r></p></e> коричневый-коричнвый  -->
-    <!-- <e><p><l>   <s n="adj"/><s n="advl"/></l><r>   <s n="adj"/></r></p></e> 
-    <e><p><l>   <s n="adj"/><s n="advl"/></l><r>   <s n="adj"/></r></p></e>  -->
+    <!-- <e><p><l>   <s n="adj"/><s n="advl"/></l><r>  <s n="adj"/></r></p></e> 
+    <e><p><l>   <s n="adj"/><s n="advl"/></l><r>  <s n="adj"/></r></p></e>  -->
 
     
 <!--<e><p><l>вӑйҫах<s n="adj"/></l><r>вӑйҫах<s n="adj"/></r></p></e> -->
@@ -10275,9 +10275,9 @@
 <e><p><l>Алтыннур<s n="np"/><s n="ant"/><s n="f"/></l><r>Алтыннур<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Алтынсылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Алтынсылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Алтынчеч<s n="np"/><s n="ant"/><s n="f"/></l><r>Алтынчәч<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Алчира<s n="np"/><s n="ant"/><s n="f"/></l><r>Алчирә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Алчечек<s n="np"/><s n="ant"/><s n="f"/></l><r>Алчәчәк <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Альбина<s n="np"/><s n="ant"/><s n="f"/></l><r>Альбина <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Алчира<s n="np"/><s n="ant"/><s n="f"/></l><r>Алчирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Алчечек<s n="np"/><s n="ant"/><s n="f"/></l><r>Алчәчәк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Альбина<s n="np"/><s n="ant"/><s n="f"/></l><r>Альбина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Альмира<s n="np"/><s n="ant"/><s n="f"/></l><r>Альмира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Альфа<s n="np"/><s n="ant"/><s n="f"/></l><r>Альфа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Альфина<s n="np"/><s n="ant"/><s n="f"/></l><r>Альфина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10295,9 +10295,9 @@
 <e><p><l>Асия<s n="np"/><s n="ant"/><s n="f"/></l><r>Асия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Аслия<s n="np"/><s n="ant"/><s n="f"/></l><r>Аслия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асыл<s n="np"/><s n="ant"/><s n="f"/></l><r>Асыл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Асылбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылбану <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Асылбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылбикә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Асылгуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылгөл <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Асылбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Асылбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Асылгуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асылташ<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылташ<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асылтан<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылтаң<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асылъяр<s n="np"/><s n="ant"/><s n="f"/></l><r>Асылъяр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10350,7 +10350,7 @@
 <e><p><l>Альфируз<s n="np"/><s n="ant"/><s n="f"/></l><r>Әлфируз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Альфия<s n="np"/><s n="ant"/><s n="f"/></l><r>Әлфия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Альфруза<s n="np"/><s n="ant"/><s n="f"/></l><r>Әлфрүзә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Альфагима<s n="np"/><s n="ant"/><s n="f"/></l><r> әлфәһимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Альфагима<s n="np"/><s n="ant"/><s n="f"/></l><r>әлфәһимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Алюса<s n="np"/><s n="ant"/><s n="f"/></l><r>Әлүсә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Амиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Әмилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Амина<s n="np"/><s n="ant"/><s n="f"/></l><r>Әминә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10358,9 +10358,9 @@
 <e><p><l>Анвар<s n="np"/><s n="ant"/><s n="f"/></l><r>Әнвәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Анварбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Әнвәрбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Анварбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Әнвәрбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Анваргуль<s n="np"/><s n="ant"/><s n="f"/></l><r> әнвәргөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Анваргуль<s n="np"/><s n="ant"/><s n="f"/></l><r>әнвәргөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Анвария<s n="np"/><s n="ant"/><s n="f"/></l><r>Әнвәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Анвара<s n="np"/><s n="ant"/><s n="f"/></l><r> әнвәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Анвара<s n="np"/><s n="ant"/><s n="f"/></l><r>әнвәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ангама<s n="np"/><s n="ant"/><s n="f"/></l><r>Әнгамә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ангиза<s n="np"/><s n="ant"/><s n="f"/></l><r>Әнгизә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Андаза<s n="np"/><s n="ant"/><s n="f"/></l><r>Әндазә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10386,7 +10386,7 @@
 <e><p><l>Асалгуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Әсалгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асалия<s n="np"/><s n="ant"/><s n="f"/></l><r>Әсалия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асгадия<s n="np"/><s n="ant"/><s n="f"/></l><r>Әсгадия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Асгаткамал<s n="np"/><s n="ant"/><s n="f"/></l><r> әсгатькамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Асгаткамал<s n="np"/><s n="ant"/><s n="f"/></l><r>әсгатькамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асгатджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Әсгатьҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асима<s n="np"/><s n="ant"/><s n="f"/></l><r>Әсимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Асифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Әсифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10444,14 +10444,14 @@
 <e><p><l>Балбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Балбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Балкыш<s n="np"/><s n="ant"/><s n="f"/></l><r>Балкыш<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Балкия<s n="np"/><s n="ant"/><s n="f"/></l><r>Балкыя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Баллыбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Баллыбикә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Баллыбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Баллыбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Баллысылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Баллысылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Балсылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Балсылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Балджан<s n="np"/><s n="ant"/><s n="f"/></l><r>Балҗан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бану<s n="np"/><s n="ant"/><s n="f"/></l><r>Бану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Банубика<s n="np"/><s n="ant"/><s n="f"/></l><r>Банубикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бария<s n="np"/><s n="ant"/><s n="f"/></l><r>Бари я<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Барчынсылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Барчынсылу(ф.-төр.-т.)<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бария<s n="np"/><s n="ant"/><s n="f"/></l><r>Бари<b/>я<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Барчынсылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Барчынсылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Басира<s n="np"/><s n="ant"/><s n="f"/></l><r>Басыйрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Батыя<s n="np"/><s n="ant"/><s n="f"/></l><r>Батыя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Баянгуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Баянгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10529,16 +10529,16 @@
 <e><p><l>Бибифаридабану<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибифәридәбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибифархана<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибифәрханә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихалида<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихалидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бибихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихан <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бибихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибиханбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиханбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихаджира<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихаҗирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бибихупджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихупҗамал(ф.-г.)<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бибихупджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихупҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихадича<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихәдичә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихакима<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихәкимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихалима<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихәлимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихамида<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихәмидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихатима<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихәтимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бибихаят<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихәят <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бибихаят<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихәят<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибихуршида<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибихөршидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибишарифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибишәрифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибишарифджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибишәрифҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10546,18 +10546,18 @@
 <e><p><l>Бибишафия<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибишәфия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибишагида<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибишәһидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибиасма<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиәсма<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бибиджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиҗамал        <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бибиджихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиҗиһан           <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бибиджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бибиджихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиҗиһан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибиджамиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиҗәмилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бибиджаннат<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиҗәннәт      <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бибиджаннат<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибиҗәннәт<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бибкайнур<s n="np"/><s n="ant"/><s n="f"/></l><r>Бибкәйнур<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бизяк<s n="np"/><s n="ant"/><s n="f"/></l><r>Бизәк <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бизяк<s n="np"/><s n="ant"/><s n="f"/></l><r>Бизәк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бикназ<s n="np"/><s n="ant"/><s n="f"/></l><r>Бикназ<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Биксылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Биксылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бикчибяр<s n="np"/><s n="ant"/><s n="f"/></l><r>Бикчибәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бика<s n="np"/><s n="ant"/><s n="f"/></l><r>Бикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бикабану<s n="np"/><s n="ant"/><s n="f"/></l><r>Бикәбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Бик асылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Бикәсылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Бик<b/>асылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Бикәсылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Биназир<s n="np"/><s n="ant"/><s n="f"/></l><r>Биназыйр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бинтезейнап<s n="np"/><s n="ant"/><s n="f"/></l><r>Бинтезәйнәп<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Бинтехаят<s n="np"/><s n="ant"/><s n="f"/></l><r>Бинтехәят<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10617,18 +10617,18 @@
 <e><p><l>Васига<s n="np"/><s n="ant"/><s n="f"/></l><r>Васига<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Васика<s n="np"/><s n="ant"/><s n="f"/></l><r>Васика<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Васфибану<s n="np"/><s n="ant"/><s n="f"/></l><r>Васфибану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Васфикамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Васфикамал <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Васфикамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Васфикамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Васфия<s n="np"/><s n="ant"/><s n="f"/></l><r>Васфия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Васфиджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Васфиҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Васфиджихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Васфиҗиһан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Вафия<s n="np"/><s n="ant"/><s n="f"/></l><r> вафия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Вафира<s n="np"/><s n="ant"/><s n="f"/></l><r>Вафирә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Вафия<s n="np"/><s n="ant"/><s n="f"/></l><r>вафия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Вафира<s n="np"/><s n="ant"/><s n="f"/></l><r>Вафирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Вахида<s n="np"/><s n="ant"/><s n="f"/></l><r>Вахидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Вахиба<s n="np"/><s n="ant"/><s n="f"/></l><r>Ваһибә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Вахипджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Ваһипҗамал <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Вахипджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Ваһипҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Венера<s n="np"/><s n="ant"/><s n="f"/></l><r>Венера<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Викия<s n="np"/><s n="ant"/><s n="f"/></l><r>Викия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Вилия<s n="np"/><s n="ant"/><s n="f"/></l><r>Вилия <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Вилия<s n="np"/><s n="ant"/><s n="f"/></l><r>Вилия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Вилуза<s n="np"/><s n="ant"/><s n="f"/></l><r>Вилуза<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Вилута<s n="np"/><s n="ant"/><s n="f"/></l><r>Вилута<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Вилюра<s n="np"/><s n="ant"/><s n="f"/></l><r>Вилюра<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10650,16 +10650,16 @@
 <e><p><l>Вализя<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәлиҗә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Варига<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәрига<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Варида<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәридә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Варакия<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәрәкыя <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Варакия<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәрәкыя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Василя<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәсилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Васима<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәсимә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Васифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәсыйфә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Вафида<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәфидә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Ваджиба<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗибә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Ваджида<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗидә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Ваджиха<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗиһә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Вазхия<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗһия <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Вуждания<s n="np"/><s n="ant"/><s n="f"/></l><r>Вөҗдания <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Васима<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәсимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Васифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәсыйфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Вафида<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәфидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ваджиба<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗибә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ваджида<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ваджиха<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗиһә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Вазхия<s n="np"/><s n="ant"/><s n="f"/></l><r>Вәҗһия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Вуждания<s n="np"/><s n="ant"/><s n="f"/></l><r>Вөҗдания<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Габбасия<s n="np"/><s n="ant"/><s n="f"/></l><r>Габбасия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Габида<s n="np"/><s n="ant"/><s n="f"/></l><r>Габидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гадельбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гаделбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10701,14 +10701,14 @@
 <e><p><l>Гайнияр<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайнияр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гайниджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайниҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гайша<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гайшабану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшәбану (г.-ф.<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гайшабиби<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшәбиби (г.-ф.<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гайшабика<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшәбикә (г.-төр.-т.<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гакиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Гакыйлә (г.<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гакифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гакыйфә (г.<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гайшабану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшәбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гайшабиби<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшәбиби<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гайшабика<s n="np"/><s n="ant"/><s n="f"/></l><r>Гайшәбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гакиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Гакыйлә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гакифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гакыйфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гакрама<s n="np"/><s n="ant"/><s n="f"/></l><r>Гакрәмә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Галиба<s n="np"/><s n="ant"/><s n="f"/></l><r>Галибә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Галибаня<s n="np"/><s n="ant"/><s n="f"/></l><r>Галибанә (г.<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Галибаня<s n="np"/><s n="ant"/><s n="f"/></l><r>Галибанә.<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Галима<s n="np"/><s n="ant"/><s n="f"/></l><r>Галимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Галия<s n="np"/><s n="ant"/><s n="f"/></l><r>Галия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Галиябану<s n="np"/><s n="ant"/><s n="f"/></l><r>Галиябану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10722,7 +10722,7 @@
 <e><p><l>Ганзя<s n="np"/><s n="ant"/><s n="f"/></l><r>Ганҗә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гарифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гарифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гарифабану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гарифәбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гарифабика<s n="np"/><s n="ant"/><s n="f"/></l><r> гарифәбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гарифабика<s n="np"/><s n="ant"/><s n="f"/></l><r>гарифәбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гаршельбанат<s n="np"/><s n="ant"/><s n="f"/></l><r>Гаршелбәнат<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гаршия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гаршия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гасиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Гасилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10760,35 +10760,35 @@
 <e><p><l>Гиззельбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззелбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззельбанат<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззелбәнат<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззельвафа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззелвафа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гиззелькамал<s n="np"/><s n="ant"/><s n="f"/></l><r> гыйззелкамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гиззелькамал<s n="np"/><s n="ant"/><s n="f"/></l><r>гыйззелкамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззельниса<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззелниса<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззельхаят<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззелхәят<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззельджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззелҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззатбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззәтбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззательбанат<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззәтелбәнат<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиззатджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйззәтҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гилембану<s n="np"/><s n="ant"/><s n="f"/></l><r> гыйлембану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гилембану<s n="np"/><s n="ant"/><s n="f"/></l><r>гыйлембану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмибану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмебану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмибика<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмебикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гильмибанат<s n="np"/><s n="ant"/><s n="f"/></l><r> гыйльмебәнат<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гильмибанат<s n="np"/><s n="ant"/><s n="f"/></l><r>гыйльмебәнат<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмибаян<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмебәян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмивафа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмевафа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмигаян<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмегаян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гильмизада<s n="np"/><s n="ant"/><s n="f"/></l><r> гыйльмезадә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гильмизада<s n="np"/><s n="ant"/><s n="f"/></l><r>гыйльмезадә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмикамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмекамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильминаз<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльменаз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильминахар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльменаһар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильминиса<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмениса<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильминафис<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльменәфис<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильминур<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльменур<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гильмируй<s n="np"/><s n="ant"/><s n="f"/></l><r> гыйльмеруй<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гильмируй<s n="np"/><s n="ant"/><s n="f"/></l><r>гыйльмеруй<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмисафа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмесафа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмисурур<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмесорур<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гильмисылу<s n="np"/><s n="ant"/><s n="f"/></l><r> гыйльмесылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гильмисылу<s n="np"/><s n="ant"/><s n="f"/></l><r>гыйльмесылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмихаят<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмехәят<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмиасма<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмеәсма<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гильмиджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмиҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гильмиджихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмиҗиһан <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гильмиджихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйльмиҗиһан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиная<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйная<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиффат<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйффәт<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гиффатбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гыйффәтбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10805,7 +10805,7 @@
 <e><p><l>Гульара<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульарам<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөларам<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбагар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбагар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульбадъян<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлбадъян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульбадъян<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлбадъян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбана<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбанә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбаян<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбаян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10813,10 +10813,10 @@
 <e><p><l>Гульбизяк<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбизәк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбизяр<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбизәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульбиназ<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлбиназ<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульбиназ<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлбиназ<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбустан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбостан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбагда<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәгъдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульбагида<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлбәгыйдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульбагида<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлбәгыйдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбадига<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәдига<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбадрия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәдрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбадан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәдән<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10825,19 +10825,19 @@
 <e><p><l>Гульбария<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбашира<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәширә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбаяз<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәяз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульбаян<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлбәян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульбаян<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлбәян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбахар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәһар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульбахия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлбәһия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульбуляк<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлбүләк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульвагда<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлвәгъдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульгайша<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлгайшә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульганджа<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлганҗә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульгарифа<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлгарифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульбуляк<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлбүләк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульвагда<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлвәгъдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульгайша<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлгайшә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульганджа<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлганҗә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульгарифа<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлгарифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульгена<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлгенә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульгенам<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлгенәм<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульгизар<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлгыйзар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульгенам<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлгенәм<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульгизар<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлгыйзар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульгаухар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлгәүһәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульгузель<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлгүзәл(ф.-т.; неол.)<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульгузель<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлгүзәл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульдана<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлдана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульдания<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлдания<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульдай<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлдәй<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10846,18 +10846,18 @@
 <e><p><l>Гульдавлет<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлдәүләт<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульдахина<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлдәһинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулим<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гулимзада<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлемзадә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гулимзада<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлемзадә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулимбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлембикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулимзия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлемзыя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулимнур<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлемнур<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульзада<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлзадә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульзада<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлзадә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзаман<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзаман<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 <e><p><l>Гульзарифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзарифа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзагида<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзаһидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзагира<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзаһирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзида<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульзира<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлзирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульзира<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлзирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзирак<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзирәк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзифа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10866,15 +10866,15 @@
 <e><p><l>Гульзабира<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзәбирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзавар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзәвәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзайнап<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзәйнәп<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульзайтуна<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлзәйтүнә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульзайтуна<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлзәйтүнә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульзамина<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлзәминә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
-<e><p><l>Гульзухра<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлзөһрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульзухра<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлзөһрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гули<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөли<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулина<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
-<e><p><l>Гулирам<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлирам<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гулиса<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлисә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гулирам<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлирам<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гулиса<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлисә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульюзем<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлйөзем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулькавис<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлкавис<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10884,7 +10884,7 @@
 <e><p><l>Гулькай<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлкәй<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулькюн<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлкөн<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульлатифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөллатыйфа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульлихан<s n="np"/><s n="ant"/><s n="f"/></l><r> гөллехан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульлихан<s n="np"/><s n="ant"/><s n="f"/></l><r>гөллехан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульлиамин<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөллеәмин<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулли<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлли<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
@@ -10894,7 +10894,7 @@
 <e><p><l>Гульминка<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлминкә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 <e><p><l>Гульмагрифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлмәгърифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульмадина<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлмәдинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульмадина<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлмәдинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульмарван<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлмәрван<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульмарфуга<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлмәрфуга<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульмарьям<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлмәрьям<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10903,16 +10903,16 @@
 <e><p><l>Гульмунавара<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлмөнәвәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульнадия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнадия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
-<e><p><l>Гульназар<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлназар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульназар<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлназар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульназира<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлназирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
-<e><p><l>Гульнасиха<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлнасихә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульнахар<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлнаһар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульнасиха<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлнасихә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульнахар<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлнаһар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульниса<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлниса<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l> гульнури<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлнурый<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>гульнури<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлнурый<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульнагима<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнәгыймә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульназира<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнәзирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульназифа<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлнәзыйфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульназифа<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлнәзыйфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 <e><p><l>Гульрушан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлрушан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульруй<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлруй<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10924,16 +10924,16 @@
 <e><p><l>Гульсания<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсания<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсара<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсафа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсафа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульсем<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлсем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульсем<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлсем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсембану<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсембану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсембика<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсембикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульсибя<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлсибә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульсибя<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлсибә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсибяр<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсибәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсима<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсина<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсинур<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсинур<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульсирень<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлсирень<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульсирень<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлсирень<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсира<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсия<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульсултан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлсолтан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10978,25 +10978,25 @@
 <e><p><l>Гульфания<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлфәния<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульфарваз<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлфәрваз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульфарида<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлфәридә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульфария<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлфәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульфария<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлфәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульфаяз<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлфәяз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульхан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлхан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульханай<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлханай<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульхабира<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлхәбирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульхакима<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлхәкимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульхамида<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлхәмидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульхая<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлхәя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульхакима<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлхәкимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульхамида<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлхәмидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульхая<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлхәя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульхаят<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлхәят<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульчибяр<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлчибәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 <e><p><l>Гульчачка<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлчәчкә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульчечек<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлчәчәк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гулынакира<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлшакирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гулынакира<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлшакирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульшан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлшан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулыыат<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлшат<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулыыаян<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлшаян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульшакар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлшәкәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульшамсия<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлшәмсия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульшамсия<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлшәмсия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульшарифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлшәрифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 
@@ -11011,18 +11011,18 @@
 <e><p><l>Гуляп<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөләп<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульасма<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөләсма<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гуляфруз<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөләфрүз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гуляфшан<s n="np"/><s n="ant"/><s n="f"/></l><r> гөләфшан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гуляфшан<s n="np"/><s n="ant"/><s n="f"/></l><r>гөләфшан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульузяр<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлөзәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулюза<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлүзә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулюса<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлүсә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гулюсар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлүсәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Гульджамал<s n="np"/><s n="ant"/><s n="f"/></l><r> гөлҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Гульджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>гөлҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульджан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульджани<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗаный<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульджимеш<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗимеш<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульджихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗиһан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульджамига<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗәмига<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l> гульджамиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗәмилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>гульджамиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗәмилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульджаннат<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗәннәт<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гульджаухар<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлҗәүһәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Гузель<s n="np"/><s n="ant"/><s n="f"/></l><r>Гүзәл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11034,10 +11034,10 @@
 <e><p><l>Гузельнур<s n="np"/><s n="ant"/><s n="f"/></l><r>Гүзәлнур<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дагия<s n="np"/><s n="ant"/><s n="f"/></l><r>Дагия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Даима<s n="np"/><s n="ant"/><s n="f"/></l><r>Даимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Даира<s n="np"/><s n="ant"/><s n="f"/></l><r> даирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Даира<s n="np"/><s n="ant"/><s n="f"/></l><r>даирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дамира<s n="np"/><s n="ant"/><s n="f"/></l><r>Дамира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дана<s n="np"/><s n="ant"/><s n="f"/></l><r>Дана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Дания<s n="np"/><s n="ant"/><s n="f"/></l><r> дания<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Дания<s n="np"/><s n="ant"/><s n="f"/></l><r>дания<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дарига<s n="np"/><s n="ant"/><s n="f"/></l><r>Дарига<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дая<s n="np"/><s n="ant"/><s n="f"/></l><r>Дая<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дахия<s n="np"/><s n="ant"/><s n="f"/></l><r>Даһия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11047,7 +11047,7 @@
 <e><p><l>Дида<s n="np"/><s n="ant"/><s n="f"/></l><r>Дидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Диль<s n="np"/><s n="ant"/><s n="f"/></l><r>Дил<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дилария<s n="np"/><s n="ant"/><s n="f"/></l><r>Дилария<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Диляра<s n="np"/><s n="ant"/><s n="f"/></l><r> диларә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Диляра<s n="np"/><s n="ant"/><s n="f"/></l><r>диларә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дилярам<s n="np"/><s n="ant"/><s n="f"/></l><r>Диларәм<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дильбар<s n="np"/><s n="ant"/><s n="f"/></l><r>Дилбәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Дильбарбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Дилбәрбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11104,7 +11104,7 @@
 <e><p><l>Дюрджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Дөрҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Душиза<s n="np"/><s n="ant"/><s n="f"/></l><r>Дүшизә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Елдам<s n="np"/><s n="ant"/><s n="f"/></l><r>Елдам<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Ефак<s n="np"/><s n="ant"/><s n="f"/></l><r> ефәк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ефак<s n="np"/><s n="ant"/><s n="f"/></l><r>ефәк<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Жанна<s n="np"/><s n="ant"/><s n="f"/></l><r>Жанна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Джавида<s n="np"/><s n="ant"/><s n="f"/></l><r>Җавидә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Джазиба<s n="np"/><s n="ant"/><s n="f"/></l><r>Җазибә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11139,7 +11139,7 @@
 <e><p><l>Джиханафруз<s n="np"/><s n="ant"/><s n="f"/></l><r>Җиһанәфруз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Джуфар<s n="np"/><s n="ant"/><s n="f"/></l><r>Җофар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Джуфарбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Җофарбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Джуфарбика<s n="np"/><s n="ant"/><s n="f"/></l><r> җофарбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Джуфарбика<s n="np"/><s n="ant"/><s n="f"/></l><r>җофарбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Джуфарсултан<s n="np"/><s n="ant"/><s n="f"/></l><r>Җофарсолтан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Джавагира<s n="np"/><s n="ant"/><s n="f"/></l><r>Җәваһирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Джагда<s n="np"/><s n="ant"/><s n="f"/></l><r>Җәгъдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11236,7 +11236,7 @@
 <e><p><l>Зайнигуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәйнегөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зайния<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәйния<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зайна<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәйнә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Зайнап<s n="np"/><s n="ant"/><s n="f"/></l><r> зәйнәп<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Зайнап<s n="np"/><s n="ant"/><s n="f"/></l><r>зәйнәп<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зайнапбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәйнәпбдну<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зайнапбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәйнәпбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зайнапсара<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәйнәпсара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11253,14 +11253,14 @@
 <e><p><l>Замзам<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәмзәм<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Замзамбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәмзәмбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Замзамбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәмзәмбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Замзамгуль<s n="np"/><s n="ant"/><s n="f"/></l><r> зәмзәмгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Замзамгуль<s n="np"/><s n="ant"/><s n="f"/></l><r>зәмзәмгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Замзамия<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәмзәмия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Замиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәмилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Замима<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәмимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Замина<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәминә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Занана<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәнанә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Зануфа<s n="np"/><s n="ant"/><s n="f"/></l><r> зәнүфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Занзабиля<s n="np"/><s n="ant"/><s n="f"/></l><r> зәнҗәбилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Зануфа<s n="np"/><s n="ant"/><s n="f"/></l><r>зәнүфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Занзабиля<s n="np"/><s n="ant"/><s n="f"/></l><r>зәнҗәбилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зарбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәрбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зарига<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәрига<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Заригуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәригөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11271,16 +11271,16 @@
 <e><p><l>Зара<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зарангиз<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәрәнгиз<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зарафа<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәрәфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Захира<s n="np"/><s n="ant"/><s n="f"/></l><r> зәхирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Захира<s n="np"/><s n="ant"/><s n="f"/></l><r>зәхирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Захара<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәһәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Заукия<s n="np"/><s n="ant"/><s n="f"/></l><r> зәүкыя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Заукия<s n="np"/><s n="ant"/><s n="f"/></l><r>зәүкыя<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Заура<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәүрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зауджа<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәүҗә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Захина<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәһинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Захия<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәһия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Захаба<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәһәбә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зуббиниса<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөббениса<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Зубда<s n="np"/><s n="ant"/><s n="f"/></l><r> зөбдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Зубда<s n="np"/><s n="ant"/><s n="f"/></l><r>зөбдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зубайда<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөбәйдә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зубайра<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөбәйрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зубарджат<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөбәрҗәт<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11317,15 +11317,15 @@
 <e><p><l>Зульджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөлҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зульджамиля<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөлҗәмилә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зумрад<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөмрад<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Зумария<s n="np"/><s n="ant"/><s n="f"/></l><r> зөмәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Зумария<s n="np"/><s n="ant"/><s n="f"/></l><r>зөмәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зумарра<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөмәррә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зумара<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөмәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зуннуна<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөннүнә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зуннавал<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөннәвал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Зуррия<s n="np"/><s n="ant"/><s n="f"/></l><r> зөррия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Зуррия<s n="np"/><s n="ant"/><s n="f"/></l><r>зөррия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зурафа<s n="np"/><s n="ant"/><s n="f"/></l><r>Зәрәфә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зуфария<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөфәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Зухдильгаян<s n="np"/><s n="ant"/><s n="f"/></l><r> зөһделгаян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Зухдильгаян<s n="np"/><s n="ant"/><s n="f"/></l><r>зөһделгаян<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зухра<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөһрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зухрабану<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөһрәбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Зухрабика<s n="np"/><s n="ant"/><s n="f"/></l><r>Зөһрәбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11338,7 +11338,7 @@
 <e><p><l>Икрама<s n="np"/><s n="ant"/><s n="f"/></l><r>Икрамә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Иклима<s n="np"/><s n="ant"/><s n="f"/></l><r>Икълимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Иктиза<s n="np"/><s n="ant"/><s n="f"/></l><r>Икътиза<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Ильбика<s n="np"/><s n="ant"/><s n="f"/></l><r> илбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ильбика<s n="np"/><s n="ant"/><s n="f"/></l><r>илбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ильгиза<s n="np"/><s n="ant"/><s n="f"/></l><r>Илгизә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ильгуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Илгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ильгулем<s n="np"/><s n="ant"/><s n="f"/></l><r>Илгөлем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11563,7 +11563,7 @@
 <e><p><l>Ляйлиджамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Ләйлиҗамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ляйлиджихан<s n="np"/><s n="ant"/><s n="f"/></l><r>Ләйлиҗиһан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ляйла<s n="np"/><s n="ant"/><s n="f"/></l><r>Ләйлә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Ляйлябану<s n="np"/><s n="ant"/><s n="f"/></l><r>Ләйләбану л<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ляйлябану<s n="np"/><s n="ant"/><s n="f"/></l><r>Ләйләбану<b/>л<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ляйлябика<s n="np"/><s n="ant"/><s n="f"/></l><r>Әйләбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ляйлябадар<s n="np"/><s n="ant"/><s n="f"/></l><r>Ләйләбәдәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ляйлягуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Ләйләгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11707,7 +11707,7 @@
 <e><p><l>Михербану<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһербану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Михербанат<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһербәнат<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Михерниса<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһерниса<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Михри  михер<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһри миһер<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<!--<e><p><l>Михри  михер<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһри миһер<s n="np"/><s n="ant"/><s n="f"/></r></p></e>-->
 <e><p><l>Михрибика<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһрибикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Михризада<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһризадә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Михрикамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Миһрикамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11911,7 +11911,7 @@
 <e><p><l>Мубина<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөбинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мубайна<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөбәйнә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мубашшира<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөбәшширә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Мугаббира  мугаззама<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөгаббирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<!-- <e><p><l>Мугаббира  мугаззама<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөгаббирә<s n="np"/><s n="ant"/><s n="f"/></r></p></e> -->
 <e><p><l>Мугаййана<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөгаййәнә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мугаллима<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөгаллимә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мугаммара<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөгаммәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11940,8 +11940,8 @@
 <e><p><l>Мунтазара<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнтәзарә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мунавар<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәвәр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мунаварбану<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәвәрбану<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Мунаварбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәвәрбикә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Мунаварсылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәвәрсылу <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Мунаварбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәвәрбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Мунаварсылу<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәвәрсылу<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мунавара<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәвәрә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Муназзафа<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәззафа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Муназзаха<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөнәззәһә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11976,7 +11976,7 @@
 <e><p><l>Мухсина<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөхсинә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мухтария<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөхтәрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мухтарама<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөхтәрәмә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Мухаррама<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөхәррәмә <s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Мухаррама<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөхәррәмә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мухассана<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөхәссәнә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мушрифа<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөшрифә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Мушфика<s n="np"/><s n="ant"/><s n="f"/></l><r>Мөшфика<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -12711,7 +12711,7 @@
 <e><p><l>Ука<s n="np"/><s n="ant"/><s n="f"/></l><r>Ука<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Уразбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Уразбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Уразгуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Уразгөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Уралия<s n="np"/><s n="ant"/><s n="f"/></l><r>Урал ия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Уралия<s n="np"/><s n="ant"/><s n="f"/></l><r>Урал<b/>ия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Узьгулем<s n="np"/><s n="ant"/><s n="f"/></l><r>Үзгөлем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ульмясбика<s n="np"/><s n="ant"/><s n="f"/></l><r>Үлмәсбикә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ульмяскамал<s n="np"/><s n="ant"/><s n="f"/></l><r>Үлмәскамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -12834,7 +12834,7 @@
 <e><p><l>Фардигуль<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәрдигөл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Фардуна<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәрдунә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Фардавия<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәрдәвия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Фарзания<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәрзан ия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Фарзания<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәрзан<b/>ия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Фарзана<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәрзанә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Фарзия<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәрзия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Фарига<s n="np"/><s n="ant"/><s n="f"/></l><r>Фәригә<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
