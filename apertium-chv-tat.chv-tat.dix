@@ -23867,7 +23867,140 @@
 <e><p><l>Яхъяев<s n="np"/><s n="cog"/></l><r>Яхъяев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Яшин<s n="np"/><s n="cog"/></l><r>Яшин<s n="np"/><s n="cog"/></r></p></e>
 
+<!-- Abbr -->
+
+<e><p><l>км<s n="np"/><s n="ant"/><s n="temp"/></l><r>км<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>км²<s n="np"/><s n="ant"/><s n="temp"/></l><r>км²<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>км2<s n="np"/><s n="ant"/><s n="temp"/></l><r>км²<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>км³<s n="np"/><s n="ant"/><s n="temp"/></l><r>км³<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>км3<s n="np"/><s n="ant"/><s n="temp"/></l><r>км³<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>BAE<s n="np"/><s n="ant"/><s n="temp"/></l><r>BAE<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>BG<s n="np"/><s n="ant"/><s n="temp"/></l><r>BG<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>CEZ<s n="np"/><s n="ant"/><s n="temp"/></l><r>CEZ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>CNPC<s n="np"/><s n="ant"/><s n="temp"/></l><r>CNPC<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>EITI<s n="np"/><s n="ant"/><s n="temp"/></l><r>EITI<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ER<s n="np"/><s n="ant"/><s n="temp"/></l><r>ER<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>HAS<s n="np"/><s n="ant"/><s n="temp"/></l><r>HAS<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>IMD<s n="np"/><s n="ant"/><s n="temp"/></l><r>IMD<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>Kaz<s n="np"/><s n="ant"/><s n="temp"/></l><r>Kaz<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>KPO<s n="np"/><s n="ant"/><s n="temp"/></l><r>KPO<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>kz<s n="np"/><s n="ant"/><s n="temp"/></l><r>kz<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>KZ<s n="np"/><s n="ant"/><s n="temp"/></l><r>KZ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>АК<s n="np"/><s n="ant"/><s n="temp"/></l><r>АК<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>АКШ<s n="np"/><s n="ant"/><s n="temp"/></l><r>АКШ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>АССР<s n="np"/><s n="ant"/><s n="temp"/></l><r>АССР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>АурАзЭБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>АурАзЭБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>АХХО<s n="np"/><s n="ant"/><s n="temp"/></l><r>АХХО<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>БДБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>БДБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!-- <e><p><l>биекл%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>биекл%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>биол%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>биол%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>Биохим<s n="np"/><s n="ant"/><s n="temp"/></l><r>Биохим<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>БМО<s n="np"/><s n="ant"/><s n="temp"/></l><r>БМО<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>БМО<s n="np"/><s n="ant"/><s n="temp"/></l><r>БМО<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>БТА<s n="np"/><s n="ant"/><s n="temp"/></l><r>БТА<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>б%.э%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>б%.э%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>б%.э<s n="np"/><s n="ant"/><s n="temp"/></l><r>б%.э%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>б%.э%.к%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>б%.э%.к%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>б%.э%.к<s n="np"/><s n="ant"/><s n="temp"/></l><r>б%.э%.к%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ВАЗ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ВАЗ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ВИЧ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ВИЧ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>геогр%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>геогр%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>геол%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>геол%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>Гленкор<s n="np"/><s n="ant"/><s n="temp"/></l><r>Гленкор<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ГСДП<s n="np"/><s n="ant"/><s n="temp"/></l><r>ГСДП<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ГЭС<s n="np"/><s n="ant"/><s n="temp"/></l><r>ГЭС<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ДНК<s n="np"/><s n="ant"/><s n="temp"/></l><r>ДНК<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ДТК<s n="np"/><s n="ant"/><s n="temp"/></l><r>ДТК<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ЕБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ЕБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>Евросоюз<s n="np"/><s n="ant"/><s n="temp"/></l><r>Евросоюз<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>е%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>е%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>елл%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>елл%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>Ембемунайгаз<s n="np"/><s n="ant"/><s n="temp"/></l><r>Ембемунайгаз<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ЗАГС<s n="np"/><s n="ant"/><s n="temp"/></l><r>ЗАГС<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>Казатомпром<s n="np"/><s n="ant"/><s n="temp"/></l><r>Казатомпром<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КазМУ<s n="np"/><s n="ant"/><s n="temp"/></l><r>КазМУ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>Казмунайгаз<s n="np"/><s n="ant"/><s n="temp"/></l><r>Казмунайгаз<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>Казпошта<s n="np"/><s n="ant"/><s n="temp"/></l><r>Казпошта<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КазССР<s n="np"/><s n="ant"/><s n="temp"/></l><r>КазССР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КазТАГ<s n="np"/><s n="ant"/><s n="temp"/></l><r>КазТАГ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КамАЗ<s n="np"/><s n="ant"/><s n="temp"/></l><r>КамАЗ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КВН<s n="np"/><s n="ant"/><s n="temp"/></l><r>КВН<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КГБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>КГБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>кг<s n="np"/><s n="ant"/><s n="temp"/></l><r>кг<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КДУ<s n="np"/><s n="ant"/><s n="temp"/></l><r>КДУ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>к%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>к%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ККП<s n="np"/><s n="ant"/><s n="temp"/></l><r>ККП<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КМДН<s n="np"/><s n="ant"/><s n="temp"/></l><r>КМДН<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>км<s n="np"/><s n="ant"/><s n="temp"/></l><r>км<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КПРФ<s n="np"/><s n="ant"/><s n="temp"/></l><r>КПРФ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КПСС<s n="np"/><s n="ant"/><s n="temp"/></l><r>КПСС<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КР<s n="np"/><s n="ant"/><s n="temp"/></l><r>КР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КФУ<s n="np"/><s n="ant"/><s n="temp"/></l><r>КФУ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КХДР<s n="np"/><s n="ant"/><s n="temp"/></l><r>КХДР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>КХР<s n="np"/><s n="ant"/><s n="temp"/></l><r>КХР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>лат%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>лат%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>м²<s n="np"/><s n="ant"/><s n="temp"/></l><r>м²<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>м2<s n="np"/><s n="ant"/><s n="temp"/></l><r>м²<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>м³<s n="np"/><s n="ant"/><s n="temp"/></l><r>м³<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>м3<s n="np"/><s n="ant"/><s n="temp"/></l><r>м³<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>МАГАТЭ<s n="np"/><s n="ant"/><s n="temp"/></l><r>МАГАТЭ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>МВт<s n="np"/><s n="ant"/><s n="temp"/></l><r>МВт<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>мәс%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>мәс%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>млн<s n="np"/><s n="ant"/><s n="temp"/></l><r>млн<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>млрд<s n="np"/><s n="ant"/><s n="temp"/></l><r>млрд<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>м<s n="np"/><s n="ant"/><s n="temp"/></l><r>м<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>мм<s n="np"/><s n="ant"/><s n="temp"/></l><r>мм<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>МСОП<s n="np"/><s n="ant"/><s n="temp"/></l><r>МСОП<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>МУП<s n="np"/><s n="ant"/><s n="temp"/></l><r>МУП<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>НАСА<s n="np"/><s n="ant"/><s n="temp"/></l><r>НАСА<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>НАТО<s n="np"/><s n="ant"/><s n="temp"/></l><r>НАТО<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>НКВД<s n="np"/><s n="ant"/><s n="temp"/></l><r>НКВД<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>обл%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>обл%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ОГПУ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ОГПУ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ОДКБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ОДКБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>окр%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>окр%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ОПЕК<s n="np"/><s n="ant"/><s n="temp"/></l><r>ОПЕК<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>пед%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>пед%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>РНК<s n="np"/><s n="ant"/><s n="temp"/></l><r>РНК<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>РСФСР<s n="np"/><s n="ant"/><s n="temp"/></l><r>РСФСР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>РФ<s n="np"/><s n="ant"/><s n="temp"/></l><r>РФ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>РФ%{ь%}<s n="np"/><s n="ant"/><s n="temp"/></l><r>РФ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>СВМДА<s n="np"/><s n="ant"/><s n="temp"/></l><r>СВМДА<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>см<s n="np"/><s n="ant"/><s n="temp"/></l><r>см<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>СНПС<s n="np"/><s n="ant"/><s n="temp"/></l><r>СНПС<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>СПИД<s n="np"/><s n="ant"/><s n="temp"/></l><r>СПИД<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ССРБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ССРБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ССРБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ССРБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ССР<s n="np"/><s n="ant"/><s n="temp"/></l><r>ССР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>СССР<s n="np"/><s n="ant"/><s n="temp"/></l><r>СССР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>СССР%{ъ%}<s n="np"/><s n="ant"/><s n="temp"/></l><r>СССР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ССС<s n="np"/><s n="ant"/><s n="temp"/></l><r>ССС<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>СЭС<s n="np"/><s n="ant"/><s n="temp"/></l><r>СЭС<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ТАССР<s n="np"/><s n="ant"/><s n="temp"/></l><r>ТАССР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ТВ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ТВ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ТДГПУ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ТДГПУ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>тех%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>тех%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>тирәнл%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>тирәнл%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>трлн<s n="np"/><s n="ant"/><s n="temp"/></l><r>трлн<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ТР<s n="np"/><s n="ant"/><s n="temp"/></l><r>ТР<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>т%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>т%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>т%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>т%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ТЭМ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ТЭМ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ТЭЦ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ТЭЦ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>УАЗ<s n="np"/><s n="ant"/><s n="temp"/></l><r>УАЗ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>УЕФА<s n="np"/><s n="ant"/><s n="temp"/></l><r>УЕФА<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ФСБ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ФСБ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ФЭК<s n="np"/><s n="ant"/><s n="temp"/></l><r>ФЭК<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>хим%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>хим%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ШХО<s n="np"/><s n="ant"/><s n="temp"/></l><r>ШХО<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<!--<e><p><l>экон%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>экон%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<!--<e><p><l>эл%.<s n="np"/><s n="ant"/><s n="temp"/></l><r>эл%.<s n="np"/><s n="ant"/><s n="temp"/></r></p></e> -->
+<e><p><l>ЭЧ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ЭЧ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ЭЭМ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ЭЭМ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ЮНЕСКО<s n="np"/><s n="ant"/><s n="temp"/></l><r>ЮНЕСКО<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
+<e><p><l>ЮХИДИ<s n="np"/><s n="ant"/><s n="temp"/></l><r>ЮХИДИ<s n="np"/><s n="ant"/><s n="temp"/></r></p></e>
      
+
     <!-- SECTION: Punctuation -->
  
 
