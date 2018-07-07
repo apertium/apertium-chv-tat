@@ -6428,7 +6428,7 @@
 <e><p><l>Ясный<s n="np"/><s n="top"/></l><r>Ясный<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Яхрома<s n="np"/><s n="top"/></l><r>Яхрома<s n="np"/><s n="top"/></r></p></e>
 
-!from tt
+<!-- from tt -->
 
 <e><p><l>Аан<s n="np"/><s n="top"/></l><r>Аан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Абалач<s n="np"/><s n="top"/></l><r>Абалач<s n="np"/><s n="top"/></r></p></e>
