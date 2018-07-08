@@ -302,24 +302,7 @@
 
 
 
-<e><p><l>вӑл<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="nom"/></r></p></e>  <!-- ОН\ОНА -->
-
-<e><p><l>унӑн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></l><r>аның<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e><!--  его\ее -->
-
-<e><p><l>уна<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>аңа<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></r></p></e><!--  его\ее -->
-<e r="LR"><p><l>уна<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>аңар<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></r></p></e>
-<e r="LR"><p><l>уна<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></l><r>аңарга<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="dat"/></r></p></e>
-
-<e><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>анда<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e><!-- в нем\в нее  -->
-<e r="RL"><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>аңарда<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e>
-<e r="RL"><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>андагы<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e>
-<e r="RL"><p><l>унра<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></l><r>ңардагы<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="loc"/></r></p></e>
-
-<e r="RL"><p><l>унран<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>аннан<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></r></p></e><!-- от него\от нее  -->
-<e r="RL"><p><l>унран<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>аңардан<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></r></p></e>
-<e r="RL"><p><l>унран<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></l><r>аннан<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="abl"/></r></p></e>
-<!--<e><p><l>унпа<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>--><!--  с ним\с ней -->
-<!--<e><p><l>уншӑн<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>--><!-- для него\для нее  -->
+<e><p><l>вӑл<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>  <!-- ОН\ОНА -->
 
 
 
@@ -803,6 +786,7 @@
     <e><p><l>анне<s n="n"/></l><r>әни<s n="n"/></r></p></e>
     <e><p><l>ача<s n="n"/></l><r>бала<s n="n"/></r></p></e>
     <e><p><l>вӑйӑ<s n="n"/></l><r>уен<s n="n"/></r></p></e>
+    <e><p><l>миль<s n="n"/></l><r>миль<s n="n"/></r></p></e>
     <e><p><l>вӑрҫӑ<s n="n"/></l><r>сугыш<s n="n"/></r></p></e>
     <e><p><l>вӑхӑт<s n="n"/></l><r>вакыт<s n="n"/></r></p></e>
     <e><p><l>ӗмӗр<s n="n"/></l><r>гасыр<s n="n"/></r></p></e>
@@ -5459,7 +5443,7 @@
 <e><p><l>Кувейт<s n="np"/><s n="top"/></l><r>Күвәйт<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Кӳлĕ<s n="np"/><s n="top"/></l><r>Күл<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Кăркăсстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Китай<b/>Халăх<b/>Республики<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Китай<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Вĕлтĕрен<s n="np"/><s n="top"/></l><r>Кычыткан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Лайăш<s n="np"/><s n="top"/></l><r>Лаеш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ла-Манш<s n="np"/><s n="top"/></l><r>Ла-Манш<s n="np"/><s n="top"/></r></p></e>
@@ -8102,16 +8086,16 @@
 <e><p><l>Иерусалим<s n="np"/><s n="top"/></l><r>Кодүс<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Колорадо<s n="np"/><s n="top"/></l><r>Колорадо<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Колумби<s n="np"/><s n="top"/></l><r>Колумбия<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Конго<b/>Демократиллĕ<b/>Республики<s n="np"/><s n="top"/></l><r>Конго<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Конго<s n="np"/><s n="top"/></l><r>Конго<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Стамбул<s n="np"/><s n="top"/></l><r>Константинополь<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Копенгаген<s n="np"/><s n="top"/></l><r>Копенгаген<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Косово<b/>Республики<s n="np"/><s n="top"/></l><r>Косово<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Косово<s n="np"/><s n="top"/></l><r>Косово<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Краков<s n="np"/><s n="top"/></l><r>Краков<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Крит<s n="np"/><s n="top"/></l><r>Крит<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Кувейт<s n="np"/><s n="top"/></l><r>Күвәйт<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Кӳлĕ<s n="np"/><s n="top"/></l><r>Күл<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Кăркăсстан<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Китай<b/>Халăх<b/>Республики<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Китай<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Вĕлтĕрен<s n="np"/><s n="top"/></l><r>Кычыткан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Лайăш<s n="np"/><s n="top"/></l><r>Лаеш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ла-Манш<s n="np"/><s n="top"/></l><r>Ла-Манш<s n="np"/><s n="top"/></r></p></e>
@@ -8125,7 +8109,7 @@
 <e><p><l>Любляна<s n="np"/><s n="top"/></l><r>Любляна<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Мадрид<s n="np"/><s n="top"/></l><r>Мадрид<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Хункăри<s n="np"/><s n="top"/></l><r>Маҗарстан<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Македони<b/>Республики<s n="np"/><s n="top"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Македони<s n="np"/><s n="top"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Массачусетс<s n="np"/><s n="top"/></l><r>Массачусетс<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Матак<s n="np"/><s n="top"/></l><r>Матак<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Мускав<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
@@ -8210,7 +8194,7 @@
 <e><p><l>Анат<b/>Кама<s n="np"/><s n="top"/></l><r>Түбән<b/>Кама<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Тянь-Шань<s n="np"/><s n="top"/></l><r>Тянь-Шань<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Елпачиха<s n="np"/><s n="top"/></l><r>Үдик<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Удмурт<b/>Республики<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Удмурти<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ӳспекстан<s n="np"/><s n="top"/></l><r>Үзбәкстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чĕмпĕр<s n="np"/><s n="top"/></l><r>Ульяновски<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Улянкă<s n="np"/><s n="top"/></l><r>Уразлино<s n="np"/><s n="top"/></r></p></e>
@@ -8228,16 +8212,16 @@
 <e><p><l>Хорвати<s n="np"/><s n="top"/></l><r>Хорватия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шупашкар<s n="np"/><s n="top"/></l><r>Чабаксар<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Çыранçи<b/>Чаллă<s n="np"/><s n="top"/></l><r>Чаллы<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Чех<b/>Республики<s n="np"/><s n="top"/></l><r>Чехия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Чехи<s n="np"/><s n="top"/></l><r>Чехия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чехословаки<s n="np"/><s n="top"/></l><r>Чехословакия<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Чечен<b/>Республики<s n="np"/><s n="top"/></l><r>Чечня<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Чечени<s n="np"/><s n="top"/></l><r>Чечня<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Челепи<s n="np"/><s n="top"/></l><r>Чиләбе<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Çармăссем<s n="np"/><s n="top"/></l><r>Чирмеш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Çарăмсан<s n="np"/><s n="top"/></l><r>Чирмешән<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чистай<s n="np"/><s n="top"/></l><r>Чистай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чукадыбаш<s n="np"/><s n="top"/></l><r>Чокадыбаш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чувалкипово<s n="np"/><s n="top"/></l><r>Чуалкип<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Чăваш<b/>Республики<s n="np"/><s n="top"/></l><r>Чувашия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Чăваш<b/>Ен<s n="np"/><s n="top"/></l><r>Чувашия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Çĕрпӳ<s n="np"/><s n="top"/></l><r>Чуел<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шанхай<s n="np"/><s n="top"/></l><r>Шанхай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Швейцари<s n="np"/><s n="top"/></l><r>Швейцария<s n="np"/><s n="top"/></r></p></e>
