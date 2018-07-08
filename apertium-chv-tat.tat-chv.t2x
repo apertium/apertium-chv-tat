@@ -27,6 +27,10 @@
       <cat-item tags="part.*"/>
       <cat-item tags="ideo.*"/>
     </def-cat>
+ 
+    <def-cat n="empty-copula">
+      <cat-item lemma="ӗ" tags="cop.aor.p3.sg"/>
+    </def-cat>
 
     <def-cat n="sub-reading1">
       <!-- Personal copulas and abessive/privative postposition -->
@@ -46,8 +50,8 @@
       <cat-item tags="emph"/>
       <cat-item tags="mod"/>
       <cat-item tags="postadv"/>
-      <cat-item lemma="та" tags="postadv"/>
-      <cat-item lemma="та" tags="cnjcoo"/>
+      <cat-item lemma="да" tags="postadv"/>
+      <cat-item lemma="да" tags="cnjcoo"/>
     </def-cat>
 
   </section-def-cats>
@@ -64,8 +68,15 @@
 
   <section-def-lists>
     <def-list n="tatar-clitics">
-      <list-item v="и"/>
-      <list-item v="ах"/>
+      <list-item v="чы"/>
+      <list-item v="сана"/>
+      <list-item v="мы"/>
+      <list-item v="мыни"/>
+      <list-item v="ла"/>
+      <list-item v="дыр"/>
+      <list-item v="гына"/>
+      <list-item v="да"/>
+      <list-item v="ук"/>
     </def-list>
   </section-def-lists>
 
@@ -84,6 +95,22 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: 2;">
+      <pattern>
+        <pattern-item n="main-reading"/>
+        <pattern-item n="empty-copula"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    
 
     <rule comment="REGLA: 2a;
       For sequence [stem + personal copula/abessive + other clitics]">

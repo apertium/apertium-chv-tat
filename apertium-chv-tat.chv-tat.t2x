@@ -27,6 +27,10 @@
       <cat-item tags="part.*"/>
       <cat-item tags="ideo.*"/>
     </def-cat>
+ 
+    <def-cat n="empty-copula">
+      <cat-item lemma="ӗ" tags="cop.aor.p3.sg"/>
+    </def-cat>
 
     <def-cat n="sub-reading1">
       <!-- Personal copulas and abessive/privative postposition -->
@@ -91,6 +95,22 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: 2;">
+      <pattern>
+        <pattern-item n="main-reading"/>
+        <pattern-item n="empty-copula"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    
 
     <rule comment="REGLA: 2a;
       For sequence [stem + personal copula/abessive + other clitics]">

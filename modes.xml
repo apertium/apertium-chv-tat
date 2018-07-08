@@ -170,7 +170,7 @@
         <file name="apertium-chv-tat.chv-tat.t1x"/>
         <file name="chv-tat.t1x.bin"/>
       </program>
-      <program name="apertium-transfer -n">
+      <program name="apertium-transfer -n -t">
         <file name="apertium-chv-tat.chv-tat.t2x"/>
         <file name="chv-tat.t2x.bin"/>
       </program>
@@ -345,7 +345,7 @@
         <file name="apertium-chv-tat.tat-chv.t1x"/>
         <file name="tat-chv.t1x.bin"/>
       </program>
-      <program name="apertium-transfer -n">
+      <program name="apertium-transfer -n -t">
         <file name="apertium-chv-tat.tat-chv.t2x"/>
         <file name="tat-chv.t2x.bin"/>
       </program>
