@@ -2,6 +2,10 @@
 
 <transfer>
   <section-def-cats>
+     
+    <def-cat n="top">
+      <cat-item tags="np.top.*"/>
+    </def-cat>
     
     <def-cat n="nom">
       <cat-item tags="n"/>
@@ -21,7 +25,7 @@
   
   <section-def-attrs>
     
-    <def-attr n="case">
+    <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
@@ -55,8 +59,47 @@
     <def-var n="number"/>
   </section-def-vars>  
 
+  <section-def-macros>
+    <def-macro n="f_case1" npar="1">
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="dat"/></let></when>
+      </choose>
+    </def-macro>
+  </section-def-macros> 
+
   <section-rules>
     
+    <rule comment="regla: top">
+      <pattern>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="f_case1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: nom">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_case1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="regla: n_nom_ (ат белән → утпа!)">
       <!--
       INPUT:  ^ат<n><nom>/ут<n><nom>$ ^белән<post>/$
@@ -68,7 +111,7 @@
       </pattern>
       <action>
         <let>
-          <clip pos="1" side="tl" part="case"/>
+          <clip pos="1" side="tl" part="a_cas"/>
           <lit-tag v="ins"/>
         </let>
         <out>
@@ -79,18 +122,6 @@
       </action>
     </rule>
 
-<rule comment= "regla: v_neg_imp ()"> 
-      <pattern>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
     
   </section-rules>
 </transfer>
