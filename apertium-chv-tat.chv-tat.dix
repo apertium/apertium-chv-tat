@@ -125,12 +125,10 @@
     <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>кӑна<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
 
-    <e><p><l>анчах<s n="cnjcoo"/></l><r>ә<s n="беркемcnjcoo"/></r></p></e>
-    <e><p><l>анчах<s n="cnjcoo"/></l><r>ә<s n="һичкемcnjcoo"/></r></p></e>
-    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>әһичнәрсә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>һични<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
     <!-- я -->
-    <e><p><l>е<s n="cnjcoo"/></l><r>яисә<s n="cnjcoкемдерo"/></r></p></e>
+    <e><p><l>е<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
     
     <e><p><l>е<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
     <!--яхут-->
@@ -274,14 +272,12 @@
 <!-- <e><p><l>пӗр-пӗри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
 <!-- <e><p><l>тепри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
 
-<e><p><l>никам<s n="prn"/><s n="neg"/></l><r>беркем<s n="prn"/><s n="neg"/></r></p></e>
-<e><p><l>никам<s n="prn"/><s n="neg"/></l><r>һичкем<s n="prn"/><s n="neg"/></r></p></e>
-<e><p><l>нимӗн<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/><s n="neg"/></r></p></e>
-<e><p><l>нимӗн<s n="prn"/><s n="neg"/></l><r>һични<s n="prn"/><s n="neg"/></r></p></e>
+<e><p><l>никам<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e>
+<e><p><l>нимӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e>
 
-<e><p><l>такам<s n="prn"/><s n="neg"/></l><r>кемдер<s n="prn"/><s n="neg"/></r></p></e> -->
-<e><p><l>темӗн<s n="prn"/><s n="neg"/></l><r>нәрсәдер<s n="prn"/><s n="neg"/></r></p></e> -->
-<e><p><l>тахӑшӗ<s n="prn"/><s n="neg"/></l><r>ничәнче<s n="prn"/><s n="neg"/></r></p></e><!-- АЛЕРТ -->
+<!-- <e><p><l>такам<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+<!-- <e><p><l>темӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+<!-- <e><p><l>тахӑшӗ<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
 
 <e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? -->
 
