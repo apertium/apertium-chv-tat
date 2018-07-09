@@ -272,7 +272,8 @@
 <e><p><l>пурте<s n="prn"/><s n="pers"/></l><r>барлыгы<s n="prn"/><s n="pers"/></r></p></e>
 <!-- <e><p><l>пӗри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
 <!-- <e><p><l>пӗр-пӗри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
-<!-- <e><p><l>тепри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
+<e><p><l>тепри<s n="prn"/><s n="pers"/></l><r>башка<s n="prn"/><s n="pers"/></r></p></e>
+<e><p><l>тепри<s n="prn"/><s n="pers"/></l><r>бүтән<s n="prn"/><s n="pers"/></r></p></e>
 
 <e><p><l>никам<s n="prn"/><s n="neg"/></l><r>беркем<s n="prn"/><s n="neg"/></r></p></e>
 <e><p><l>никам<s n="prn"/><s n="neg"/></l><r>һичкем<s n="prn"/><s n="neg"/></r></p></e>
@@ -283,7 +284,7 @@
 <e><p><l>темӗн<s n="prn"/><s n="neg"/></l><r>нәрсәдер<s n="prn"/><s n="neg"/></r></p></e> -->
 <e><p><l>тахӑшӗ<s n="prn"/><s n="neg"/></l><r>ничәнче<s n="prn"/><s n="neg"/></r></p></e><!-- АЛЕРТ -->
 
-<e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? -->
+<e><p><l>хбашкаӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? -->
 
 <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e><!--  что -->
 <e><p><l>мӗн<s n="prn"/><s n="itg"/><s n="ben"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e><!--  что -->
