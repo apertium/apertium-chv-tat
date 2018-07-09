@@ -272,6 +272,13 @@
 <!-- <e><p><l>пӗр-пӗри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
 <!-- <e><p><l>тепри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
 
+<e><p><l>никам<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e>
+<e><p><l>нимӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e>
+
+<!-- <e><p><l>такам<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+<!-- <e><p><l>темӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+<!-- <e><p><l>тахӑшӗ<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+
 <e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? -->
 
 <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e><!--  что -->
