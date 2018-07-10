@@ -13,14 +13,21 @@
       <cat-item tags="v.*.gna_impf"/>
     </def-cat>
 
-     <def-cat n="nom">
+     <def-cat n="prn-pers">
+      <cat-item tags="prn.pers.*"/>
+    </def-cat>
+
+    <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
     </def-cat>
    
-    <def-cat n="n_nom">
+    <def-cat n="nominal-nom">
       <cat-item tags="n.nom"/>
       <cat-item tags="n.nom.*"/>
+      <cat-item tags="np.cog.*.nom"/>
+      <cat-item tags="np.top.nom"/>
+      <cat-item tags="np.ant.*.nom"/>
     </def-cat>
    
     <def-cat n="belan">
@@ -132,6 +139,21 @@
       </action>
     </rule>
 
+    <rule comment="regla: prn-pers">
+      <pattern>
+        <pattern-item n="prn-pers"/>
+      </pattern>
+      <action>
+        <call-macro n="f_case1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
@@ -149,13 +171,13 @@
 
 
 
-    <rule comment="regla: n_nom_ (ат белән → утпа!)">
+    <rule comment="regla: nominal-nom (ат белән → утпа!)">
       <!--
       INPUT:  ^ат<n><nom>/ут<n><nom>$ ^белән<post>/$
       OUTPUT: ^ут<n><ins>$
       -->
       <pattern>
-        <pattern-item n="n_nom"/>
+        <pattern-item n="nominal-nom"/>
         <pattern-item n="belan"/>
       </pattern>
       <action>

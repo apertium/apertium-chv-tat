@@ -239,6 +239,7 @@
     <!-- ins с кем\с чем -->
     <!-- ![сӑр\сӗр]! -->
     <!-- ter для кого\для чего -->
+
 <e><p><l>эпӗ<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
 <e><p><l>эсӗ<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
 <e><p><l>вӑл<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
@@ -248,7 +249,7 @@
 
 <e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>теге<s n="prn"/><s n="dem"/></r></p></e>
 <e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
-<e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
+<!--<e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>-->
 <!-- <e><p><l>лешсем<s n="prn"/><s n="dem"/></l><r><s n="prn"/><s n="dem"/></r></p></e> -->
 <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="pers"/></r></p></e>
 <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>шушы<s n="prn"/><s n="pers"/></r></p></e>
@@ -12929,6 +12930,7 @@
     <e><p><l>катерт<s n="v"/><s n="tv"/></l><r>читләт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>пăр<s n="v"/><s n="tv"/></l><r>читләт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>уйӑр<s n="v"/><s n="tv"/></l><r>аер<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>пуҫла<s n="v"/><s n="tv"/></l><r>башла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ирт<s n="v"/><s n="tv"/></l><r>уз<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ирт<s n="v"/><s n="tv"/></l><r>үт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>тух<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
@@ -12966,7 +12968,7 @@
     <e><p><l>тырыш<s n="v"/><s n="tv"/></l><r>тырыш<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>тӑр<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>тӑрӑш<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>тӑсӑлма<s n="v"/><s n="tv"/></l><r>дәвам<b/>ит<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>тӑсӑл<s n="v"/><s n="tv"/></l><r>дәвам<b/>ит<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>хатӗрле<s n="v"/><s n="tv"/></l><r>әзерлә<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>хупла<s n="v"/><s n="tv"/></l><r>капла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>чуп<s n="v"/><s n="iv"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
