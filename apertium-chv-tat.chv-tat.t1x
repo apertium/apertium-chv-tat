@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- Tests are run by './qa chv-tat-t1x' command.
+     INPUT is the output of lexical selection,
+     OUTPUT is the expected output of this transfer module.
+
+     Also make sure to run './qa' (with no arguments)
+     before committing to svn. -->
+
 <transfer>
   <section-def-cats>
     <def-cat n="default">
@@ -17,7 +24,19 @@
     <def-cat n="verb">
       <cat-item tags="v.*"/>
     </def-cat>
-   
+
+    <def-cat n="poss">
+      <cat-item tags="*.px1sg"/>
+      <cat-item tags="*.px2sg"/>
+      <cat-item tags="*.px3sp"/>
+      <cat-item tags="*.px1pl"/>
+      <cat-item tags="*.px2pl"/>      
+    </def-cat>
+
+    <def-cat n="сӑр">
+      <cat-item lemma="сӑр" tags="post"/>
+    </def-cat>
+    
   </section-def-cats>
   
   <section-def-attrs>
@@ -47,7 +66,7 @@
       <attr-item tags="pl.px2pl"/>
     </def-attr>
 
-    <def-attr n="poss">
+    <def-attr n="a_poss">
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
       <attr-item tags="px3sp"/>
@@ -84,6 +103,16 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="all"/></equal></test>
             <let><clip pos="1" side="tl" part="case"/><lit-tag v="dat"/></let>
+          </when>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="ter"/></equal></test>
+            <let><var n="postposition"/><concat><lit v=" ^өчен"/><lit-tag v="post"/><lit v="$"/></concat></let>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="ins"/></equal></test>
+            <let><var n="postposition"/><concat><lit v=" ^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
           </when>
         </choose>
     </def-macro>
@@ -179,20 +208,6 @@
         <call-macro n="convert-nbr-poss1">
           <with-param pos="1"/>
         </call-macro>
-        <choose>
-          <when>
-            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="ter"/></equal></test>
-            <let><var n="postposition"/><concat><lit v=" ^өчен"/><lit-tag v="post"/><lit v="$"/></concat></let>
-            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
-          </when>
-
-          <when>
-            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="ins"/></equal></test>
-            <let><var n="postposition"/><concat><lit v=" ^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
-            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
-          </when>
-
-        </choose>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
@@ -202,6 +217,43 @@
         <let><var n="postposition"/><lit v=""/></let>
       </action>
     </rule>
-        
+
+    <rule comment="REGLA: N POST">
+      <!--
+      INPUT:  ^пахча<n><px1sg>/бакча<n><px1sg>$ ^сӑр<post>/сыз<post>$
+      OUTPUT: ^бакча<n><px1sg><abl>$ ^башка<post>$
+
+      INPUT:  ^пахча<n><px2pl>/бакча<n><px2pl>$ ^сӑр<post>/сыз<post>$
+      OUTPUT: ^бакча<n><px2pl><abl>$ ^башка<post>$
+
+      INPUT:  ^пахча<n><px3sp>/бакча<n><px3sp>$ ^сӑр<post>/сыз<post>$
+      OUTPUT: ^бакча<n><px3sp><abl>$ ^башка<post>$
+      -->    
+      <pattern>
+        <pattern-item n="poss"/>
+        <pattern-item n="сӑр"/>	
+      </pattern>
+      <action>
+        <call-macro n="convert-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="convert-nbr-poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <lit-tag v="abl"/>
+          </lu>
+	  <b/>
+          <lu>
+            <lit v="башка"/>
+            <lit-tag v="post"/>
+          </lu>
+        </out>
+        <let><var n="postposition"/><lit v=""/></let>
+      </action>
+    </rule>
+
   </section-rules>
 </transfer>
