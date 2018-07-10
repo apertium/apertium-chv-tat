@@ -9,9 +9,10 @@
     
     <def-cat n="gpr">
       <cat-item tags="v.*.gpr_pres"/>
-      <cat-item tags="v.*.gna_fut"/>
-      <cat-item tags="v.*.gna_past"/>
-      <cat-item tags="v.*.gna_pot"/>
+      <cat-item tags="v.*.gpr_fut"/>
+      <cat-item tags="v.*.gpr_past"/>
+      <cat-item tags="v.*.gpr_pot"/>
+      <cat-item tags="v.*.gpr_ppot"/>
     </def-cat>
 
     <def-cat n="gna">
@@ -70,6 +71,7 @@
 
     <def-attr n="a_gpr">
       <attr-item tags="gpr_pot"/>
+      <attr-item tags="gpr_ppot"/>
       <attr-item tags="gpr_pres"/>
       <attr-item tags="gpr_aor"/>
       <attr-item tags="gpr_impf"/>
@@ -130,6 +132,10 @@
 
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_pot"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_pres"/></let></when>
+      </choose>
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_ppot"/></equal></test>
               <let><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_pres"/></let></when>
       </choose>
     </def-macro>
