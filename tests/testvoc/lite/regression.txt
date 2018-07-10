@@ -1,0 +1,143 @@
+Noun
+====
+
+мәктәп:^мәктәп<n><attr>$:^школьный<adj><sint><m><an><sg><nom>$:школьный
+мәктәп:^мәктәп<n><nom>$:^школа<n><f><nn><sg><nom>$:школа
+мәктәпнең:^мәктәп<n><gen>$:^школа<n><f><nn><sg><gen>$:школы
+мәктәпкә:^мәктәп<n><dat>$:^школа<n><f><nn><sg><dat>$:школе
+мәктәпне:^мәктәп<n><acc>$:^школа<n><f><nn><sg><acc>$:школу
+мәктәптән:^мәктәп<n><abl>$:^из<pr>$ ^школа<n><f><nn><sg><gen>$:из школы
+мәктәптә:^мәктәп<n><loc>$:^в<pr>$ ^школа<n><f><nn><sg><prp>$:в школе
+мәктәптәге:^мәктәп<n><loc><attr>$:^в<pr>$ ^школа<n><f><nn><sg><prp>$:в школе
+мәктәптәй:^мәктәп<n><sim>$:^как<adv><rel>$ ^школа<n><f><nn><sg><nom>$:как школа
+мәктәпсез:^мәктәп<n>+сыз<post>$:^без<pr>$ ^школа<n><f><nn><sg><gen>$:без школы
+мәктәпләр:^мәктәп<n><pl><nom>$:^школа<n><f><nn><pl><nom>$:школы
+мәктәпләрнең:^мәктәп<n><pl><gen>$:^школа<n><f><nn><pl><gen>$:школ
+мәктәпләргә:^мәктәп<n><pl><dat>$:^школа<n><f><nn><pl><dat>$:школам
+мәктәпләрне:^мәктәп<n><pl><acc>$:^школа<n><f><nn><pl><acc>$:школы
+мәктәпләрдән:^мәктәп<n><pl><abl>$:^из<pr>$ ^школа<n><f><nn><pl><gen>$:из школ
+мәктәпләрдә:^мәктәп<n><pl><loc>$:^в<pr>$ ^школа<n><f><nn><pl><prp>$:в школах
+мәктәбем:^мәктәп<n><px1sg><nom>$:^мой<det><pos><f><an><sg><nom>$ ^школа<n><f><nn><sg><nom>$:моя школа
+мәктәбемнең:^мәктәп<n><px1sg><gen>$:^мой<det><pos><f><an><sg><gen>$ ^школа<n><f><nn><sg><gen>$:моей школы
+мәктәбемә:^мәктәп<n><px1sg><dat>$:^мой<det><pos><f><an><sg><dat>$ ^школа<n><f><nn><sg><dat>$:моей школе
+мәктәбемне:^мәктәп<n><px1sg><acc>$:^мой<det><pos><f><an><sg><acc>$ ^школа<n><f><nn><sg><acc>$:мою школу
+мәктәбемнән:^мәктәп<n><px1sg><abl>$:^из<pr>$ ^мой<det><pos><f><an><sg><gen>$ ^школа<n><f><nn><sg><gen>$:из моей школы
+мәктәбемдә:^мәктәп<n><px1sg><loc>$:^в<pr>$ ^мой<det><pos><f><an><sg><prp>$ ^школа<n><f><nn><sg><prp>$:в моей школе
+мәктәпләрем:^мәктәп<n><pl><px1sg><nom>$:^мой<det><pos><mfn><an><pl><nom>$ ^школа<n><f><nn><pl><nom>$:мои школы
+мәктәпләремнең:^мәктәп<n><pl><px1sg><gen>$:^мой<det><pos><mfn><an><pl><gen>$ ^школа<n><f><nn><pl><gen>$:моих школ
+мәктәпләремә:^мәктәп<n><pl><px1sg><dat>$:^мой<det><pos><mfn><an><pl><dat>$ ^школа<n><f><nn><pl><dat>$:моим школам
+мәктәпләремне:^мәктәп<n><pl><px1sg><acc>$:^мой<det><pos><mfn><nn><pl><acc>$ ^школа<n><f><nn><pl><acc>$:мои школы
+мәктәпләремнән:^мәктәп<n><pl><px1sg><abl>$:^из<pr>$ ^мой<det><pos><mfn><an><pl><gen>$ ^школа<n><f><nn><pl><gen>$:из моих школ
+мәктәпләремдә:^мәктәп<n><pl><px1sg><loc>$:^в<pr>$ ^мой<det><pos><mfn><an><pl><prp>$ ^школа<n><f><nn><pl><prp>$:в моих школах
+мәктәбең:^мәктәп<n><px2sg><nom>$:^твой<det><pos><f><an><sg><nom>$ ^школа<n><f><nn><sg><nom>$:твоя школа
+мәктәбеңнең:^мәктәп<n><px2sg><gen>$:^твой<det><pos><f><an><sg><gen>$ ^школа<n><f><nn><sg><gen>$:твоей школы
+мәктәбеңә:^мәктәп<n><px2sg><dat>$:^твой<det><pos><f><an><sg><dat>$ ^школа<n><f><nn><sg><dat>$:твоей школе
+мәктәбеңне:^мәктәп<n><px2sg><acc>$:^твой<det><pos><f><an><sg><acc>$ ^школа<n><f><nn><sg><acc>$:твою школу
+мәктәбеңнән:^мәктәп<n><px2sg><abl>$:^из<pr>$ ^твой<det><pos><f><an><sg><gen>$ ^школа<n><f><nn><sg><gen>$:из твоей школы
+мәктәбеңдә:^мәктәп<n><px2sg><loc>$:^в<pr>$ ^твой<det><pos><f><an><sg><prp>$ ^школа<n><f><nn><sg><prp>$:в твоей школе
+мәктәпләрең:^мәктәп<n><pl><px2sg><nom>$:^твой<det><pos><mfn><an><pl><nom>$ ^школа<n><f><nn><pl><nom>$:твои школы
+мәктәпләреңнең:^мәктәп<n><pl><px2sg><gen>$:^твой<det><pos><mfn><an><pl><gen>$ ^школа<n><f><nn><pl><gen>$:твоих школ
+мәктәпләреңә:^мәктәп<n><pl><px2sg><dat>$:^твой<det><pos><mfn><an><pl><dat>$ ^школа<n><f><nn><pl><dat>$:твоим школам
+мәктәпләреңне:^мәктәп<n><pl><px2sg><acc>$:^твой<det><pos><mfn><nn><pl><acc>$ ^школа<n><f><nn><pl><acc>$:твои школы
+мәктәпләреңнән:^мәктәп<n><pl><px2sg><abl>$:^из<pr>$ ^твой<det><pos><mfn><an><pl><gen>$ ^школа<n><f><nn><pl><gen>$:из твоих школ
+мәктәпләреңдә:^мәктәп<n><pl><px2sg><loc>$:^в<pr>$ ^твой<det><pos><mfn><an><pl><prp>$ ^школа<n><f><nn><pl><prp>$:в твоих школах
+
+Adjective
+=========
+
+яхшы:^яхшы<adj>$:^хороший<adj><sint><m><an><sg><nom>$:хороший
+яхшырак:^яхшы<adj><comp>$:^лучший<adj><sint><m><an><sg><nom>$:лучший
+яхшы:^яхшы<adj><advl>$:^хорошо<adv>$:хорошо
+яхшырак:^яхшы<adj><comp><advl>$:^лучше<adv>$:лучше
+
+яхшы:^яхшы<adj><subst><nom>$:^хороший<adj><sint><m><an><sg><nom>$:хороший
+яхшыга:^яхшы<adj><subst><dat>$:^хороший<adj><sint><m><an><sg><dat>$:хорошему
+яхшыдан:^яхшы<adj><subst><abl>$:^из<pr>$ ^хороший<adj><sint><m><an><sg><gen>$:из хорошего
+яхшыларсыз:^яхшы<adj><subst><pl>$ ^сыз<post>$:^без<pr>$ ^хороший<adj><sint><mfn><an><pl><gen>$:без хороших
+
+Verb
+====
+
+Finite forms
+------------
+
+чакырам:^чакыр<v><tv><pres><p1><sg>$:^звать<vblex><impf><pres><p1><sg>$:зову
+чакырамын:^чакыр<v><tv><pres><p1><sg>$:^звать<vblex><impf><pres><p1><sg>$:зову
+чакырасың:^чакыр<v><tv><pres><p2><sg>$:^звать<vblex><impf><pres><p2><sg>$:зовёшь
+чакыра:^чакыр<v><tv><pres><p3><sg>$:^звать<vblex><impf><pres><p3><sg>$:зовёт
+чакырабыз:^чакыр<v><tv><pres><p1><pl>$:^звать<vblex><impf><pres><p1><pl>$:зовём
+чакырасыз:^чакыр<v><tv><pres><p2><pl>$:^звать<vblex><impf><pres><p2><pl>$:зовёте
+чакыралар:^чакыр<v><tv><pres><p3><pl>$:^звать<vblex><impf><pres><p3><pl>$:зовут
+чакырасыз:^чакыр<v><tv><pres><p2><frm><sg>$:^звать<vblex><impf><pres><p2><pl>$:зовёте
+чакырасыз:^чакыр<v><tv><pres><p2><frm><pl>$:^звать<vblex><impf><pres><p2><pl>$:зовёте
+чакырмыйм:^чакыр<v><tv><neg><pres><p1><sg>$:^не<adv>$ ^звать<vblex><impf><pres><p1><sg>$:не зову
+чакырмыймын:^чакыр<v><tv><neg><pres><p1><sg>$:^не<adv>$ ^звать<vblex><impf><pres><p1><sg>$:не зову
+чакырмыйсың:^чакыр<v><tv><neg><pres><p2><sg>$:^не<adv>$ ^звать<vblex><impf><pres><p2><sg>$:не зовёшь
+чакырмый:^чакыр<v><tv><neg><pres><p3><sg>$:^не<adv>$ ^звать<vblex><impf><pres><p3><sg>$:не зовёт
+чакырмыйбыз:^чакыр<v><tv><neg><pres><p1><pl>$:^не<adv>$ ^звать<vblex><impf><pres><p1><pl>$:не зовём
+чакырмыйсыз:^чакыр<v><tv><neg><pres><p2><pl>$:^не<adv>$ ^звать<vblex><impf><pres><p2><pl>$:не зовёте
+чакырмыйлар:^чакыр<v><tv><neg><pres><p3><pl>$:^не<adv>$ ^звать<vblex><impf><pres><p3><pl>$:не зовут
+чакырмыйсыз:^чакыр<v><tv><neg><pres><p2><frm><sg>$:^не<adv>$ ^звать<vblex><impf><pres><p2><pl>$:не зовёте
+чакырмыйсыз:^чакыр<v><tv><neg><pres><p2><frm><pl>$:^не<adv>$ ^звать<vblex><impf><pres><p2><pl>$:не зовёте
+
+чакырдым:^чакыр<v><tv><ifi><p1><sg>$:^позвать<vblex><perf><past><m><sg>$:позвал
+чакырдың:^чакыр<v><tv><ifi><p2><sg>$:^позвать<vblex><perf><past><m><sg>$:позвал
+чакырды:^чакыр<v><tv><ifi><p3><sg>$:^позвать<vblex><perf><past><m><sg>$:позвал
+чакырдык:^чакыр<v><tv><ifi><p1><pl>$:^позвать<vblex><perf><past><mfn><pl>$:позвали
+чакырдыгыз:^чакыр<v><tv><ifi><p2><pl>$:^позвать<vblex><perf><past><mfn><pl>$:позвали
+чакырдылар:^чакыр<v><tv><ifi><p3><pl>$:^позвать<vblex><perf><past><mfn><pl>$:позвали
+чакырдыгыз:^чакыр<v><tv><ifi><p2><frm><sg>$:^позвать<vblex><perf><past><mfn><pl>$:позвали
+чакырдыгыз:^чакыр<v><tv><ifi><p2><frm><pl>$:^позвать<vblex><perf><past><mfn><pl>$:позвали
+чакырмадым:^чакыр<v><tv><neg><ifi><p1><sg>$:^не<adv>$ ^позвать<vblex><perf><past><m><sg>$:не позвал
+чакырмадың:^чакыр<v><tv><neg><ifi><p2><sg>$:^не<adv>$ ^позвать<vblex><perf><past><m><sg>$:не позвал
+чакырмады:^чакыр<v><tv><neg><ifi><p3><sg>$:^не<adv>$ ^позвать<vblex><perf><past><m><sg>$:не позвал
+чакырмадык:^чакыр<v><tv><neg><ifi><p1><pl>$:^не<adv>$ ^позвать<vblex><perf><past><mfn><pl>$:не позвали
+чакырмадыгыз:^чакыр<v><tv><neg><ifi><p2><pl>$:^не<adv>$ ^позвать<vblex><perf><past><mfn><pl>$:не позвали
+чакырмадылар:^чакыр<v><tv><neg><ifi><p3><pl>$:^не<adv>$ ^позвать<vblex><perf><past><mfn><pl>$:не позвали
+чакырмадыгыз:^чакыр<v><tv><neg><ifi><p2><frm><sg>$:^не<adv>$ ^позвать<vblex><perf><past><mfn><pl>$:не позвали
+чакырмадыгыз:^чакыр<v><tv><neg><ifi><p2><frm><pl>$:^не<adv>$ ^позвать<vblex><perf><past><mfn><pl>$:не позвали
+
+чакырырмын:^чакыр<v><tv><fut><p1><sg>$:^позвать<vblex><perf><fut><p1><sg>$:позову
+чакырырсың:^чакыр<v><tv><fut><p2><sg>$:^позвать<vblex><perf><fut><p2><sg>$:позовёшь
+чакырыр:^чакыр<v><tv><fut><p3><sg>$:^позвать<vblex><perf><fut><p3><sg>$:позовёт
+чакырырбыз:^чакыр<v><tv><fut><p1><pl>$:^позвать<vblex><perf><fut><p1><pl>$:позовём
+чакырырсыз:^чакыр<v><tv><fut><p2><pl>$:^позвать<vblex><perf><fut><p2><pl>$:позовёте
+чакырырлар:^чакыр<v><tv><fut><p3><pl>$:^позвать<vblex><perf><fut><p3><pl>$:позовут
+чакырырсыз:^чакыр<v><tv><fut><p2><frm><sg>$:^позвать<vblex><perf><fut><p2><pl>$:позовёте
+чакырырсыз:^чакыр<v><tv><fut><p2><frm><pl>$:^позвать<vblex><perf><fut><p2><pl>$:позовёте
+чакырмам:^чакыр<v><tv><neg><fut><p1><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p1><sg>$:не позову
+чакырмамын:^чакыр<v><tv><neg><fut><p1><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p1><sg>$:не позову
+чакырмасмын:^чакыр<v><tv><neg><fut><p1><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p1><sg>$:не позову
+чакырмассың:^чакыр<v><tv><neg><fut><p2><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><sg>$:не позовёшь
+чакырмас:^чакыр<v><tv><neg><fut><p3><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p3><sg>$:не позовёт
+чакырмабыз:^чакыр<v><tv><neg><fut><p1><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p1><pl>$:не позовём
+чакырмассыз:^чакыр<v><tv><neg><fut><p2><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><pl>$:не позовёте
+чакырмаслар:^чакыр<v><tv><neg><fut><p3><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p3><pl>$:не позовут
+чакырмассыз:^чакыр<v><tv><neg><fut><p2><frm><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><pl>$:не позовёте
+чакырмассыз:^чакыр<v><tv><neg><fut><p2><frm><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><pl>$:не позовёте
+
+чакырачакмын:^чакыр<v><tv><fut2><p1><sg>$:^позвать<vblex><perf><fut><p1><sg>$:позову
+чакырачаксың:^чакыр<v><tv><fut2><p2><sg>$:^позвать<vblex><perf><fut><p2><sg>$:позовёшь
+чакырачак:^чакыр<v><tv><fut2><p3><sg>$:^позвать<vblex><perf><fut><p3><sg>$:позовёт
+чакырачакбыз:^чакыр<v><tv><fut2><p1><pl>$:^позвать<vblex><perf><fut><p1><pl>$:позовём
+чакырачаксыз:^чакыр<v><tv><fut2><p2><pl>$:^позвать<vblex><perf><fut><p2><pl>$:позовёте
+чакырачаклар:^чакыр<v><tv><fut2><p3><pl>$:^позвать<vblex><perf><fut><p3><pl>$:позовут
+чакырачаксыз:^чакыр<v><tv><fut2><p2><frm><sg>$:^позвать<vblex><perf><fut><p2><pl>$:позовёте
+чакырачаксыз:^чакыр<v><tv><fut2><p2><frm><pl>$:^позвать<vblex><perf><fut><p2><pl>$:позовёте
+чакырмаячакмын:^чакыр<v><tv><neg><fut2><p1><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p1><sg>$:не позову
+чакырмаячаксың:^чакыр<v><tv><neg><fut2><p2><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><sg>$:не позовёшь
+чакырмаячак:^чакыр<v><tv><neg><fut2><p3><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p3><sg>$:не позовёт
+чакырмаячакбыз:^чакыр<v><tv><neg><fut2><p1><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p1><pl>$:не позовём
+чакырмаячаксыз:^чакыр<v><tv><neg><fut2><p2><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><pl>$:не позовёте
+чакырмаячаклар:^чакыр<v><tv><neg><fut2><p3><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p3><pl>$:не позовут
+чакырмаячаксыз:^чакыр<v><tv><neg><fut2><p2><frm><pl>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><pl>$:не позовёте
+чакырмаячаксыз:^чакыр<v><tv><neg><fut2><p2><frm><sg>$:^не<adv>$ ^позвать<vblex><perf><fut><p2><pl>$:не позовёте
+
+чакырмакчымын:^чакыр<v><tv><fut_plan><p1><sg>$:^собираться<vblex><impf><pres><p1><sg>$ ^позвать<vblex><perf><inf>$:собираюсь позвать
+чакырмакчысың:^чакыр<v><tv><fut_plan><p2><sg>$:^собираться<vblex><impf><pres><p2><sg>$ ^позвать<vblex><perf><inf>$:собираешься позвать
+чакырмакчы:^чакыр<v><tv><fut_plan><p3><sg>$:^собираться<vblex><impf><pres><p3><sg>$ ^позвать<vblex><perf><inf>$:собирается позвать
+чакырмакчыбыз:^чакыр<v><tv><fut_plan><p1><pl>$:^собираться<vblex><impf><pres><p1><pl>$ ^позвать<vblex><perf><inf>$:собираемся позвать
+чакырмакчысыз:^чакыр<v><tv><fut_plan><p2><pl>$:^собираться<vblex><impf><pres><p2><pl>$ ^позвать<vblex><perf><inf>$:собираетесь позвать
+чакырмакчылар:^чакыр<v><tv><fut_plan><p3><pl>$:^собираться<vblex><impf><pres><p3><pl>$ ^позвать<vblex><perf><inf>$:собираются позвать
+чакырмакчысыз:^чакыр<v><tv><fut_plan><p2><frm><pl>$:^собираться<vblex><impf><pres><p2><pl>$ ^позвать<vblex><perf><inf>$:собираетесь позвать
+чакырмакчысыз:^чакыр<v><tv><fut_plan><p2><frm><sg>$:^собираться<vblex><impf><pres><p2><pl>$ ^позвать<vblex><perf><inf>$:собираетесь позвать
