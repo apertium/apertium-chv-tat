@@ -2,4 +2,10 @@
   <rule>
     <match lemma="эт" tags="n.*"><select lemma="йытӑ" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match lemma="яр" tags="n.*"><select lemma="ҫыран" tags="n.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="көнчыгыш" tags="n.*"><select lemma="тухӑҫ" tags="n.*"/></match>
+  </rule>
 </rules>
