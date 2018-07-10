@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- Tests are run by './qa chv-tat-t1x' command.
+     INPUT is the output of lexical selection,
+     OUTPUT is the expected output of this transfer module.
+
+     Also make sure to run './qa' (with no arguments)
+     before committing to svn. -->
+
 <transfer>
   <section-def-cats>
     <def-cat n="default">
