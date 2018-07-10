@@ -22,11 +22,11 @@ DIR=$1
 if [[ $DIR = "chv-tat" ]]; then
 
     PRETRANSFER="apertium-pretransfer"
-    LEXTRANSFER="lt-proc -b ../../../chv-tat.autobil.bin"
-    LEXSELECTION="lrx-proc -m ../../../chv-tat.lrx.bin"
-    TRANSFER_1="apertium-transfer -b ../../../apertium-chv-tat.chv-tat.t1x ../../../chv-tat.t1x.bin"
-    TRANSFER_2="apertium-transfer -n ../../../apertium-chv-tat.chv-tat.t2x ../../../chv-tat.t2x.bin"
-    GENERATOR="lt-proc -d ../../../chv-tat.autogen.bin"
+    LEXTRANSFER="lt-proc -b chv-tat.autobil.bin"
+    LEXSELECTION="lrx-proc -m chv-tat.lrx.bin"
+    TRANSFER_1="apertium-transfer -b apertium-chv-tat.chv-tat.t1x chv-tat.t1x.bin"
+    TRANSFER_2="apertium-transfer -n apertium-chv-tat.chv-tat.t2x chv-tat.t2x.bin"
+    GENERATOR="lt-proc -d chv-tat.autogen.bin"
 
     tee $INPUT |
     $PRETRANSFER | $LEXTRANSFER | $LEXSELECTION |
