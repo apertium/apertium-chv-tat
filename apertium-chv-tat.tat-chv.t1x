@@ -15,6 +15,10 @@
       <cat-item tags="v.*.gpr_ppot"/>
     </def-cat>
 
+    <def-cat n="ger-nom">
+      <cat-item tags="v.*.ger.nom"/>
+    </def-cat>
+
     <def-cat n="gna">
       <cat-item tags="v.*.gna_perf"/>
       <cat-item tags="v.*.gna_cond.*"/>
@@ -83,6 +87,11 @@
       <attr-item tags="gna_cond"/>
       <attr-item tags="gna_impf"/>
     </def-attr>
+
+    <def-attr n="a_ger">
+      <attr-item tags="ger.nom"/>
+      <attr-item tags="ger.px3sp.nom"/>
+    </def-attr>
  
     <def-attr n="poss">
       <attr-item tags="px1sg"/>
@@ -137,6 +146,11 @@
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_ppot"/></equal></test>
               <let><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_pres"/></let></when>
+      </choose>
+
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.nom"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.px3sp.nom"/></let></when>
       </choose>
     </def-macro>
 
@@ -246,6 +260,21 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: ger-nom">
+      <pattern>
+        <pattern-item n="ger-nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
 
 
 
