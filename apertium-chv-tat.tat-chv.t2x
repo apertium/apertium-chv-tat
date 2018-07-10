@@ -30,6 +30,7 @@
  
     <def-cat n="empty-copula">
       <cat-item lemma="ӗ" tags="cop.aor.p3.sg"/>
+      <cat-item lemma="ӗ" tags="cop.aor.p3.pl"/>
     </def-cat>
 
     <def-cat n="sub-reading1">
