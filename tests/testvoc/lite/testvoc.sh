@@ -12,8 +12,8 @@
 #
 # Usage: [TMPDIR=/path/to/tmpdir] ./testvoc.sh
 
-INCONSISTENCY=../standard/./inconsistency.sh
-INCONSISTENCY_SUMMARY=../standard/./inconsistency-summary.sh
+INCONSISTENCY=tests/testvoc/standard/inconsistency.sh
+INCONSISTENCY_SUMMARY=tests/testvoc/standard/inconsistency-summary.sh
 
 if [ -z $TMPDIR ]; then
 	TMPDIR="/tmp"
@@ -30,7 +30,7 @@ function extract_lexical_units {
 # Chuvash->Tatar testvoc
 #-------------------------------------------------------------------------------
 
-PARDEF_FILES=../../../../../apertium-languages/apertium-chv/tests/morphotactics/*.txt.gz
+PARDEF_FILES=../../apertium-languages/apertium-chv/tests/morphotactics/*.txt.gz
 
 echo "==Chuvash->Tatar==========================="
 

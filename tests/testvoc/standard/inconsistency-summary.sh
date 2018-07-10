@@ -5,7 +5,7 @@
 # It is supposed to be invoked by ./testvoc.sh, and not run directly.
 
 INC="$1"
-OUT="testvoc-summary.$2.txt"
+OUT="tests/testvoc/lite/testvoc-summary.$2.txt"
 POS="n adj v vaux cop adv cm cnjcoo det guio ij np num post prn cnjsub"
 
 ECHOE="echo -e"
