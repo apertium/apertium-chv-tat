@@ -82,7 +82,7 @@
     <e><p><l>тата<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
     <e><p><l>анчах<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>ҫапах<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
-    <e><p><l>та<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>те<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>ҫавӑнпа<s n="adv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
     <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
 
@@ -6527,7 +6527,7 @@
 <e><p><l>Анкара<s n="np"/><s n="top"/></l><r>Анкара<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Антарктида<s n="np"/><s n="top"/></l><r>Антарктида<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Апас<s n="np"/><s n="top"/></l><r>Апас<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çурҫӗр<b/>Пӑрлӑ<b/>океанӗ<s n="np"/><s n="top"/></l><r>Арктика<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫурҫӗр<b/>Пӑрлӑ<b/>океанӗ<s n="np"/><s n="top"/><s n="px3sp"/></l><r>Арктика<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Урпа<s n="np"/><s n="top"/></l><r>Арпа<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ыраш<s n="np"/><s n="top"/></l><r>Арыш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Еврази<s n="np"/><s n="top"/></l><r>Ауразия<s n="np"/><s n="top"/></r></p></e>
@@ -6544,7 +6544,7 @@
 <e><p><l>Белград<s n="np"/><s n="top"/></l><r>Белград<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Пелепей<s n="np"/><s n="top"/></l><r>Бәләбәй<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Бельги<s n="np"/><s n="top"/></l><r>Бельгия<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çӗрулми<s n="np"/><s n="top"/></l><r>Бәрәңге<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫӗрулми<s n="np"/><s n="top"/></l><r>Бәрәңге<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Берлин<s n="np"/><s n="top"/></l><r>Берлин<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Берн<s n="np"/><s n="top"/></l><r>Берн<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Бахрейн<s n="np"/><s n="top"/></l><r>Бәхрәйн<s n="np"/><s n="top"/></r></p></e>
@@ -6721,7 +6721,7 @@
 <e><p><l>Саврӑш<s n="np"/><s n="top"/></l><r>Саурыш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Екатеринбург<s n="np"/><s n="top"/></l><r>Свердлау<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Екатеринбург<s n="np"/><s n="top"/></l><r>Свердловски<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çӗпӗр<s n="np"/><s n="top"/></l><r>Себер<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫӗпӗр<s n="np"/><s n="top"/></l><r>Себер<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чӗмпӗр<s n="np"/><s n="top"/></l><r>Сембер<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сена<s n="np"/><s n="top"/></l><r>Сена<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сеул<s n="np"/><s n="top"/></l><r>Сеул<s n="np"/><s n="top"/></r></p></e>
@@ -6731,7 +6731,7 @@
 <e><p><l>Словени<s n="np"/><s n="top"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Софи<s n="np"/><s n="top"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Волгоград<s n="np"/><s n="top"/></l><r>Сталинград<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çтерлӗ<s n="np"/><s n="top"/></l><r>Стәрлетамак<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫтерлӗ<s n="np"/><s n="top"/></l><r>Стәрлетамак<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Стокгольм<s n="np"/><s n="top"/></l><r>Стокгольм<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сири<s n="np"/><s n="top"/></l><r>Сүрия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сырдарья<s n="np"/><s n="top"/></l><r>Сырдәрья<s n="np"/><s n="top"/></r></p></e>
@@ -6765,7 +6765,7 @@
 <e><p><l>Иордани<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Вӑтаҫӗр<b/>тинӗсӗ<s n="np"/><s n="top"/></l><r>Урта<b/>диңгез<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Малти<b/>Хӗвелтухӑҫ<s n="np"/><s n="top"/></l><r>Урта<b/>Көнчыгыш<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Ĕпхӳ<b/>кӗперни<s n="np"/><s n="top"/></l><r>Уфа<b/>губернасы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ӗпхӳ<b/>кӗперни<s n="np"/><s n="top"/></l><r>Уфа<b/>губернасы<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Филиппинсем<s n="np"/><s n="top"/></l><r>Филиппиннар<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Финлянди<s n="np"/><s n="top"/></l><r>Финляндия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Финлянди<s n="np"/><s n="top"/></l><r>Финләндия<s n="np"/><s n="top"/></r></p></e>
@@ -6776,29 +6776,29 @@
 <e><p><l>Инди<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Хорвати<s n="np"/><s n="top"/></l><r>Хорватия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шупашкар<s n="np"/><s n="top"/></l><r>Чабаксар<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çыранҫи<b/>Чаллӑ<s n="np"/><s n="top"/></l><r>Чаллы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫыранҫи<b/>Чаллӑ<s n="np"/><s n="top"/></l><r>Чаллы<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чех<b/>Республики<s n="np"/><s n="top"/></l><r>Чехия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чехословаки<s n="np"/><s n="top"/></l><r>Чехословакия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чечен<b/>Республики<s n="np"/><s n="top"/></l><r>Чечня<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Челепи<s n="np"/><s n="top"/></l><r>Чиләбе<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çармӑссем<s n="np"/><s n="top"/></l><r>Чирмеш<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çарӑмсан<s n="np"/><s n="top"/></l><r>Чирмешән<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫармӑссем<s n="np"/><s n="top"/></l><r>Чирмеш<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫарӑмсан<s n="np"/><s n="top"/></l><r>Чирмешән<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чистай<s n="np"/><s n="top"/></l><r>Чистай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чукадыбаш<s n="np"/><s n="top"/></l><r>Чокадыбаш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чувалкипово<s n="np"/><s n="top"/></l><r>Чуалкип<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чӑваш<b/>Республики<s n="np"/><s n="top"/></l><r>Чувашия<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çӗрпӳ<s n="np"/><s n="top"/></l><r>Чуел<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫӗрпӳ<s n="np"/><s n="top"/></l><r>Чуел<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шанхай<s n="np"/><s n="top"/></l><r>Шанхай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Швейцари<s n="np"/><s n="top"/></l><r>Швейцария<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Швеци<s n="np"/><s n="top"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шотланди<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шӑнкӑртам<s n="np"/><s n="top"/></l><r>Шыгырдан<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Ăренпур<s n="np"/><s n="top"/></l><r>Ырынбур<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ӑренпур<s n="np"/><s n="top"/></l><r>Ырынбур<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Эдинбург<s n="np"/><s n="top"/></l><r>Эдинбург<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Экваториаллӑ<b/>Гвиней<s n="np"/><s n="top"/></l><r>Экваториаль<b/>Гвинея<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Эльба<s n="np"/><s n="top"/></l><r>Эльба<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Тутар<b/>Чӗрккӗн<s n="np"/><s n="top"/></l><r>Энәле<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çтерлӗ<s n="np"/><s n="top"/></l><r>Эстәрлетамак<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫтерлӗ<s n="np"/><s n="top"/></l><r>Эстәрлетамак<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Эстони<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Литва<s n="np"/><s n="top"/></l><r>Литва<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Латви<s n="np"/><s n="top"/></l><r>Латвия<s n="np"/><s n="top"/></r></p></e>
@@ -6806,7 +6806,7 @@
 <e><p><l>Юта<s n="np"/><s n="top"/></l><r>Юта<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Тӑмана<b/>евӗррисем<s n="np"/><s n="top"/></l><r>Ябалак<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Хыркасси<s n="np"/><s n="top"/></l><r>Ямбулат<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çумӑр<s n="np"/><s n="top"/></l><r>Яңгыр<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫумӑр<s n="np"/><s n="top"/></l><r>Яңгыр<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Тӑвай<s n="np"/><s n="top"/></l><r>Янтык<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ешӗл<b/>Васан<s n="np"/><s n="top"/></l><r>Яшел<b/>Үзән<s n="np"/><s n="top"/></r></p></e>
 
@@ -9163,7 +9163,6 @@
 <e><p><l>Анкара<s n="np"/><s n="top"/></l><r>Анкара<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Антарктида<s n="np"/><s n="top"/></l><r>Антарктида<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Апас<s n="np"/><s n="top"/></l><r>Апас<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çурҫӗр<b/>Пӑрлӑ<b/>океанӗ<s n="np"/><s n="top"/></l><r>Арктика<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Урпа<s n="np"/><s n="top"/></l><r>Арпа<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ыраш<s n="np"/><s n="top"/></l><r>Арыш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Еврази<s n="np"/><s n="top"/></l><r>Ауразия<s n="np"/><s n="top"/></r></p></e>
@@ -9179,7 +9178,7 @@
 <e><p><l>Белград<s n="np"/><s n="top"/></l><r>Белград<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Пелепей<s n="np"/><s n="top"/></l><r>Бәләбәй<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Бельги<s n="np"/><s n="top"/></l><r>Бельгия<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çӗрулми<s n="np"/><s n="top"/></l><r>Бәрәңге<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫӗрулми<s n="np"/><s n="top"/></l><r>Бәрәңге<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Берлин<s n="np"/><s n="top"/></l><r>Берлин<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Берн<s n="np"/><s n="top"/></l><r>Берн<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Бахрейн<s n="np"/><s n="top"/></l><r>Бәхрәйн<s n="np"/><s n="top"/></r></p></e>
@@ -9355,7 +9354,7 @@
 <e><p><l>Саврӑш<s n="np"/><s n="top"/></l><r>Саурыш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Екатеринбург<s n="np"/><s n="top"/></l><r>Свердлау<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Екатеринбург<s n="np"/><s n="top"/></l><r>Свердловски<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çӗпӗр<s n="np"/><s n="top"/></l><r>Себер<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫӗпӗр<s n="np"/><s n="top"/></l><r>Себер<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чӗмпӗр<s n="np"/><s n="top"/></l><r>Сембер<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сена<s n="np"/><s n="top"/></l><r>Сена<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сеул<s n="np"/><s n="top"/></l><r>Сеул<s n="np"/><s n="top"/></r></p></e>
@@ -9365,7 +9364,7 @@
 <e><p><l>Словени<s n="np"/><s n="top"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Софи<s n="np"/><s n="top"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Волгоград<s n="np"/><s n="top"/></l><r>Сталинград<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çтерлӗ<s n="np"/><s n="top"/></l><r>Стәрлетамак<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫтерлӗ<s n="np"/><s n="top"/></l><r>Стәрлетамак<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Стокгольм<s n="np"/><s n="top"/></l><r>Стокгольм<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сири<s n="np"/><s n="top"/></l><r>Сүрия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Сырдарья<s n="np"/><s n="top"/></l><r>Сырдәрья<s n="np"/><s n="top"/></r></p></e>
@@ -9399,7 +9398,7 @@
 <e><p><l>Иордани<s n="np"/><s n="top"/></l><r>Үрдүн<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Вӑтаҫӗр<b/>тинӗсӗ<s n="np"/><s n="top"/></l><r>Урта<b/>диңгез<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Малти<b/>Хӗвелтухӑҫ<s n="np"/><s n="top"/></l><r>Урта<b/>Көнчыгыш<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Ĕпхӳ<b/>кӗперни<s n="np"/><s n="top"/></l><r>Уфа<b/>губернасы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ӗпхӳ<b/>кӗперни<s n="np"/><s n="top"/></l><r>Уфа<b/>губернасы<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Филиппинсем<s n="np"/><s n="top"/></l><r>Филиппиннар<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Финлянди<s n="np"/><s n="top"/></l><r>Финляндия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Майнри<b/>Франкфурт<s n="np"/><s n="top"/></l><r>Франкфурт<s n="np"/><s n="top"/></r></p></e>
@@ -9409,35 +9408,35 @@
 <e><p><l>Инди<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Хорвати<s n="np"/><s n="top"/></l><r>Хорватия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шупашкар<s n="np"/><s n="top"/></l><r>Чабаксар<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çыранҫи<b/>Чаллӑ<s n="np"/><s n="top"/></l><r>Чаллы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫыранҫи<b/>Чаллӑ<s n="np"/><s n="top"/></l><r>Чаллы<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чехи<s n="np"/><s n="top"/></l><r>Чехия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чехословаки<s n="np"/><s n="top"/></l><r>Чехословакия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чечени<s n="np"/><s n="top"/></l><r>Чечня<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Челепи<s n="np"/><s n="top"/></l><r>Чиләбе<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çармӑссем<s n="np"/><s n="top"/></l><r>Чирмеш<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çарӑмсан<s n="np"/><s n="top"/></l><r>Чирмешән<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫармӑссем<s n="np"/><s n="top"/></l><r>Чирмеш<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫарӑмсан<s n="np"/><s n="top"/></l><r>Чирмешән<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чистай<s n="np"/><s n="top"/></l><r>Чистай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чукадыбаш<s n="np"/><s n="top"/></l><r>Чокадыбаш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чувалкипово<s n="np"/><s n="top"/></l><r>Чуалкип<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Чӑваш<b/>Ен<s n="np"/><s n="top"/></l><r>Чувашия<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çӗрпӳ<s n="np"/><s n="top"/></l><r>Чуел<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫӗрпӳ<s n="np"/><s n="top"/></l><r>Чуел<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шанхай<s n="np"/><s n="top"/></l><r>Шанхай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Швейцари<s n="np"/><s n="top"/></l><r>Швейцария<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Швеци<s n="np"/><s n="top"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шотланди<s n="np"/><s n="top"/></l><r>Шотландия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Шӑнкӑртам<s n="np"/><s n="top"/></l><r>Шыгырдан<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Ăренпур<s n="np"/><s n="top"/></l><r>Ырынбур<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ӑренпур<s n="np"/><s n="top"/></l><r>Ырынбур<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Эдинбург<s n="np"/><s n="top"/></l><r>Эдинбург<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Экваториаллӑ<b/>Гвиней<s n="np"/><s n="top"/></l><r>Экваториаль<b/>Гвинея<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Эльба<s n="np"/><s n="top"/></l><r>Эльба<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Тутар<b/>Чӗрккӗн<s n="np"/><s n="top"/></l><r>Энәле<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çтерлӗ<s n="np"/><s n="top"/></l><r>Эстәрлетамак<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫтерлӗ<s n="np"/><s n="top"/></l><r>Эстәрлетамак<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Эстони<s n="np"/><s n="top"/></l><r>Эстония<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Эфиопи<s n="np"/><s n="top"/></l><r>Эфиопия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Юта<s n="np"/><s n="top"/></l><r>Юта<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Тӑмана<b/>евӗррисем<s n="np"/><s n="top"/></l><r>Ябалак<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Хыркасси<s n="np"/><s n="top"/></l><r>Ямбулат<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Çумӑр<s n="np"/><s n="top"/></l><r>Яңгыр<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ҫумӑр<s n="np"/><s n="top"/></l><r>Яңгыр<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Тӑвай<s n="np"/><s n="top"/></l><r>Янтык<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Япони<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Япон<s n="np"/><s n="top"/></l><r>Япон<s n="np"/><s n="top"/></r></p></e>
@@ -12930,9 +12929,10 @@
     <e><p><l>кай<s n="v"/><s n="iv"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>кас<s n="v"/><s n="tv"/></l><r>кис<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>катерт<s n="v"/><s n="tv"/></l><r>читләт<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>пăр<s n="v"/><s n="tv"/></l><r>читләт<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>пӑр<s n="v"/><s n="tv"/></l><r>читләт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>уйӑр<s n="v"/><s n="tv"/></l><r>аер<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>пуҫла<s n="v"/><s n="tv"/></l><r>башла<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>пуҫлан<s n="v"/><s n="iv"/></l><r>башлан<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>ирт<s n="v"/><s n="tv"/></l><r>уз<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ирт<s n="v"/><s n="tv"/></l><r>үт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>тух<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
