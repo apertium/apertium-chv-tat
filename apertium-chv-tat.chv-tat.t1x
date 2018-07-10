@@ -117,13 +117,18 @@
         </choose>
     </def-macro>
 
-
     <def-macro n="convert-nbr-poss1" npar="1">
         <choose>
-          <when>
-            <test><equal><clip pos="1" side="sl" part="nbr-poss"/><lit-tag v="px3sp.pl"/></equal></test>
-            <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px3sp"/></let>
-          </when>
+          <when><test><equal><clip pos="1" side="sl" part="nbr-poss"/><lit-tag v="px1sg.pl"/></equal></test>
+                <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px1sg"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="nbr-poss"/><lit-tag v="px2sg.pl"/></equal></test>
+                <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px2sg"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="nbr-poss"/><lit-tag v="px3sp.pl"/></equal></test>
+                <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px3sp"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="nbr-poss"/><lit-tag v="px1pl.pl"/></equal></test>
+                <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px1pl"/></let></when>
+          <when><test><equal><clip pos="1" side="sl" part="nbr-poss"/><lit-tag v="px2pl.pl"/></equal></test>
+                <let><clip pos="1" side="tl" part="nbr-poss"/><lit-tag v="pl.px2pl"/></let></when>
         </choose>
     </def-macro>
 

@@ -87,8 +87,16 @@
   <section-def-macros>
     <def-macro n="f_poss_plur1" npar="1">
       <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="pl.px1sg"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="px1sg.pl"/></let></when>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="pl.px2sg"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="px2sg.pl"/></let></when>
         <when><test><equal><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="pl.px3sp"/></equal></test>
               <let><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="px3sp.pl"/></let></when>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="pl.px1pl"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="px1pl.pl"/></let></when>
+        <when><test><equal><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="pl.px2pl"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="px2pl.pl"/></let></when>
       </choose>
     </def-macro>
 
