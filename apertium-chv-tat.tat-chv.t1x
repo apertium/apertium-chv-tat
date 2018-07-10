@@ -7,7 +7,13 @@
       <cat-item tags="np.top.*"/>
     </def-cat>
     
-    <def-cat n="nom">
+    <def-cat n="gna">
+      <cat-item tags="v.*.gna_perf"/>
+      <cat-item tags="v.*.gna_cond.*"/>
+      <cat-item tags="v.*.gna_impf"/>
+    </def-cat>
+
+     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
     </def-cat>
@@ -48,7 +54,12 @@
       <attr-item tags="px2pl.pl"/>
     </def-attr>
 
-
+    <def-attr n="a_gna">
+      <attr-item tags="gna_perf"/>
+      <attr-item tags="gna_cond"/>
+      <attr-item tags="gna_impf"/>
+    </def-attr>
+ 
     <def-attr n="poss">
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
@@ -78,6 +89,13 @@
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="pl.px3sp"/></equal></test>
               <let><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="px3sp.pl"/></let></when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_nonfin1" npar="1">
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_perf"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_impf"/></let></when>
       </choose>
     </def-macro>
 
@@ -144,6 +162,21 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: gna">
+      <pattern>
+        <pattern-item n="gna"/>
+      </pattern>
+      <action>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
 
     
   </section-rules>
