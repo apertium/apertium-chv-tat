@@ -7,6 +7,13 @@
       <cat-item tags="np.top.*"/>
     </def-cat>
     
+    <def-cat n="gpr">
+      <cat-item tags="v.*.gpr_pres"/>
+      <cat-item tags="v.*.gna_fut"/>
+      <cat-item tags="v.*.gna_past"/>
+      <cat-item tags="v.*.gna_pot"/>
+    </def-cat>
+
     <def-cat n="gna">
       <cat-item tags="v.*.gna_perf"/>
       <cat-item tags="v.*.gna_cond.*"/>
@@ -61,6 +68,14 @@
       <attr-item tags="px2pl.pl"/>
     </def-attr>
 
+    <def-attr n="a_gpr">
+      <attr-item tags="gpr_pot"/>
+      <attr-item tags="gpr_pres"/>
+      <attr-item tags="gpr_aor"/>
+      <attr-item tags="gpr_impf"/>
+      <attr-item tags="gpr_perf"/>
+    </def-attr>
+ 
     <def-attr n="a_gna">
       <attr-item tags="gna_perf"/>
       <attr-item tags="gna_cond"/>
@@ -111,6 +126,11 @@
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_perf"/></equal></test>
               <let><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_impf"/></let></when>
+      </choose>
+
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_pot"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_pres"/></let></when>
       </choose>
     </def-macro>
 
@@ -193,6 +213,20 @@
       </action>
     </rule>
 
+    <rule comment="regla: gpr">
+      <pattern>
+        <pattern-item n="gpr"/>
+      </pattern>
+      <action>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
     <rule comment="regla: gna">
       <pattern>
         <pattern-item n="gna"/>
@@ -206,6 +240,7 @@
         </out>
       </action>
     </rule>
+
 
 
     
