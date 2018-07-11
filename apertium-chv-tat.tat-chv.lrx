@@ -11,4 +11,7 @@
   <rule>
     <match lemma="ераклык" tags="n.*"><select lemma="аяк" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match lemma="ачык" tags="adj"><select lemma="уҫӑ" tags="adj"/></match>
+  </rule>
 </rules>
