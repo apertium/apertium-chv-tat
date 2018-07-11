@@ -6,6 +6,10 @@
     <def-cat n="top">
       <cat-item tags="np.top.*"/>
     </def-cat>
+
+    <def-cat n="ant">
+      <cat-item tags="np.ant.*"/>
+    </def-cat>
     
     <def-cat n="gpr">
       <cat-item tags="v.*.gpr_pres"/>
@@ -117,7 +121,12 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
-    
+
+    <def-attr n="a_syn">
+      <attr-item tags="@ADVL→"/>
+      <attr-item tags="@→N"/>
+    </def-attr>
+     
   </section-def-attrs>
  
   <section-def-vars>
@@ -125,6 +134,10 @@
   </section-def-vars>  
 
   <section-def-macros>
+    <def-macro n="f_default1" npar="1">
+              <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
+    
+    </def-macro>
     <def-macro n="f_poss_plur1" npar="1">
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_poss_plur"/><lit-tag v="pl.px1sg"/></equal></test>
@@ -183,12 +196,28 @@
   </section-def-macros> 
 
   <section-rules>
-    
+     
+    <rule comment="regla: ant">
+      <pattern>
+        <pattern-item n="ant"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_case1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
     <rule comment="regla: top">
       <pattern>
         <pattern-item n="top"/>
       </pattern>
       <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_case1"><with-param pos="1"/></call-macro>
         <out>
           <lu>
@@ -203,6 +232,7 @@
         <pattern-item n="prn-pers"/>
       </pattern>
       <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_case1"><with-param pos="1"/></call-macro>
         <out>
           <lu>
@@ -218,6 +248,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_poss_plur1"><with-param pos="1"/></call-macro>
         <call-macro n="f_case1"><with-param pos="1"/></call-macro>
         <out>
@@ -257,6 +288,7 @@
         <pattern-item n="gpr"/>
       </pattern>
       <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
         <out>
           <lu>
@@ -271,6 +303,7 @@
         <pattern-item n="inf"/>
       </pattern>
       <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
         <out>
           <lu>
@@ -285,6 +318,7 @@
         <pattern-item n="gna"/>
       </pattern>
       <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
         <out>
           <lu>
@@ -299,6 +333,7 @@
         <pattern-item n="ger-nom"/>
       </pattern>
       <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
         <out>
           <lu>
