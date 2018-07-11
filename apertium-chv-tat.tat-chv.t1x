@@ -15,6 +15,10 @@
       <cat-item tags="v.*.gpr_ppot"/>
     </def-cat>
 
+    <def-cat n="inf">
+      <cat-item tags="v.*.inf"/>
+    </def-cat>
+
     <def-cat n="ger-nom">
       <cat-item tags="v.*.ger.nom"/>
     </def-cat>
@@ -89,6 +93,8 @@
     </def-attr>
 
     <def-attr n="a_ger">
+      <attr-item tags="ger"/>
+      <attr-item tags="inf"/>
       <attr-item tags="ger.nom"/>
       <attr-item tags="ger.px3sp.nom"/>
     </def-attr>
@@ -149,9 +155,15 @@
       </choose>
 
       <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="inf"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger"/></let></when>
+      </choose>
+
+      <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.nom"/></equal></test>
               <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.px3sp.nom"/></let></when>
       </choose>
+
     </def-macro>
 
     <def-macro n="f_case1" npar="1">
@@ -236,6 +248,20 @@
     <rule comment="regla: gpr">
       <pattern>
         <pattern-item n="gpr"/>
+      </pattern>
+      <action>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: inf">
+      <pattern>
+        <pattern-item n="inf"/>
       </pattern>
       <action>
         <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
