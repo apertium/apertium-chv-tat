@@ -21,6 +21,7 @@
 
     <def-cat n="ger-nom">
       <cat-item tags="v.*.ger.nom"/>
+      <cat-item tags="v.*.ger.*.nom"/>
     </def-cat>
 
     <def-cat n="gna">
@@ -163,6 +164,12 @@
         <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.nom"/></equal></test>
               <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.px3sp.nom"/></let></when>
       </choose>
+
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.px3sp.nom"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger"/></let></when>
+      </choose>
+
 
     </def-macro>
 

@@ -8,4 +8,7 @@
   <rule>
     <match lemma="көнчыгыш" tags="n.*"><select lemma="тухӑҫ" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match lemma="ераклык" tags="n.*"><select lemma="аяк" tags="n.*"/></match>
+  </rule>
 </rules>
