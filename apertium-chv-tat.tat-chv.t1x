@@ -23,6 +23,11 @@
       <cat-item tags="v.*.inf"/>
     </def-cat>
 
+    <def-cat n="ger-dat">
+      <cat-item tags="v.*.ger.dat"/>
+      <cat-item tags="v.*.ger.*.dat"/>
+    </def-cat>
+
     <def-cat n="ger-nom">
       <cat-item tags="v.*.ger.nom"/>
       <cat-item tags="v.*.ger.*.nom"/>
@@ -101,6 +106,8 @@
       <attr-item tags="ger"/>
       <attr-item tags="inf"/>
       <attr-item tags="ger.nom"/>
+      <attr-item tags="ger.dat"/>
+      <attr-item tags="ger.px3sp.dat"/>
       <attr-item tags="ger.px3sp.nom"/>
     </def-attr>
  
@@ -177,6 +184,11 @@
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="inf"/></equal></test>
               <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger"/></let></when>
+      </choose>
+
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.dat"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.px3sp.dat"/></let></when>
       </choose>
 
       <choose>
@@ -333,6 +345,22 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: ger-dat">
+      <pattern>
+        <pattern-item n="ger-dat"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="regla: ger-nom">
       <pattern>
