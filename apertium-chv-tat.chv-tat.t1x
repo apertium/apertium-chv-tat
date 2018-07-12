@@ -30,7 +30,12 @@
       <cat-item tags="*.px2sg"/>
       <cat-item tags="*.px3sp"/>
       <cat-item tags="*.px1pl"/>
-      <cat-item tags="*.px2pl"/>      
+      <cat-item tags="*.px2pl"/>
+      <cat-item tags="*.px1sg.pl"/>
+      <cat-item tags="*.px2sg.pl"/>
+      <cat-item tags="*.px3sp.pl"/>
+      <cat-item tags="*.px1pl.pl"/>
+      <cat-item tags="*.px2pl.pl"/>
     </def-cat>
 
     <def-cat n="сӑр">
@@ -233,6 +238,9 @@
 
       INPUT:  ^пахча<n><px3sp>/бакча<n><px3sp>$ ^сӑр<post>/сыз<post>$
       OUTPUT: ^бакча<n><px3sp><abl>$ ^башка<post>$
+
+      INPUT:  ^пахча<n><px2pl><pl>/бакча<n><px2pl><pl>$ ^сӑр<post>/сыз<post>$
+      OUTPUT: ^бакча<n><pl><px2pl><abl>$ ^башка<post>$
       -->    
       <pattern>
         <pattern-item n="poss"/>
