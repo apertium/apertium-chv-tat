@@ -14,4 +14,7 @@
   <rule>
     <match lemma="ачык" tags="adj"><select lemma="уҫӑ" tags="adj"/></match>
   </rule>
+  <rule>
+    <match lemma="кара" tags="v.*.gna_neg"><select lemma="пӑх" tags="v.*.gna_neg"/></match>
+  </rule>
 </rules>

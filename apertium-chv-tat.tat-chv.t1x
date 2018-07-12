@@ -188,7 +188,7 @@
 
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.dat"/></equal></test>
-              <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.px3sp.dat"/></let></when>
+              <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger_past.px3sp.dat"/></let></when>
       </choose>
 
       <choose>
