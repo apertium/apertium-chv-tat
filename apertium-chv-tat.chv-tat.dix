@@ -7,6 +7,8 @@
     <sdef n="tv"  />
     <sdef n="iv"  />
     <sdef n="top"  />
+    <sdef n="postadv"  />
+    <sdef n="mod"  />
     <sdef n="np"  />
     <sdef n="ant"  />
     <sdef n="f"  />
@@ -80,9 +82,10 @@
         <e><p><l>км<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
  
     <e><p><l>и<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
+    <e><p><l>анчах<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
     <e><p><l>ӗ<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
-    <e r="LR"><p><l>ах<s n="emph"/></l><r></r></p></e>
-    <e><p><l>ха<s n="emph"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
+    <e><p><l>ах<s n="mod"/></l><r></r></p></e>
+    <e><p><l>ха<s n="mod"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
 
     <!-- Раздел: Союзы -->
 
