@@ -242,6 +242,7 @@
     <e r="RL"><p><l></l><r>лы<s n="post"/></r></p></e> <!-- CHECK -->
     <e><p><l>таран<s n="post"/></l><r>әле<s n="post"/></r></p></e>
     <e><p><l>ччен<s n="post"/></l><r>чаклы<s n="post"/></r></p></e> <!-- CHECK -->
+    <e><p><l>вырӑнне<s n="post"/></l><r>буларак<s n="post"/></r></p></e>
     
     <!-- Раздел: Местоимения -->
 
@@ -297,13 +298,19 @@
 <!-- <e><p><l>темӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
 <!-- <e><p><l>тахӑшӗ<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
 
-<e><p><l>хбашкаӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? -->
+<!-- <e><p><l>хбашкаӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? --> -->
 
 <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e><!--  что -->
 <e><p><l>мӗн<s n="prn"/><s n="itg"/><s n="ben"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e><!--  что -->
 <e><p><l>ним<s n="prn"/><s n="neg"/></l><r>бер<b/>нәрсә<s n="prn"/><s n="ind"/></r></p></e><!--  ? -->
 
 <e><p><l>унта<s n="adv"/></l><r>ул<s n="prn"/><s n="dem"/><s n="loc"/></r></p></e>
+
+<e><p><l>хам<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
+<e><p><l>ху<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
+<e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
+<e><p><l>хамӑр<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
+<e><p><l>хӑвӑр<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
 
 
 
@@ -6476,6 +6483,8 @@
     <e><p><l>ҫар<s n="n"/></l><r>яу<s n="n"/></r></p></e> 
     <e><p><l>ҫырма<s n="n"/></l><r>инеш<s n="n"/></r></p></e> 
     <e><p><l>член<s n="n"/></l><r>әгъза<s n="n"/></r></p></e> 
+    <e><p><l>мари<s n="n"/></l><r>чирмешләр<s n="n"/></r></p></e> 
+    <e><p><l>мари<s n="n"/></l><r>марилар<s n="n"/></r></p></e> 
 <!-- QAVANTOFIXEND 17-190518-2  -->
 
 
@@ -9512,6 +9521,7 @@
     <e><p><l>Югра<s n="np"/><s n="top"/></l><r>Югра<s n="np"/><s n="top"/></r></p></e> 
     <e><p><l>Ненец<s n="np"/><s n="top"/></l><r>Ненец<s n="np"/><s n="top"/></r></p></e> 
     <e><p><l>Ямал-Ненец<s n="np"/><s n="top"/></l><r>Ямал-Ненец<s n="np"/><s n="top"/></r></p></e> 
+    <e><p><l>Яха<s n="np"/><s n="top"/></l><r>Яха<s n="np"/><s n="top"/></r></p></e> 
 
 
 
@@ -9544,6 +9554,8 @@
     
     <e><p><l>пур<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>ҫук<s n="adj"/></l><r>юк<s n="adj"/></r></p></e>
+
+    <e><p><l>ылмашуллӑ<s n="adj"/></l><r>үзгәрүчән<s n="adj"/></r></p></e>
 
     <e><p><l>лайӑх<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>наци<s n="n"/><s n="attr"/></l><r>милли<s n="adj"/></r></p></e>  <!-- paradigm needed -->
