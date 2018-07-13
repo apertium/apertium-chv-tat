@@ -290,15 +290,15 @@
 <!-- <e><p><l>пӗр-пӗри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
 <e><p><l>тепри<s n="prn"/><s n="pers"/></l><r>башка<s n="prn"/><s n="pers"/></r></p></e>
 <e><p><l>тепри<s n="prn"/><s n="pers"/></l><r>бүтән<s n="prn"/><s n="pers"/></r></p></e>
-
+<!-- 
 <e><p><l>никам<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e>
-<e><p><l>нимӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e>
+<e><p><l>нимӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
 
 <e><p><l>такам<s n="prn"/><s n="ind"/></l><r>берсе<s n="prn"/><s n="ind"/></r></p></e>
 <!-- <e><p><l>темӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
 <!-- <e><p><l>тахӑшӗ<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
 
-<!-- <e><p><l>хбашкаӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e><!--  PRN??? --> -->
+<!-- <e><p><l>хбашкаӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e> PRN??? --> 
 
 <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e><!--  что -->
 <e><p><l>мӗн<s n="prn"/><s n="itg"/><s n="ben"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e><!--  что -->
@@ -306,9 +306,11 @@
 
 <e><p><l>унта<s n="adv"/></l><r>ул<s n="prn"/><s n="dem"/><s n="loc"/></r></p></e>
 
-<e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
-<e><p><l>хамӑр<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
-<e><p><l>хӑвӑр<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e><!-- FIXME -->
+<e><p><l>ху<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>  <!-- FIXME -->
+<e><p><l>хам<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>  <!-- FIXME -->
+<e><p><l>хӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>  <!-- FIXME -->
+<e><p><l>хамӑр<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e> <!-- FIXME -->
+<e><p><l>хӑвӑр<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e> <!-- FIXME -->
 
 
 
@@ -10275,9 +10277,8 @@
     <e><p><l>ӗҫлӗ<s n="adj"/></l><r>эшлекле<s n="adj"/></r></p></e> <!-- деловой -->
     <e><p><l>административлӑ<s n="adj"/></l><r>административ<s n="adj"/></r></p></e> <!-- администартивный -->
     <e><p><l>тивӗҫлӗ<s n="adj"/></l><r>атказанган<s n="adj"/></r></p></e> <!-- заслуженный -->
-    <e r="RL"><p><l>хӑмӑр<s n="adj"/></l><r>көрән<s n="adj"/></r></p></e> <!-- коричневый -->
+    <e><p><l>хӑмӑр<s n="adj"/></l><r>көрән<s n="adj"/></r></p></e> <!-- коричневый -->
     <e><p><l>кӗске<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- короткий -->
-    <e><p><l>кӗске<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- коротко -->
     <e r="LR"><p><l>шакла<s n="adj"/></l><r>кыска<s n="adj"/></r></p></e> <!-- коротко -->
     <e><p><l>ӗлккен<s n="adj"/></l><r>күркәм<s n="adj"/></r></p></e> <!-- красиво -->
     <e r="LR"><p><l>илемлӗ<s n="adj"/></l><r>күркәм<s n="adj"/></r></p></e> <!-- красиво -->
