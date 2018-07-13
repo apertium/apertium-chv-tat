@@ -16,6 +16,7 @@
     <sdef n="m"  />
     <sdef n="cog"  />
     <sdef n="advl"  />
+    <sdef n="ord"  />
     <sdef n="ij"  />
     <sdef n="adv" />
     <sdef n="abbr"  c=""/>
@@ -76,6 +77,11 @@
   <pardefs>
     <pardef n="n_px-n">
       <e><p><l><s n="px3sp"/><s n="nom"/></l><r><s n="attr"/></r></p></e>
+    </pardef>
+    <pardef n="num-num">
+      <e><p><l><s n="attr"/></l><r></r></p></e>
+      <e><p><l><s n="ord"/></l><r><s n="ord"/></r></p></e>
+      <e><p><l></l><r><s n="subst"/></r></p></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -332,32 +338,16 @@
     <!-- <e><p><l>-мӗш<s n="guio"/><s n="num"/></l><r>енче<s n="num"/></r></p></e> --><!-- АЛЕРТ -->
     <e><p><l>мӗш<s n="num"/></l><r>енче<s n="num"/></r></p></e>
 
-    <e><p><l>пӗрре<s n="num"/></l><r>бер<s n="num"/></r></p></e>
-    <e r="LR"><p><l>пӗр<s n="num"/></l><r>бер<s n="num"/></r></p></e>
-    <e><p><l>иккӗ<s n="num"/></l><r>ике<s n="num"/></r></p></e>
-    <e r="LR"><p><l>икӗ<s n="num"/></l><r>ике<s n="num"/></r></p></e>
-    <e r="LR"><p><l>ик<s n="num"/></l><r>ике<s n="num"/></r></p></e>
-    <e><p><l>виҫҫӗ<s n="num"/></l><r>өч<s n="num"/></r></p></e>
-    <e r="LR"><p><l>виҫӗ<s n="num"/></l><r>өч<s n="num"/></r></p></e>
-    <e r="LR"><p><l>виҫ<s n="num"/></l><r>өч<s n="num"/></r></p></e>
-    <e><p><l>тӑваттӑ<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
-    <e r="LR"><p><l>тӑватӑ<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
-    <e r="LR"><p><l>тӑват<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
-    <e><p><l>пиллӗк<s n="num"/></l><r>биш<s n="num"/></r></p></e>
-    <e r="LR"><p><l>пилӗк<s n="num"/></l><r>биш<s n="num"/></r></p></e>
-    <e><p><l>улттӑ<s n="num"/></l><r>алты<s n="num"/></r></p></e>
-    <e r="LR"><p><l>ултӑ<s n="num"/></l><r>алты<s n="num"/></r></p></e>
-    <e r="LR"><p><l>улт<s n="num"/></l><r>алты<s n="num"/></r></p></e>
-    <e><p><l>ҫиччӗ<s n="num"/></l><r>җиде<s n="num"/></r></p></e>
-    <e r="LR"><p><l>ҫичӗ<s n="num"/></l><r>җиде<s n="num"/></r></p></e>
-    <e r="LR"><p><l>ҫич<s n="num"/></l><r>җиде<s n="num"/></r></p></e>
-    <e><p><l>саккӑр<s n="num"/></l><r>сигез<s n="num"/></r></p></e>
-    <e r="LR"><p><l>сакӑр<s n="num"/></l><r>сигез<s n="num"/></r></p></e>
-    <e><p><l>тӑххӑр<s n="num"/></l><r>тугыз<s n="num"/></r></p></e>
-    <e r="LR"><p><l>тӑхӑр<s n="num"/></l><r>тугыз<s n="num"/></r></p></e>
-    <e><p><l>вуннӑ<s n="num"/></l><r>ун<s n="num"/></r></p></e>
-    <e r="LR"><p><l>вунӑ<s n="num"/></l><r>ун<s n="num"/></r></p></e>
-    <e r="LR"><p><l>вун<s n="num"/></l><r>ун<s n="num"/></r></p></e>
+    <e><p><l>пӗрре<s n="num"/></l><r>бер<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>иккӗ<s n="num"/></l><r>ике<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>виҫҫӗ<s n="num"/></l><r>өч<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>тӑваттӑ<s n="num"/></l><r>дүрт<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>пиллӗк<s n="num"/></l><r>биш<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>улттӑ<s n="num"/></l><r>алты<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>ҫиччӗ<s n="num"/></l><r>җиде<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>саккӑр<s n="num"/></l><r>сигез<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>тӑххӑр<s n="num"/></l><r>тугыз<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>вуннӑ<s n="num"/></l><r>ун<s n="num"/></r></p><par n="num-num"/></e>
 
     
 
@@ -416,6 +406,7 @@
     <e><p><l>пурлӑх<s n="n"/></l><r>барлык<s n="n"/></r></p></e>
     <e><p><l>анне<s n="n"/></l><r>әни<s n="n"/></r></p></e>
     <e><p><l>ача<s n="n"/></l><r>бала<s n="n"/></r></p></e>
+    <e><p><l>дьяк<s n="n"/></l><r>дьяк<s n="n"/></r></p></e>
     <e><p><l>латин<s n="n"/></l><r>латин<s n="n"/></r></p></e>
     <e><p><l>шыв<b/>чикки<s n="n"/></l><r>субүләр<s n="n"/></r></p><par n="n_px-n"/></e>
     <e><p><l>вӑйӑ<s n="n"/></l><r>уен<s n="n"/></r></p></e>
@@ -17472,6 +17463,7 @@
 
 
 <e><p><l>Аба<s n="np"/><s n="ant"/><s n="m"/></l><r>Аба<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Никита<s n="np"/><s n="ant"/><s n="m"/></l><r>Никита<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Абай<s n="np"/><s n="ant"/><s n="m"/></l><r>Абай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Абак<s n="np"/><s n="ant"/><s n="m"/></l><r>Абак<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Абаш<s n="np"/><s n="ant"/><s n="m"/></l><r>Абаш<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

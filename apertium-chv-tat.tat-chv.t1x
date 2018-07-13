@@ -3,6 +3,10 @@
 <transfer>
   <section-def-cats>
      
+    <def-cat n="default">
+      <cat-item tags="*"/>
+    </def-cat>
+
     <def-cat n="top">
       <cat-item tags="np.top.*"/>
     </def-cat>
@@ -377,6 +381,22 @@
       </action>
     </rule>
 
+
+
+
+    <rule comment="regla: default">
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
 
 
 
