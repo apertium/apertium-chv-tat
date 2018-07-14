@@ -76,6 +76,11 @@
       <cat-item tags="v.*.ger.*.nom"/>
     </def-cat>
 
+    <def-cat n="prc">
+      <cat-item tags="v.*.prc_perf"/>
+      <cat-item tags="v.*.prc_impf"/>
+    </def-cat>
+
     <def-cat n="gna">
       <cat-item tags="v.*.gna_perf"/>
       <cat-item tags="v.*.gna_cond.*"/>
@@ -144,7 +149,17 @@
       <attr-item tags="gpr_impf"/>
       <attr-item tags="gpr_perf"/>
     </def-attr>
- 
+
+    <def-attr n="a_pers_fin">
+      <attr-item tags="p1.sg"/>
+      <attr-item tags="p2.sg"/>
+      <attr-item tags="p3.sg"/>
+      <attr-item tags="p3.sp"/>
+      <attr-item tags="p1.pl"/>
+      <attr-item tags="p2.pl"/>
+      <attr-item tags="p3.pl"/>
+    </def-attr>
+  
     <def-attr n="a_fin">
       <attr-item tags="fut"/>
       <attr-item tags="fut2"/>
@@ -158,6 +173,9 @@
       <attr-item tags="gna_perf"/>
       <attr-item tags="gna_cond"/>
       <attr-item tags="gna_impf"/>
+
+      <attr-item tags="prc_perf"/>
+      <attr-item tags="prc_impf"/>
     </def-attr>
 
     <def-attr n="a_ger">
@@ -236,6 +254,21 @@
     </def-macro>
 
     <def-macro n="f_nonfin1" npar="1">
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_cond"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_pers_fin"/><lit v=""/></let></when>
+      </choose>
+
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_gna"/><lit-tag v="prc_impf"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_impf"/></let></when>
+      </choose>
+
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_gna"/><lit-tag v="prc_perf"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_impf"/></let></when>
+      </choose>
+
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_perf"/></equal></test>
               <let><clip pos="1" side="tl" part="a_gna"/><lit-tag v="gna_impf"/></let></when>
@@ -419,6 +452,21 @@
     <rule comment="regla: inf">
       <pattern>
         <pattern-item n="inf"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: prc">
+      <pattern>
+        <pattern-item n="prc"/>
       </pattern>
       <action>
         <call-macro n="f_default1"><with-param pos="1"/></call-macro>
