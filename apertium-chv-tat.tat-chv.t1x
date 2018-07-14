@@ -76,6 +76,14 @@
       <cat-item tags="v.*.ger.*.nom"/>
     </def-cat>
 
+    <def-cat n="ал">
+      <cat-item lemma="ал" tags="vaux.*"/>
+    </def-cat>
+
+    <def-cat n="prc-impf">
+      <cat-item tags="v.*.prc_impf"/>
+    </def-cat>
+
     <def-cat n="prc">
       <cat-item tags="v.*.prc_perf"/>
       <cat-item tags="v.*.prc_impf"/>
@@ -618,6 +626,31 @@
             <b/>
             <lu>
               <lit v="пирки"/><lit-tag v="post"/>
+            </lu>     
+        </out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="regla: prc-impf ал">
+      <pattern>
+        <pattern-item n="prc-impf"/>
+        <pattern-item n="ал"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_neg"/>
+              <lit-tag v="ger"/>
+            </lu>     
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
             </lu>     
         </out>
       </action>

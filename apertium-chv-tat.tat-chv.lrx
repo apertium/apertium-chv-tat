@@ -12,6 +12,12 @@
     <match lemma="ераклык" tags="n.*"><select lemma="аяк" tags="n.*"/></match>
   </rule>
   <rule>
+    <match lemma="еш" tags="adj.*"><select lemma="ытларах" tags="adj.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="еш" tags="adv"><select lemma="ытларах" tags="adv"/></match>
+  </rule>
+  <rule>
     <match lemma="ачык" tags="adj"><select lemma="уҫӑ" tags="adj"/></match>
   </rule>
   <rule>
