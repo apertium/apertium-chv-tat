@@ -39,6 +39,11 @@
       <cat-item tags="v.*.inf"/>
     </def-cat>
 
+    <def-cat n="ger_past-acc">
+      <cat-item tags="v.*.ger_past.acc"/>
+      <cat-item tags="v.*.ger_past.*.acc"/>
+    </def-cat>
+
     <def-cat n="ger-dat">
       <cat-item tags="v.*.ger.dat"/>
       <cat-item tags="v.*.ger.*.dat"/>
@@ -123,6 +128,7 @@
       <attr-item tags="inf"/>
       <attr-item tags="ger.nom"/>
       <attr-item tags="ger.dat"/>
+      <attr-item tags="ger_past.acc"/>
       <attr-item tags="ger.px3sp.dat"/>
       <attr-item tags="ger.px3sp.nom"/>
     </def-attr>
@@ -206,6 +212,12 @@
         <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="inf"/></equal></test>
               <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger"/></let></when>
       </choose>
+
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger_past.acc"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger_past.px3sp.dat"/></let></when>
+      </choose>
+
 
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger.dat"/></equal></test>
@@ -322,6 +334,8 @@
       </action>
     </rule>
 
+    <!-- ================================================================== -->
+
     <rule comment="regla: gpr">
       <pattern>
         <pattern-item n="gpr"/>
@@ -355,6 +369,21 @@
     <rule comment="regla: gna">
       <pattern>
         <pattern-item n="gna"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: ger_past-acc">
+      <pattern>
+        <pattern-item n="ger_past-acc"/>
       </pattern>
       <action>
         <call-macro n="f_default1"><with-param pos="1"/></call-macro>
@@ -420,6 +449,8 @@
       </action>
     </rule>
 
+    <!-- ================================================================== -->
+
     <rule comment="regla: num елның num">
       <pattern>
         <pattern-item n="num"/>
@@ -445,6 +476,7 @@
       </action>
     </rule>
 
+    <!-- ================================================================== -->
 
     <rule comment="regla: default">
       <pattern>
