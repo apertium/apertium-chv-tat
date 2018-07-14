@@ -91,6 +91,7 @@
  
     <e><p><l>и<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
     <e><p><l>анчах<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
+    <e><p><l>те<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
     <e><p><l>ӗ<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
     <e r="LR"><p><l>ах<s n="mod"/></l><r></r></p></e>
     <e><p><l>ха<s n="mod"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
@@ -9688,7 +9689,6 @@
 <e><p><l>Урсалбаш<s n="np"/><s n="top"/></l><r>Урсалбаш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Урсалыбаш<s n="np"/><s n="top"/></l><r>Урсалыбаш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Урса<s n="np"/><s n="top"/></l><r>Урса<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Урта<s n="np"/><s n="top"/></l><r>Урта<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ур<s n="np"/><s n="top"/></l><r>Ур<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Урынбаш<s n="np"/><s n="top"/></l><r>Урынбаш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Урысбага<s n="np"/><s n="top"/></l><r>Урысбага<s n="np"/><s n="top"/></r></p></e>
@@ -28012,6 +28012,7 @@
 
 
       <e><p><l>Абазинка<s n="np"/><s n="top"/></l><r>Абазинка<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Ази<s n="np"/><s n="top"/></l><r>Азия<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Абезь-Иоль<s n="np"/><s n="top"/></l><r>Абезь-Иоль<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Абицер<s n="np"/><s n="top"/></l><r>Абицер<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Аболь<s n="np"/><s n="top"/></l><r>Аболь<s n="np"/><s n="top"/></r></p></e>
@@ -29749,7 +29750,6 @@
       <e><p><l>Хаят<s n="np"/><s n="ant"/><s n="f"/></l><r>Хаят<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Абруй<s n="np"/><s n="ant"/><s n="f"/></l><r>Абруй<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Азалия<s n="np"/><s n="ant"/><s n="f"/></l><r>Азалия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e><p><l>Азия<s n="np"/><s n="ant"/><s n="f"/></l><r>Азия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Аида<s n="np"/><s n="ant"/><s n="f"/></l><r>Аида<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Айва<s n="np"/><s n="ant"/><s n="f"/></l><r>Айва<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Айлы<s n="np"/><s n="ant"/><s n="f"/></l><r>Айлы<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
