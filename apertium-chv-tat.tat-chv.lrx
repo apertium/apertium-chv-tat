@@ -1,26 +1,12 @@
 <rules>
-  <rule>
-    <match lemma="эт" tags="n.*"><select lemma="йытӑ" tags="n.*"/></match>
-  </rule>
-  <rule>
-    <match lemma="яр" tags="n.*"><select lemma="ҫыран" tags="n.*"/></match>
-  </rule>
-  <rule>
-    <match lemma="көнчыгыш" tags="n.*"><select lemma="тухӑҫ" tags="n.*"/></match>
-  </rule>
-  <rule>
-    <match lemma="ераклык" tags="n.*"><select lemma="аяк" tags="n.*"/></match>
-  </rule>
-  <rule>
-    <match lemma="еш" tags="adj.*"><select lemma="ытларах" tags="adj.*"/></match>
-  </rule>
-  <rule>
-    <match lemma="еш" tags="adv"><select lemma="ытларах" tags="adv"/></match>
-  </rule>
-  <rule>
-    <match lemma="ачык" tags="adj"><select lemma="уҫӑ" tags="adj"/></match>
-  </rule>
-  <rule>
-    <match lemma="кара" tags="v.*.gna_neg"><select lemma="пӑх" tags="v.*.gna_neg"/></match>
-  </rule>
+  <rule>    <match lemma="эт" tags="n.*"><select lemma="йытӑ" tags="n.*"/></match>  </rule>
+  <rule>    <match lemma="яр" tags="n.*"><select lemma="ҫыран" tags="n.*"/></match>  </rule>
+  <rule>    <match lemma="көнчыгыш" tags="n.*"><select lemma="тухӑҫ" tags="n.*"/></match>  </rule>
+  <rule>    <match lemma="ераклык" tags="n.*"><select lemma="аяк" tags="n.*"/></match>  </rule>
+  <rule>    <match lemma="еш" tags="adj.*"><select lemma="ытларах" tags="adj.*"/></match>  </rule>
+  <rule>    <match lemma="еш" tags="adv"><select lemma="ытларах" tags="adv"/></match>  </rule>
+  <rule>    <match lemma="ачык" tags="adj"><select lemma="уҫӑ" tags="adj"/></match>  </rule>
+  <rule>    <match lemma="бу" tags="prn.dem.*"><select lemma="ку" tags="prn.dem.*"/></match>  </rule>
+  <rule>    <match lemma="бу" tags="det.dem"><select lemma="ку" tags="det.dem"/></match>  </rule>
+  <rule>    <match lemma="кара" tags="v.*.gna_neg"><select lemma="пӑх" tags="v.*.gna_neg"/></match>  </rule>
 </rules>

@@ -7,6 +7,10 @@
       <cat-item tags="*"/>
     </def-cat>
 
+    <def-cat n="cop-ifi">
+      <cat-item tags="cop.ifi.*"/>
+    </def-cat>
+
     <def-cat n="num">
       <cat-item tags="num"/>
     </def-cat>
@@ -656,6 +660,23 @@
             <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>     
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="regla: cop-ifi">
+      <pattern>
+        <pattern-item n="cop-ifi"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit-tag v="cop.ifi"/>
+          </lu>     
         </out>
       </action>
     </rule>

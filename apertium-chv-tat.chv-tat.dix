@@ -10,6 +10,7 @@
     <sdef n="top"  />
     <sdef n="postadv"  />
     <sdef n="mod"  />
+    <sdef n="aor"  />
     <sdef n="unk"  />
     <sdef n="np"  />
     <sdef n="ant"  />
@@ -88,6 +89,7 @@
       <e><p><l><s n="attr"/></l><r></r></p></e>
       <e><p><l><s n="ord"/></l><r><s n="ord"/></r></p></e>
       <e><p><l></l><r><s n="subst"/></r></p></e>
+      <e><p><l><s n="coll"/></l><r><s n="subst"/><s n="px3sp"/><s n="nom"/></r></p></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -98,6 +100,7 @@
     <e><p><l>анчах<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
     <e><p><l>те<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
     <e><p><l>ӗ<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
+    <e><p><l>мар<s n="adj"/></l><r>и<s n="cop"/><s n="neg"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>ах<s n="mod"/></l><r></r></p></e>
     <e><p><l>ха<s n="mod"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
 
@@ -275,8 +278,9 @@
 <e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
 <!--<e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>-->
 <!-- <e><p><l>лешсем<s n="prn"/><s n="dem"/></l><r><s n="prn"/><s n="dem"/></r></p></e> -->
-<e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="pers"/></r></p></e>
 <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>шушы<s n="prn"/><s n="pers"/></r></p></e>
+<e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="pers"/></r></p></e>
+<e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
 <e><p><l>ҫак<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
 <e><p><l>хайхи<s n="prn"/><s n="dem"/></l><r>шушы<s n="prn"/><s n="dem"/></r></p></e>
 

@@ -35,9 +35,7 @@
 
     <def-cat n="sub-reading1">
       <!-- Personal copulas and abessive/privative postposition -->
-      <cat-item tags="cop.p1.*"/>
-      <cat-item tags="cop.p2.*"/>
-      <cat-item tags="cop.p3.*"/>
+      <cat-item tags="cop.ifi"/>
       <cat-item lemma="сыз" tags="post"/>
       <cat-item lemma="лы" tags="post"/>
     </def-cat>
@@ -68,16 +66,9 @@
   </section-def-vars>
 
   <section-def-lists>
-    <def-list n="tatar-clitics">
-      <list-item v="чы"/>
-      <list-item v="сана"/>
-      <list-item v="мы"/>
-      <list-item v="мыни"/>
-      <list-item v="ла"/>
-      <list-item v="дыр"/>
-      <list-item v="гына"/>
-      <list-item v="да"/>
-      <list-item v="ук"/>
+    <def-list n="chuvash-clitics">
+      <list-item v="и"/>
+      <list-item v="ах"/>
     </def-list>
   </section-def-lists>
 
@@ -126,7 +117,7 @@
 	    <test>
 	      <in caseless="yes">
 		<clip pos="3" side="tl" part="lem"/>
-		<list n="tatar-clitics"/>
+		<list n="chuvash-clitics"/>
 	      </in>
 	    </test>
 	    <out>
@@ -183,7 +174,7 @@
     </rule>
 
     <rule comment="REGLA:3;
-      makes stuff contained in list=tatar-clitics to clitics">
+      makes stuff contained in list=chuvash-clitics to clitics">
       <pattern>
 	<pattern-item n="main-reading"/>
 	<pattern-item n="sub-reading2"/>
@@ -194,7 +185,7 @@
 	    <test>
 	        <in caseless="yes">
 	     	  <clip pos="2" side="tl" part="lem"/>
-		  <list n="tatar-clitics"/>
+		  <list n="chuvash-clitics"/>
 	        </in>
 	    </test>
 	    <out>
