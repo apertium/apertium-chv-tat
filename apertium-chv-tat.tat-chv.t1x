@@ -23,6 +23,14 @@
       <cat-item tags="np.ant.*"/>
     </def-cat>
     
+    <def-cat n="gpr-subst">
+      <cat-item tags="v.*.gpr_pres.subst.*"/>
+      <cat-item tags="v.*.gpr_fut.subst.*"/>
+      <cat-item tags="v.*.gpr_past.subst.*"/>
+      <cat-item tags="v.*.gpr_pot.subst.*"/>
+      <cat-item tags="v.*.gpr_ppot.subst.*"/>
+    </def-cat>
+
     <def-cat n="gpr">
       <cat-item tags="v.*.gpr_pres"/>
       <cat-item tags="v.*.gpr_fut"/>
@@ -59,6 +67,12 @@
       <cat-item tags="v.*.gna_cond.*"/>
       <cat-item tags="v.*.gna_impf"/>
     </def-cat>
+
+    <def-cat n="fut">
+      <cat-item tags="v.*.fut.*"/>
+      <cat-item tags="v.*.fut2.*"/>
+    </def-cat>
+
 
      <def-cat n="prn-pers">
       <cat-item tags="prn.pers.*"/>
@@ -117,6 +131,15 @@
       <attr-item tags="gpr_perf"/>
     </def-attr>
  
+    <def-attr n="a_fin">
+      <attr-item tags="fut"/>
+      <attr-item tags="fut2"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="dur"/>
+      <attr-item tags="past"/>
+    </def-attr>
+
     <def-attr n="a_gna">
       <attr-item tags="gna_perf"/>
       <attr-item tags="gna_cond"/>
@@ -237,6 +260,13 @@
 
     </def-macro>
 
+    <def-macro n="f_fin1" npar="1">
+      <choose>
+        <when><test><equal><clip pos="1" side="tl" part="a_fin"/><lit-tag v="fut2"/></equal></test>
+              <let><clip pos="1" side="tl" part="a_fin"/><lit-tag v="fut"/></let></when>
+      </choose>
+    </def-macro>
+
     <def-macro n="f_case1" npar="1">
       <choose>
         <when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal></test>
@@ -351,6 +381,22 @@
       </action>
     </rule>
 
+    <rule comment="regla: gpr-subst">
+      <pattern>
+        <pattern-item n="gpr-subst"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: inf">
       <pattern>
         <pattern-item n="inf"/>
@@ -403,6 +449,22 @@
       <action>
         <call-macro n="f_default1"><with-param pos="1"/></call-macro>
         <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="regla: fut">
+      <pattern>
+        <pattern-item n="fut"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_fin1"><with-param pos="1"/></call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
