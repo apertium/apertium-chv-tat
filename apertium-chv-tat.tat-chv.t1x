@@ -47,9 +47,23 @@
       <cat-item tags="v.*.inf"/>
     </def-cat>
 
+    <def-cat n="ger_past-dat">
+      <cat-item tags="v.*.ger_past.dat"/>
+      <cat-item tags="v.*.ger_past.dat.*"/>
+      <cat-item tags="v.*.ger_past.*.dat"/>
+      <cat-item tags="v.*.ger_past.*.dat.*"/>
+    </def-cat>
+
     <def-cat n="ger_past-acc">
       <cat-item tags="v.*.ger_past.acc"/>
+      <cat-item tags="v.*.ger_past.acc.*"/>
       <cat-item tags="v.*.ger_past.*.acc"/>
+      <cat-item tags="v.*.ger_past.*.acc.*"/>
+    </def-cat>
+
+    <def-cat n="ger_perf-abl">
+      <cat-item tags="v.*.ger_perf.abl"/>
+      <cat-item tags="v.*.ger_perf.abl.*"/>
     </def-cat>
 
     <def-cat n="ger-dat">
@@ -152,6 +166,7 @@
       <attr-item tags="ger.nom"/>
       <attr-item tags="ger.dat"/>
       <attr-item tags="ger_past.acc"/>
+      <attr-item tags="ger_past.dat"/>
       <attr-item tags="ger.px3sp.dat"/>
       <attr-item tags="ger.px3sp.nom"/>
     </def-attr>
@@ -175,6 +190,10 @@
       <attr-item tags="ND"/>
     </def-attr>
        
+    <def-attr n="a_neg">
+      <attr-item tags="neg"/>
+    </def-attr>
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
@@ -510,6 +529,52 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="regla: ger_past-dat">
+      <pattern>
+        <pattern-item n="ger_past-dat"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_neg"/>
+              <lit-tag v="gpr_past"/>
+            </lu>     
+            <b/>
+            <lu>
+              <lit v="пирки"/><lit-tag v="post"/>
+            </lu>     
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: ger_perf-abl">
+      <pattern>
+        <pattern-item n="ger_perf-abl"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_neg"/>
+              <lit-tag v="gpr_past"/>
+            </lu>     
+            <b/>
+            <lu>
+              <lit v="пирки"/><lit-tag v="post"/>
+            </lu>     
+        </out>
+      </action>
+    </rule>
+
 
     <!-- ================================================================== -->
 
