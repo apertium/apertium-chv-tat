@@ -7,6 +7,14 @@
       <cat-item tags="*"/>
     </def-cat>
 
+    <def-cat n="num">
+      <cat-item tags="num"/>
+    </def-cat>
+
+    <def-cat n="елның">
+      <cat-item lemma="ел" tags="n.gen"/>
+    </def-cat>
+
     <def-cat n="top">
       <cat-item tags="np.top.*"/>
     </def-cat>
@@ -21,6 +29,10 @@
       <cat-item tags="v.*.gpr_past"/>
       <cat-item tags="v.*.gpr_pot"/>
       <cat-item tags="v.*.gpr_ppot"/>
+    </def-cat>
+
+    <def-cat n="ifi">
+      <cat-item tags="v.*.ifi.*"/>
     </def-cat>
 
     <def-cat n="inf">
@@ -123,7 +135,12 @@
       <attr-item tags="px2pl"/>
     </def-attr>
 
-    <def-attr n="nbr">
+    <def-attr n="a_verb">
+      <attr-item tags="v.tv"/>
+      <attr-item tags="v.iv"/>
+    </def-attr>
+
+    <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
@@ -382,6 +399,51 @@
     </rule>
 
 
+    <rule comment="regla: ifi">
+      <pattern>
+        <pattern-item n="ifi"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <out>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="gpr_past"/>
+            </lu>     
+            <lu>
+              <lit v="ӗ"/><lit-tag v="cop.ifi"/>
+            </lu>     
+          </mlu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: num елның num">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="елның"/>
+        <pattern-item n="num"/>
+      </pattern>
+    
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/><lit-tag v="ord"/>
+          </lu>     
+          <b pos="1"/>
+          <lu>
+            <lit v="ҫулхи"/><lit-tag v="adj"/>
+          </lu>     
+          <b pos="2"/>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="regla: default">
