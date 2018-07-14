@@ -11,10 +11,6 @@
       <cat-item tags="num"/>
     </def-cat>
 
-    <def-cat n="елның">
-      <cat-item lemma="ел" tags="n.gen"/>
-    </def-cat>
-
     <def-cat n="top">
       <cat-item tags="np.top.*"/>
     </def-cat>
@@ -117,8 +113,16 @@
       <cat-item tags="np.top.nom"/>
       <cat-item tags="np.ant.*.nom"/>
     </def-cat>
+
+    <def-cat n="тиеш">
+      <cat-item lemma="тиеш" tags="adj"/>
+    </def-cat>
+
+    <def-cat n="елның">
+      <cat-item lemma="ел" tags="n.gen"/>
+    </def-cat>
    
-    <def-cat n="belan">
+    <def-cat n="белән">
       <cat-item lemma="белән" tags="post"/>
     </def-cat>
    
@@ -409,7 +413,7 @@
       -->
       <pattern>
         <pattern-item n="nominal-nom"/>
-        <pattern-item n="belan"/>
+        <pattern-item n="белән"/>
       </pattern>
       <action>
         <let>
@@ -656,6 +660,25 @@
       </action>
     </rule>
 
+
+    <rule comment="regla: inf тиеш">
+      <pattern>
+        <pattern-item n="inf"/>
+        <pattern-item n="тиеш"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="a_neg"/>
+            <lit-tag v="ger_nec"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
 
     <!-- ================================================================== -->
 
