@@ -36,7 +36,7 @@
     <def-cat n="sub-reading1">
       <!-- Personal copulas and abessive/privative postposition -->
       <cat-item tags="cop.ifi"/>
-      <cat-item lemma="сыз" tags="post"/>
+      <cat-item lemma="сӑр" tags="post"/>
       <cat-item lemma="лы" tags="post"/>
     </def-cat>
 
@@ -49,8 +49,6 @@
       <cat-item tags="emph"/>
       <cat-item tags="mod"/>
       <cat-item tags="postadv"/>
-      <cat-item lemma="да" tags="postadv"/>
-      <cat-item lemma="да" tags="cnjcoo"/>
     </def-cat>
 
   </section-def-cats>
