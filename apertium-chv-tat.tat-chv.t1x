@@ -100,14 +100,22 @@
       <cat-item tags="v.*.fut2.*"/>
     </def-cat>
 
+    <def-cat n="prn-dem">
+      <cat-item tags="prn.dem.*"/>
+    </def-cat>
 
-     <def-cat n="prn-pers">
+    <def-cat n="prn-itg">
+      <cat-item tags="prn.itg.*"/>
+    </def-cat>
+
+    <def-cat n="prn-pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
 
     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
+      <cat-item tags="adj.subst.*"/>
     </def-cat>
    
     <def-cat n="nominal-nom">
@@ -364,6 +372,36 @@
     <rule comment="regla: top">
       <pattern>
         <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_case1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: prn-itg">
+      <pattern>
+        <pattern-item n="prn-itg"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_case1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>     
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: prn-dem">
+      <pattern>
+        <pattern-item n="prn-dem"/>
       </pattern>
       <action>
         <call-macro n="f_default1"><with-param pos="1"/></call-macro>

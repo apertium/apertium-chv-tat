@@ -90,6 +90,7 @@
       <e><p><l><s n="ord"/></l><r><s n="ord"/></r></p></e>
       <e><p><l></l><r><s n="subst"/></r></p></e>
       <e><p><l><s n="coll"/></l><r><s n="subst"/><s n="px3sp"/><s n="nom"/></r></p></e>
+      <e><p><l><s n="coll"/><s n="dat"/></l><r><s n="subst"/><s n="px3sp"/><s n="acc"/></r></p></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -419,6 +420,7 @@
     <e><p><l>ача<s n="n"/></l><r>бала<s n="n"/></r></p></e>
     <e><p><l>дьяк<s n="n"/></l><r>дьяк<s n="n"/></r></p></e>
     <e><p><l>латин<s n="n"/></l><r>латин<s n="n"/></r></p></e>
+    <e><p><l>принц<s n="n"/></l><r>принц<s n="n"/></r></p></e>
     <e><p><l>шыв<b/>чикки<s n="n"/></l><r>субүләр<s n="n"/></r></p><par n="n_px-n"/></e>
     <e><p><l>вӑйӑ<s n="n"/></l><r>уен<s n="n"/></r></p></e>
     <e><p><l>миль<s n="n"/></l><r>миль<s n="n"/></r></p></e>
@@ -10004,6 +10006,7 @@
     <e><p><l>наци<s n="n"/><s n="attr"/></l><r>милли<s n="adj"/></r></p></e>  <!-- paradigm needed -->
     <e><p><l>континент<s n="n"/><s n="attr"/></l><r>континенталь<s n="adj"/></r></p></e> <!-- континентальный -->
 
+    <e><p><l>пӗчӗк<s n="adj"/></l><r>нәни<s n="adj"/></r></p></e>
     <e><p><l>ҫителӗклӗ<s n="adj"/></l><r>җитәрлек<s n="adj"/></r></p></e>
     <e><p><l>килӗшнӗ<s n="adj"/></l><r>килешенгән<s n="adj"/></r></p></e>
     <e><p><l>пӑхӑнман<s n="adj"/></l><r>бәйсез<s n="adj"/></r></p></e>
