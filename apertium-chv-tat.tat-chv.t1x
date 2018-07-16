@@ -240,6 +240,11 @@
       <attr-item tags="n"/>
     </def-attr>
 
+    <def-attr n="a_frm">
+      <attr-item tags="p2.frm.sg"/>
+      <attr-item tags="p2.pl"/>
+    </def-attr>
+
     <def-attr n="a_err">
       <attr-item tags="err_orth"/>
     </def-attr>
@@ -261,6 +266,8 @@
               <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
               <let><clip pos="1" side="tl" part="a_err"/><lit v=""/></let>
     
+              <!-- Come up with something better here -->
+              <let><clip pos="1" side="tl" part="a_frm"/><lit-tag v="p2.pl"/></let>
     </def-macro>
     <def-macro n="f_poss_plur1" npar="1">
       <choose>
