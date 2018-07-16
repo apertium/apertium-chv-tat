@@ -37,7 +37,7 @@
       <!-- Personal copulas and abessive/privative postposition -->
       <cat-item tags="cop.ifi"/>
       <cat-item lemma="сӑр" tags="post"/>
-      <cat-item lemma="лы" tags="post"/>
+      <cat-item lemma="лӑ" tags="post"/>
     </def-cat>
 
     <def-cat n="sub-reading2">

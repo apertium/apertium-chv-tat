@@ -240,6 +240,8 @@
     <!-- Раздел: Послеслоги -->
 
     <e><p><l>сӑр<s n="post"/></l><r>сыз<s n="post"/></r></p></e>
+    <e><p><l>лӑ<s n="post"/></l><r>лы<s n="post"/></r></p></e>
+
     <e><p><l>валли<s n="post"/></l><r>өчен<s n="post"/></r></p></e>
     <e><p><l>айӑккипе<s n="post"/></l><r>буйлап<s n="post"/></r></p></e>
     <e><p><l>ҫитиччен<s n="post"/></l><r>кадәр<s n="post"/></r></p></e>
@@ -252,8 +254,8 @@
     <e><p><l>урлӑ<s n="post"/></l><r>аша<s n="post"/></r></p></e>
     <e><p><l>хыҫҫӑн<s n="post"/></l><r>соң<s n="post"/></r></p></e>
     <e r="RL"><p><l></l><r>белән<s n="post"/></r></p></e>
-    <e r="RL"><p><l></l><r>лы<s n="post"/></r></p></e> <!-- CHECK -->
     <e><p><l>таран<s n="post"/></l><r>әле<s n="post"/></r></p></e>
+
     <e><p><l>ччен<s n="post"/></l><r>чаклы<s n="post"/></r></p></e> <!-- CHECK -->
     <e><p><l>вырӑнне<s n="post"/></l><r>буларак<s n="post"/></r></p></e>
     
