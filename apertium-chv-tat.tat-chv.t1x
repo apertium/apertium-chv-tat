@@ -242,6 +242,7 @@
 
     <def-attr n="a_frm">
       <attr-item tags="p2.frm.sg"/>
+      <attr-item tags="p2.frm.pl"/>
       <attr-item tags="p2.pl"/>
     </def-attr>
 
