@@ -77,6 +77,7 @@
       <attr-item tags="px3sp"/>
       <attr-item tags="px1pl"/>
       <attr-item tags="px2pl"/>
+      <attr-item tags="px3pl"/>
     </def-attr>
 
     <def-attr n="nbr">
