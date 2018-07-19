@@ -11384,7 +11384,6 @@
     <e><p><l>питӗ<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
     <e><p><l>ялан<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>
     <e><p><l>каярахпа<s n="adv"/></l><r>соңрак<s n="adv"/></r></p></e>
-    <e><p><l>тен<s n="adv"/></l><r>мөгаен<s n="ij"/></r></p></e>
     <e><p><l>каллех<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
     <e><p><l>тата<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>
     <e><p><l>нихӑҫан<s n="adv"/></l><r>һичкайчан<s n="adv"/></r></p></e>
@@ -29480,6 +29479,10 @@
 <e><p><l>ЮНЕСКО<s n="abbr"/></l><r>ЮНЕСКО<s n="abbr"/></r></p></e>
 <e><p><l>ЮХИДИ<s n="abbr"/></l><r>ЮХИДИ<s n="abbr"/></r></p></e>
      
+    <!-- SECTION: Interjections -->
+
+    <e><p><l>тен<s n="adv"/></l><r>мөгаен<s n="ij"/></r></p></e>
+    <e><p><l>ҫапла<s n="ij"/></l><r>әйе<s n="ij"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
  
