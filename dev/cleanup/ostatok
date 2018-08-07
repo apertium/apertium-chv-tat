@@ -1,0 +1,781 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"  c="Имя существительное"/>
+    <sdef n="post" c="Послелог"/>
+    <sdef n="v"  />
+    <sdef n="tv"  />
+    <sdef n="vaux"  />
+    <sdef n="iv"  />
+    <sdef n="top"  />
+    <sdef n="postadv"  />
+    <sdef n="mod"  />
+    <sdef n="aor"  />
+    <sdef n="unk"  />
+    <sdef n="np"  />
+    <sdef n="ant"  />
+    <sdef n="f"  />
+    <sdef n="m"  />
+    <sdef n="cog"  />
+    <sdef n="advl"  />
+    <sdef n="ord"  />
+    <sdef n="ij"  />
+    <sdef n="adv" />
+    <sdef n="abbr"  c=""/>
+    <sdef n="p1"  />
+    <sdef n="p2"  />
+    <sdef n="p3" />
+    <sdef n="frm" />
+    <sdef n="sg" />
+    <sdef n="pl" />
+    <sdef n="itg" />
+    <sdef n="cnjcoo"  />
+    <sdef n="cnjsub"  />    
+    <sdef n="cnjadv"  />
+    <sdef n="adj"  />
+    <sdef n="prn"  />
+    <sdef n="coll"  />
+    <sdef n="subst"  />
+    <sdef n="attr"  />
+    <sdef n="emph"  />
+    <sdef n="det"  />
+    <sdef n="dem"  />
+    <sdef n="qnt"  />
+    <sdef n="ref"  />
+    <sdef n="mod_ind"  />
+    <sdef n="neg"  />
+    <sdef n="ind"  />
+    <sdef n="num"  />
+    <sdef n="y"  />
+    <sdef n="nom"  />
+    <sdef n="acc"  />
+    <sdef n="loc"  />
+
+    <sdef n="dat"  />
+    <sdef n="abl"  />
+    <sdef n="ins"  />
+    <sdef n="ter"  />
+    <sdef n="gen"  />
+
+    <sdef n="ben"  />
+    <sdef n="qst"  />
+    <sdef n="pers"  />
+    <sdef n="cop"  />
+    <sdef n="caus"  />
+    <sdef n="coop"  />
+    <sdef n="pass"  />
+
+    <sdef n="px1sg"  />
+    <sdef n="px2sg"  />
+    <sdef n="px3sp"  />
+    <sdef n="px1pl"  />
+    <sdef n="px2pl"  />
+    <sdef n="px3pl"  />
+
+    <sdef n="sent"  c=""/> 
+    <sdef n="guio"  c=""/> 
+    <sdef n="cm"    c=""/> 
+    <sdef n="apos"  c=""/> 
+    <sdef n="rquot"     c=""/> 
+    <sdef n="lquot"     c=""/> 
+    <sdef n="rpar"  c=""/> 
+    <sdef n="lpar"  c=""/> 
+
+  </sdefs>
+  <pardefs>
+    <pardef n="n-n_px">
+      <e><p><l><s n="attr"/></l><r><s n="px3sp"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="n_px-n">
+      <e><p><l><s n="px3sp"/><s n="nom"/></l><r><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="num-num">
+      <e><p><l><s n="attr"/></l><r></r></p></e>
+      <e><p><l><s n="ord"/></l><r><s n="ord"/></r></p></e>
+      <e><p><l></l><r><s n="subst"/></r></p></e>
+      <e><p><l><s n="coll"/><s n="nom"/></l><r><s n="subst"/><s n="px3sp"/><s n="nom"/></r></p></e>
+      <e><p><l><s n="coll"/><s n="dat"/></l><r><s n="subst"/><s n="px3sp"/><s n="acc"/></r></p></e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+
+        <e><p><l>км<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
+ 
+    <e><p><l>и<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
+    <e><p><l>анчах<s n="postadv"/></l><r>гына<s n="postadv"/></r></p></e>
+    <e><p><l>те<s n="postadv"/></l><r>да<s n="postadv"/></r></p></e>
+    <e><p><l>ӗ<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
+    <e><p><l>мар<s n="adj"/></l><r>и<s n="cop"/><s n="neg"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>ах<s n="mod"/></l><r></r></p></e>
+    <e><p><l>ха<s n="mod"/></l><r>чы<s n="emph"/></r></p></e> <!-- lol check-->
+
+    <!-- Раздел: Союзы -->
+
+
+    <e><p><l>тата<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ҫапах<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e><p><l>те<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ҫавӑнпа<s n="adv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
+    <e><p><l>е<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+    <e><p><l>е<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
+    <e><p><l>е<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>е<s n="cnjcoo"/></l><r>әллә<b/>әллә<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>тата<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>пулин<b/>те<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>пулсан<b/>та<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>ни<s n="cnjcoo"/></l><r>ни<s n="cnjcoo"/></r></p></e>
+    <!-- шулай ук-->
+    <e><p><l>та<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <!--бары тик-->
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>бәлки<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>бәлки<s n="cnjcoo"/></r></p></e>
+    <!--вәләкин-->
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах-ҫке<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>кӑна<s n="cnjcoo"/></l><r>мәгәр<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>мәгәр<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>мәгәр<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>кӑна<s n="cnjcoo"/></l><r>тик<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>фәкать<s n="cnjcoo"/></r></p></e>
+    <e><p><l>кӑна<s n="cnjcoo"/></l><r>фәкать<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>хәлбуки<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e><p><l>кӑна<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>анчах<b/>та<s n="cnjcoo"/></l><r>ә<s n="cnjcoo"/></r></p></e>
+    <!-- я -->
+    
+    <!--яхут-->
+    <e><p><l>пулсан<s n="cnjcoo"/></l><r>әле<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>епле<s n="cnjsub"/></l><r>гүя<s n="cnjsub"/></r></p></e>
+    <e><p><l>пулас<b/>пек<s n="cnjsub"/></l><r>гүя<s n="cnjsub"/></r></p></e>
+    <e><p><l>пекех<s n="cnjsub"/></l><r>гүя<s n="cnjsub"/></r></p></e>
+    <e><p><l>пек<s n="cnjsub"/></l><r>гүя<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>епле<s n="cnjsub"/></l><r>гүяки<s n="cnjsub"/></r></p></e>
+    <e><p><l>пулас<b/>пек<s n="cnjsub"/></l><r>гүяки<s n="cnjsub"/></r></p></e>
+    <e><p><l>пекех<s n="cnjsub"/></l><r>гүяки<s n="cnjsub"/></r></p></e>
+    <e><p><l>пек<s n="cnjsub"/></l><r>гүяки<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>авӑ<s n="cnjsub"/></l><r>гәрчә<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>мӗн<s n="cnjsub"/></l><r>ки<s n="cnjsub"/></r></p></e>
+    <e><p><l>мӗнле<s n="cnjsub"/></l><r>ки<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>атту<s n="cnjsub"/></l><r>югыйсә<s n="cnjsub"/></r></p></e>
+    <e><p><l>ахалӗн<s n="cnjsub"/></l><r>югыйсә<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>атту<s n="cnjsub"/></l><r>юкса<s n="cnjsub"/></r></p></e>
+    <e><p><l>ахалӗн<s n="cnjsub"/></l><r>юкса<s n="cnjsub"/></r></p></e>
+    <!--ягъни-->
+    <e><p><l>енчен<s n="cnjsub"/></l><r>әгәр<b/>дә<s n="cnjsub"/></r></p></e>
+    <e><p><l>ешлӗ<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>анчах<b/>та<s n="cnjsub"/></l><r>алай<b/>да<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>эппин<s n="cnjadv"/></l><r>алайса<s n="cnjadv"/></r></p></e>
+
+    <e><p><l>анчах<s n="cnjadv"/></l><r>аның<b/>каравы<s n="cnjadv"/></r></p></e>
+    <e><p><l>ун<b/>вырӑнне<s n="cnjadv"/></l><r>аның<b/>каравы<s n="cnjadv"/></r></p></e>
+    <!--әйтүләренчә-->
+    <!--башкача әйткәндә-->
+    <!--белдерүенчә-->
+    <!--әйтүенчә-->
+    <!--мәгълүматынча-->
+    <!--сүзенчә-->
+    <!--сүзләренчә-->
+    <!--уенча-->           
+    <!--уйлавынча-->           
+    <!--фикеренчә-->           
+    <!--хәбәр итүенчә -->          
+    <!--шулай да    -->        
+    <!--шул сәбәпле   -->      
+    <!--шунлыктан     -->      
+    <!--шуңа күрә           -->
+    <!--язуынча<e><p><l> <s n="cnjcoo"/></l><r><s n="cnjcoo"/></r></p></e>-->
+
+
+    <!--<e><p><l>пулӗ<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>может быть -->
+    <!--<e><p><l>тен<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>и тогда\может быть -->
+    <!--<e><p><l>пуҫне<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>без\кроме -->
+    <!--<e><p><l>вара<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>тогда\и -->
+    <!--<e><p><l>унсӑрӑн<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>без (этого) -->
+    <!-- <e><p><l>а<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e> -->
+    <!-- <e><p><l>имӗш<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e> -->
+    <!--<e><p><l>ҫапла<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>так\таким образом\этак -->
+    <!--<e><p><l>мӗскер<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>что -->
+    <!-- <e><p><l>эхер<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e> -->
+    <!--<e><p><l>ытах<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>если\в конце концов -->
+    <!--<e><p><l>енчен<s n="cnjcoo"/></l><r>кавантест<s n="cnjcoo"/></r></p></e>если в случае-->
+
+    <!-- <e><p><l>е<s n="cnjcoo></l><r>югыйсә<s n="cnjsub"/></r></p></e> --><!-- иначе -->
+    <e><p><l>атту<s n="cnjsub"/></l><r>югыйсә<s n="cnjsub"/></r></p></e> <!-- иначе/в противном случае/а то -->
+    <e><p><l>ахалӗн<s n="cnjsub"/></l><r>югыйсә<s n="cnjsub"/></r></p></e> <!-- иначе/в противном случае/а то -->
+    <e><p><l>урӑхла<s n="cnjsub"/></l><r>югыйсә<s n="cnjsub"/></r></p></e> <!-- иначе/в противном случае/а то -->
+
+    <e><p><l>апла<b/>пулсан<s n="cnjadv"/></l><r>алайса<s n="cnjadv"/></r></p></e><!-- тогда -->
+
+    <e><p><l>атту<s n="cnjsub"/></l><r>юкса<s n="cnjsub"/></r></p></e><!-- иначе/в противном случае/а то -->
+    <e><p><l>ахалӗн<s n="cnjsub"/></l><r>юкса<s n="cnjsub"/></r></p></e><!-- иначе/в противном случае/а то -->
+    <e><p><l>урӑхла<s n="cnjsub"/></l><r>юкса<s n="cnjsub"/></r></p></e><!-- иначе/в противном случае/а то -->
+
+    <!-- <e><p><l>мӗн<s n="cnjcoo"/></l><r>ки<s n="cnjcoo"/></r></p></e>--><!-- что[[нет эквивалента на чувашском need POST]] --> 
+
+    <!-- <e><p><l>мӗн<s n="cnjadv"/></l><r>белдерүенчә<s n="cnjadv"/></r></p></e> --><!-- FIXME: Check this Ilnar!-->
+
+    <e><p><l>пулсан<s n="cnjsub"/></l><r>әгәр<b/>дә<s n="cnjsub"/></r></p></e><!-- если -->
+    <e><p><l>пулсан<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e><!-- ^ -->
+
+    <e><p><l>енчен<b/>те<s n="cnjsub"/></l><r>әгәр<b/>дә<s n="cnjsub"/></r></p></e><!-- если -->
+    <e><p><l>енчен<b/>те<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e><!-- ^ -->
+
+    <e><p><l>эхер<b/>те<s n="cnjsub"/></l><r>әгәр<b/>дә<s n="cnjsub"/></r></p></e><!-- если -->
+    <e><p><l>эхер<b/>те<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e><!-- ^ -->
+
+    <e><p><l>ытах<s n="cnjsub"/></l><r>әгәр<b/>дә<s n="cnjsub"/></r></p></e><!-- если -->
+    <e><p><l>ытах<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e><!-- ^ -->
+
+    <e><p><l>урӑхла<b/>каласан<s n="cnjsub"/></l><r>ягъни<s n="cnjsub"/></r></p></e><!-- то есть -->
+
+    <e><p><l>анчах<b/>та<s n="cnjadv"/></l><r>алай<b/>да<s n="cnjadv"/></r></p></e><!-- odnako-->
+
+    <e><p><l>ҫапах<b/>та<s n="cnjadv"/></l><r>аның<b/>каравы<s n="cnjadv"/></r></p></e><!-- зато-->
+
+    <!-- Раздел: Вводные слова АЛЕРТ -->
+    <!-- <e><p><l>пулма<b/>пултарать<s n="cnjcoo"/></l><r>бәлки<s n="cnjcoo"/></r></p></e> --><!-- может быть -->
+    <e><p><l>анчах<s n="cnjcoo"/></l><r>бәлки<s n="cnjcoo"/></r></p></e><!-- но -->
+
+    <!-- <e><p><l>пулма<b/>пултарать<s n="cnjcoo"/></l><r>ихтимал<s n="cnjcoo"/></r></p></e> --><!-- может быть -->
+    <e><p><l>шутланӑ<b/>тӑрӑх<s n="cnjadv"/></l><r>уйлавынча<s n="cnjadv"/></r></p></e><!-- по размышлениям-->
+
+    <e><p><l>каланӑ<b/>тӑрӑх<s n="cnjadv"/></l><r>әйтүенчә<s n="cnjadv"/></r></p></e><!-- по словам АЛЕРТ-->
+
+    <!-- <e><p><l>шутланӑ<b/>тӑрӑх<s n="cnjcoo"/></l><r>фикеренчә<s n="cnjadv"/></r></p></e> --><!-- как считают\по мнению АЛЕРТ-->
+
+
+    <!-- Раздел: Послеслоги -->
+
+    <e><p><l>сӑр<s n="post"/></l><r>сыз<s n="post"/></r></p></e>
+    <e><p><l>лӑ<s n="post"/></l><r>лы<s n="post"/></r></p></e>
+
+    <e><p><l>валли<s n="post"/></l><r>өчен<s n="post"/></r></p></e>
+    <e><p><l>айӑккипе<s n="post"/></l><r>буйлап<s n="post"/></r></p></e>
+    <e><p><l>ҫитиччен<s n="post"/></l><r>кадәр<s n="post"/></r></p></e>
+    <e><p><l>витӗр<s n="post"/></l><r>аша<s n="post"/></r></p></e>
+    <e><p><l>кӑна<s n="cnjcoo"/></l><r>бары<b/>тик<s n="cnjcoo"/></r></p></e><!-- только АЛЕРТ -->
+    <e><p><l>кӑна<s n="cnjcoo"/></l><r>фәкать<s n="cnjcoo"/></r></p></e><!-- только АЛЕРТ -->
+    <e><p><l>пуҫне<s n="post"/></l><r>баш<s n="n"/><s n="px3sp"/><s n="acc"/></r></p></e>
+    <e><p><l>ҫине<s n="post"/></l><r>таба<s n="post"/></r></p></e>
+    <e><p><l>тӑрӑх<s n="post"/></l><r>буенча<s n="post"/></r></p></e>    
+    <e><p><l>урлӑ<s n="post"/></l><r>аша<s n="post"/></r></p></e>
+    <e><p><l>хыҫҫӑн<s n="post"/></l><r>соң<s n="post"/></r></p></e>
+    <e r="RL"><p><l></l><r>белән<s n="post"/></r></p></e>
+    <e><p><l>таран<s n="post"/></l><r>әле<s n="post"/></r></p></e>
+
+    <e><p><l>ччен<s n="post"/></l><r>чаклы<s n="post"/></r></p></e> <!-- CHECK -->
+    <e><p><l>вырӑнне<s n="post"/></l><r>буларак<s n="post"/></r></p></e>
+    
+    <!-- Раздел: Местоимения -->
+
+    <!-- nom кто\что -->
+    <!-- gen кого\чего -->
+    <!-- dat кому\чему -->
+    <!-- loc в ком\в чем -->
+    <!-- abl от кого\от чего -->
+    <!-- ins с кем\с чем -->
+    <!-- ![сӑр\сӗр]! -->
+    <!-- ter для кого\для чего -->
+
+    <e><p><l>эпӗ<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>эсӗ<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>вӑл<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>эпир<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>эсир<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>вӗсем<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
+
+    <e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>теге<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+    <!--<e><p><l>лешӗ<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>-->
+    <!-- <e><p><l>лешсем<s n="prn"/><s n="dem"/></l><r><s n="prn"/><s n="dem"/></r></p></e> -->
+    <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>шушы<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>ку<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>ҫак<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>хайхи<s n="prn"/><s n="dem"/></l><r>шушы<s n="prn"/><s n="dem"/></r></p></e>
+
+    <e><p><l>хам<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px1sg"/></r></p></e>
+    <e><p><l>ху<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px2sg"/></r></p></e>
+    <e><p><l>хӑй<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px3sp"/></r></p></e>
+    <e><p><l>хамӑр<s n="prn"/><s n="ref"/><s n="p1"/><s n="pl"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px1pl"/></r></p></e>
+    <e><p><l>хӑвӑр<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px2pl"/></r></p></e>
+    <e><p><l>хӑйсем<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px3pl"/></r></p></e>
+    <e><p><l>хӑвӑр<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/><s n="frm"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px2pl"/><s n="frm"/></r></p></e>
+    <e><p><l>хӑвӑр<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/><s n="frm"/></l><r>үз<s n="prn"/><s n="ref"/><s n="px2sg"/><s n="frm"/></r></p></e>
+
+    <e><p><l>кам<s n="prn"/><s n="itg"/></l><r>кем<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>кам<s n="prn"/><s n="itg"/></l><r>кемнәр<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>хӑш<s n="prn"/><s n="itg"/></l><r>ничәнче<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>хӑш<s n="prn"/><s n="itg"/></l><r>ничә<s n="prn"/><s n="itg"/></r></p></e>
+
+    <e><p><l>пурте<s n="prn"/><s n="pers"/></l><r>барлыгы<s n="prn"/><s n="pers"/></r></p></e>
+    <!-- <e><p><l>пӗри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
+    <!-- <e><p><l>пӗр-пӗри<s n="prn"/><s n="pers"/></l><r><s n="prn"/><s n="pers"/></r></p></e> -->
+    <e><p><l>тепри<s n="prn"/><s n="pers"/></l><r>башка<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>тепри<s n="prn"/><s n="pers"/></l><r>бүтән<s n="prn"/><s n="pers"/></r></p></e>
+    <!-- 
+    <e><p><l>никам<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e>
+    <e><p><l>нимӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+
+    <e><p><l>такам<s n="prn"/><s n="ind"/></l><r>берсе<s n="prn"/><s n="ind"/></r></p></e>
+    <!-- <e><p><l>темӗн<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+    <!-- <e><p><l>тахӑшӗ<s n="prn"/><s n="neg"/></l><r><s n="prn"/><s n="neg"/></r></p></e> -->
+
+    <!-- <e><p><l>хбашкаӑй<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e> PRN??? --> 
+
+    <e><p><l>мӗн<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e><!--  что -->
+    <e><p><l>мӗн<s n="prn"/><s n="itg"/><s n="ter"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e><!--  что -->
+    <e><p><l>ним<s n="prn"/><s n="neg"/></l><r>бер<b/>нәрсә<s n="prn"/><s n="ind"/></r></p></e><!--  ? -->
+
+    <e><p><l>унта<s n="adv"/></l><r>ул<s n="prn"/><s n="dem"/><s n="loc"/></r></p></e>
+
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ins"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="ter"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>--><!--   -->
+
+
+    <!--<e><p><l>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>__<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>-->
+
+    <!-- Раздел: -->
+
+    <e><p><l>пӗтӗм<s n="det"/><s n="qnt"/></l><r>бөтен<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>кашни<s n="det"/><s n="ind"/></l><r>һәр<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>хӑй<s n="det"/><s n="ref"/></l><r>үз<s n="det"/><s n="ref"/></r></p></e>
+
+    <!-- Раздел: Числа -->
+
+    <!-- <e><p><l>-мӗш<s n="guio"/><s n="num"/></l><r>енче<s n="num"/></r></p></e> --><!-- АЛЕРТ -->
+    <e><p><l>мӗш<s n="num"/></l><r>енче<s n="num"/></r></p></e>
+
+    <e><p><l>пӗрре<s n="num"/></l><r>бер<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>иккӗ<s n="num"/></l><r>ике<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>виҫҫӗ<s n="num"/></l><r>өч<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>тӑваттӑ<s n="num"/></l><r>дүрт<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>пиллӗк<s n="num"/></l><r>биш<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>улттӑ<s n="num"/></l><r>алты<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>ҫиччӗ<s n="num"/></l><r>җиде<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>саккӑр<s n="num"/></l><r>сигез<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>тӑххӑр<s n="num"/></l><r>тугыз<s n="num"/></r></p><par n="num-num"/></e>
+    <e><p><l>вуннӑ<s n="num"/></l><r>ун<s n="num"/></r></p><par n="num-num"/></e>
+
+    
+
+    <e><p><l>вунпӗр<s n="num"/></l><r>унбер<s n="num"/></r></p></e>
+    <e><p><l>вуниккӗ<s n="num"/></l><r>унике<s n="num"/></r></p></e>
+    <e><p><l>вуникӗ<s n="num"/></l><r>унике<s n="num"/></r></p></e>
+    <e><p><l>вуник<s n="num"/></l><r>унике<s n="num"/></r></p></e>
+    <e><p><l>вунвиҫҫӗ<s n="num"/></l><r>унөч<s n="num"/></r></p></e>
+    <e><p><l>вунвиҫӗ<s n="num"/></l><r>унөч<s n="num"/></r></p></e>
+    <e><p><l>вунвиҫ<s n="num"/></l><r>унөч<s n="num"/></r></p></e>
+    <e><p><l>вунтаваттӑ<s n="num"/></l><r>ундүрт<s n="num"/></r></p></e>
+    <e><p><l>вунтӑватӑ<s n="num"/></l><r>ундүрт<s n="num"/></r></p></e>
+    <e><p><l>вунтӑват<s n="num"/></l><r>ундүрт<s n="num"/></r></p></e>
+    <e><p><l>вунпиллӗк<s n="num"/></l><r>унбиш<s n="num"/></r></p></e>
+    <e><p><l>вунпилӗк<s n="num"/></l><r>унбиш<s n="num"/></r></p></e>
+    <e><p><l>вунулттӑ<s n="num"/></l><r>уналты<s n="num"/></r></p></e>
+    <e><p><l>вунултӑ<s n="num"/></l><r>уналты<s n="num"/></r></p></e>
+    <e><p><l>вунулт<s n="num"/></l><r>уналты<s n="num"/></r></p></e>
+    <e><p><l>вунҫиччӗ<s n="num"/></l><r>унҗиде<s n="num"/></r></p></e>
+    <e><p><l>вунҫичӗ<s n="num"/></l><r>унҗиде<s n="num"/></r></p></e>
+    <e><p><l>вунҫич<s n="num"/></l><r>унҗиде<s n="num"/></r></p></e>
+    <e><p><l>вунсаккӑр<s n="num"/></l><r>унсигез<s n="num"/></r></p></e>
+    <e><p><l>вунсакӑр<s n="num"/></l><r>унсигез<s n="num"/></r></p></e>
+    <e><p><l>вунтӑххӑр<s n="num"/></l><r>унтугыз<s n="num"/></r></p></e>
+    <e><p><l>вунтӑхӑр<s n="num"/></l><r>унтугыз<s n="num"/></r></p></e>
+
+    <e><p><l>ҫирӗм<s n="num"/></l><r>егерме<s n="num"/></r></p></e>
+    <e><p><l>вӑтӑр<s n="num"/></l><r>утыз<s n="num"/></r></p></e>
+    <e><p><l>хӗрӗх<s n="num"/></l><r>кырык<s n="num"/></r></p></e>
+    <e><p><l>аллӑ<s n="num"/></l><r>илле<s n="num"/></r></p></e>
+    <e><p><l>утмӑл<s n="num"/></l><r>алтмыш<s n="num"/></r></p></e>
+    <e><p><l>ҫитмӗл<s n="num"/></l><r>җитмеш<s n="num"/></r></p></e>
+    <e><p><l>сакӑрвуннӑ<s n="num"/></l><r>сиксән<s n="num"/></r></p></e>
+    <e><p><l>сакӑрвунӑ<s n="num"/></l><r>сиксән<s n="num"/></r></p></e>
+    <e><p><l>сакӑрвун<s n="num"/></l><r>сиксән<s n="num"/></r></p></e>
+    <e><p><l>тӑхӑрвуннӑ<s n="num"/></l><r>туксан<s n="num"/></r></p></e>
+    <e><p><l>тӑхӑрвунӑ<s n="num"/></l><r>туксан<s n="num"/></r></p></e>
+    <e><p><l>тӑхӑрвун<s n="num"/></l><r>туксан<s n="num"/></r></p></e>
+
+    <e><p><l>ҫӗр<s n="num"/></l><r>йөз<s n="num"/></r></p></e>
+    <e><p><l>пин<s n="num"/></l><r>мең<s n="num"/></r></p></e>
+    <e><p><l>миллион<s n="num"/></l><r>миллион<s n="num"/></r></p></e>
+    <e><p><l>миллиард<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
+    <e><p><l>триллион<s n="num"/></l><r>триллион<s n="num"/></r></p></e>
+    <e><p><l>триллиард<s n="num"/></l><r>триллиард<s n="num"/></r></p></e>
+
+    <!-- Раздел: Имена Существительные -->
+
+    
+
+
+    <!-- Раздел:имена собственные -->
+  
+    <!-- Раздел:личные имена -->
+  
+    <e><p><l>Ахмет<s n="np"/></l><r>Әхмәт<s n="np"/></r></p></e>
+    <e><p><l>Маша<s n="np"/></l><r>Маша<s n="np"/></r></p></e>
+    <e><p><l>Ваня<s n="np"/></l><r>Ваня<s n="np"/></r></p></e>
+    <e><p><l>Гюльнара<s n="np"/></l><r>Гөлнара<s n="np"/></r></p></e>
+    <e><p><l>Иван<s n="np"/></l><r>Иван<s n="np"/></r></p></e>
+    <e><p><l>Николай<s n="np"/></l><r>Николай<s n="np"/></r></p></e>
+    <e><p><l>Микула<s n="np"/></l><r>Микола<s n="np"/></r></p></e><!-- ALERT -->
+    <e><p><l>Коля<s n="np"/></l><r>Коля<s n="np"/></r></p></e>
+    <e><p><l>Антон<s n="np"/></l><r>Антон<s n="np"/></r></p></e>
+    <e><p><l>Антун<s n="np"/></l><r>Антон<s n="np"/></r></p></e>
+    <e><p><l>Андрей<s n="np"/></l><r>Андрей<s n="np"/></r></p></e>
+
+    <!-- Раздел:города -->
+
+<e><p><l>Абхази<s n="np"/><s n="top"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Зеланди<s n="np"/><s n="top"/></l><r>Зеландия<s n="np"/><s n="top"/></r></p></e>
+
+<e><p><l>Хоккайдо<s n="np"/><s n="top"/></l><r>Хоккайдо<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Адлер<s n="np"/><s n="top"/></l><r>Адлер<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Лаперуза<s n="np"/><s n="top"/></l><r>Лаперуза<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Кунашир<s n="np"/><s n="top"/></l><r>Кунашир<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Арабат<s n="np"/><s n="top"/></l><r>Арабат<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Беринг<s n="np"/><s n="top"/></l><r>Беринг<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Рыбачий<s n="np"/><s n="top"/></l><r>Рыбачий<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Балти<s n="np"/><s n="top"/></l><r>Балтыйк<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Баренц<s n="np"/><s n="top"/></l><r>Баренц<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Сахалин<s n="np"/><s n="top"/></l><r>Сахалин<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Корея<s n="np"/><s n="top"/></l><r>Корея<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Каркинит<s n="np"/><s n="top"/></l><r>Каркинит<s n="np"/><s n="top"/></r></p></e>
+
+
+ <e><p><l>Хантӑ-Манси<s n="np"/></l><r>Хант-Манси<s n="np"/></r></p></e> <!--  -->
+
+
+
+
+    <e><p><l>Архангельск<s n="np"/><s n="top"/></l><r>Архангельск<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Архангельск<s n="np"/><s n="top"/></l><r>Архангил<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Лондон<s n="np"/><s n="top"/></l><r>Лондон<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Гданьск<s n="np"/><s n="top"/></l><r>Гданьск<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Европа<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Новгород<s n="np"/><s n="top"/></l><r>Новгород<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Раҫҫей<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Раҫҫей<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Абаза<s n="np"/><s n="top"/></l><r>Абаза<s n="np"/><s n="top"/></r></p></e>
+
+
+
+
+<!-- from tt -->
+
+
+
+
+    <!-- Раздел:страны -->
+
+<e><p><l>Ирланди<b/>Республики<s n="np"/><s n="top"/></l><r>Ирландия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Калмӑк<b/>Республики<s n="np"/><s n="top"/></l><r>Калмыкия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Карел<b/>Республики<s n="np"/><s n="top"/></l><r>Карелия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Македони<s n="np"/><s n="top"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Удмурти<s n="np"/><s n="top"/></l><r>Удмуртия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Чехи<s n="np"/><s n="top"/></l><r>Чехия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Чечени<s n="np"/><s n="top"/></l><r>Чечня<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Чӑваш<b/>Ен<s n="np"/><s n="top"/></l><r>Чувашия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Япони<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Япон<s n="np"/><s n="top"/></l><r>Япон<s n="np"/><s n="top"/></r></p></e>
+
+
+    <!-- Раздел:другое гидро -->
+
+    <e><p><l>Атлантика<s n="np"/><s n="top"/></l><r>Атлантика<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Балтика<s n="np"/><s n="top"/></l><r>Балтика<s n="np"/><s n="top"/></r></p></e>
+ 
+    <e><p><l>РФ<s n="np"/><s n="top"/></l><r>РФ<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>Двина-Печора<s n="np"/><s n="top"/></l><r>Двина-Печора<s n="np"/><s n="top"/></r></p></e>
+
+    <!-- Раздел:реки -->  
+
+    <e><p><l>Иртыш<s n="np"/><s n="top"/></l><r>Иртеш<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Атӑл<s n="np"/><s n="top"/></l><r>Идел<s n="np"/><s n="top"/></r></p></e>   
+    <e><p><l>Чулман Атӑл<s n="np"/><s n="top"/></l><r>Чулман<s n="np"/><s n="top"/></r></p></e>   
+    <e><p><l>Двина<s n="np"/><s n="top"/></l><r>Идел<s n="np"/><s n="top"/></r></p></e>   
+    <e><p><l>Двина<s n="np"/><s n="top"/></l><r>Двина<s n="np"/><s n="top"/></r></p></e>   
+    <e><p><l>Обь<s n="np"/><s n="top"/></l><r>Об<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Обь<s n="np"/><s n="top"/></l><r>Уба<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Обь<s n="np"/><s n="top"/></l><r>Үмәр<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Сосьва<s n="np"/><s n="top"/></l><r>Сосьва<s n="np"/><s n="top"/></r></p></e>   
+    <e><p><l>Вычегда<s n="np"/><s n="top"/></l><r>Вычегда<s n="np"/><s n="top"/></r></p></e>   
+
+
+    <!-- Раздел:страны[spec\аббревиатуры\другие гео] -->
+    <e><p><l>ОКАТО<s n="abbr"/></l><r>ОКАТО<s n="abbr"/></r></p></e>    
+    <e><p><l>АО<s n="abbr"/></l><r>АО<s n="abbr"/></r></p></e>    
+
+    <e><p><l>Алтай<s n="np"/><s n="top"/></l><r>Алтай<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Коми<s n="np"/><s n="top"/></l><r>Коми<s n="np"/><s n="top"/></r></p></e>  
+    <e><p><l>Югра<s n="np"/><s n="top"/></l><r>Югра<s n="np"/><s n="top"/></r></p></e> 
+    <e><p><l>Ненец<s n="np"/><s n="top"/></l><r>Ненец<s n="np"/><s n="top"/></r></p></e> 
+    <e><p><l>Ямал-Ненец<s n="np"/><s n="top"/></l><r>Ямал-Ненец<s n="np"/><s n="top"/></r></p></e> 
+    <e><p><l>Яха<s n="np"/><s n="top"/></l><r>Яха<s n="np"/><s n="top"/></r></p></e> 
+
+
+
+
+
+    <e><p><l>Чӑваш<b/>Ен<s n="np"/><s n="top"/></l><r>Чуашстан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Чӑваш<b/>Республики<s n="np"/><s n="top"/></l><r>Чуашстан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Тутарстан<b/>Республики<s n="np"/><s n="top"/></l><r>Татарстан<b/>Республикасы<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Тутарстан<s n="np"/><s n="top"/></l><r>Татарстан<b/>Республикасы<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Тутарстан<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Татария<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>РСФСР<s n="np"/><s n="top"/></l><r>РСФСР<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>РСФСР<s n="np"/><s n="top"/></l><r>Россия<b/>Совет<b/>Федератив<b/>Социалистик<b/>Республикасы<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Раҫҫей<b/>Федерациллӗ<b/>Социализмлӑ<b/>Совет<b/>Республики<s n="np"/><s n="top"/></l><r>Россия<b/>Совет<b/>Федератив<b/>Социалистик<b/>Республикасы<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>СССР<s n="np"/><s n="top"/></l><r>СССР<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>СССР<s n="np"/><s n="top"/></l><r>Совет<b/>Берлеге<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>СССР<s n="np"/><s n="top"/></l><r>Совет<b/>Берлеге<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Совет<b/>Союзӗ<s n="np"/><s n="top"/></l><r>Совет<b/>Берлеге<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Совет<b/>Социализм<b/>Республикисен<b/>Пӗрлешӗвӗ<s n="np"/><s n="top"/></l><r>Совет<b/>Берлеге<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Совет<b/>Союзӗ<s n="np"/><s n="top"/></l><r>СССР<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Совет<b/>Социализм<b/>Республикисен<b/>Пӗрлешӗвӗ<s n="np"/><s n="top"/></l><r>СССР<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Совет<b/>Союзӗ<s n="np"/><s n="top"/></l><r>Совет<b/>Социалистик<b/>Җөмһүриятләр<b/>Берлеге<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Совет<b/>Социализм<b/>Республикисен<b/>Пӗрлешӗвӗ<s n="np"/><s n="top"/></l><r>Совет<b/>Социалистик<b/>Җөмһүриятләр<b/>Берлеге<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>Элӗк<s n="np"/><s n="top"/></l><r>Әлек<s n="np"/><s n="top"/></r></p></e>
+   
+
+    <!-- Раздел: Имена прилагательные-->
+    
+<!--Ae><p><l>харсӑр<s n="adj"/></l><r>харсӑр<s n="adj"/></r></p></e>-->
+    <!-- <e><p><l>   <s n="adj"/><s n="advl"/></l><r>  <s n="adj"/></r></p></e> 
+    <e><p><l>   <s n="adj"/><s n="advl"/></l><r>  <s n="adj"/></r></p></e>  -->    
+
+    <e><p><l>континент<s n="n"/><s n="attr"/></l><r>континенталь<s n="adj"/></r></p></e> <!-- континентальный -->
+    <e><p><l>наци<s n="n"/><s n="attr"/></l><r>милли<s n="adj"/></r></p></e>  <!-- paradigm needed -->
+
+    
+
+    <!-- Раздел: Наречия -->
+
+    <e><p><l>ӑҫта<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>мӗншӗн<s n="adv"/><s n="itg"/></l><r>ни<b/>өчен<s n="adv"/><s n="itg"/></r></p></e>
+
+    <e><p><l>ӑҫта<s n="adv"/><s n="itg"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e> <!-- где -->
+    <e><p><l>ӑҫта<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e> <!-- куда -->
+    <e><p><l>ӑҫталла<s n="adv"/><s n="itg"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e> <!-- куда -->
+    <e><p><l>ӑҫтан<s n="adv"/><s n="itg"/></l><r>кайдан<s n="adv"/><s n="itg"/></r></p></e> <!-- откуда -->
+
+    <e><p><l>хӑҫан<s n="adv"/><s n="itg"/></l><r>кайчан<s n="adv"/><s n="itg"/></r></p></e> <!-- когда -->
+
+    
+
+
+
+
+
+<!--    <e><p><l>чӗре<b/>сури<s n="adv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>-->
+
+    <!-- Раздел: Глаголы -->
+
+    <e r="RL"><p><l>пултар<s n="v"/><s n="tv"/></l><r>ал<s n="vaux"/></r></p></e>
+
+    
+
+
+    <!-- Антропонимы Anthroponyms -->
+
+
+
+      
+<!-- Abbr -->
+
+<e><p><l>км²<s n="abbr"/></l><r>км²<s n="abbr"/></r></p></e>
+<e><p><l>км2<s n="abbr"/></l><r>км²<s n="abbr"/></r></p></e>
+<e><p><l>км³<s n="abbr"/></l><r>км³<s n="abbr"/></r></p></e>
+<e><p><l>км3<s n="abbr"/></l><r>км³<s n="abbr"/></r></p></e>
+<e><p><l>BAE<s n="abbr"/></l><r>BAE<s n="abbr"/></r></p></e>
+<e><p><l>BG<s n="abbr"/></l><r>BG<s n="abbr"/></r></p></e>
+<e><p><l>CEZ<s n="abbr"/></l><r>CEZ<s n="abbr"/></r></p></e>
+<e><p><l>CNPC<s n="abbr"/></l><r>CNPC<s n="abbr"/></r></p></e>
+<e><p><l>EITI<s n="abbr"/></l><r>EITI<s n="abbr"/></r></p></e>
+<e><p><l>ER<s n="abbr"/></l><r>ER<s n="abbr"/></r></p></e>
+<e><p><l>HAS<s n="abbr"/></l><r>HAS<s n="abbr"/></r></p></e>
+<e><p><l>IMD<s n="abbr"/></l><r>IMD<s n="abbr"/></r></p></e>
+<e><p><l>Kaz<s n="abbr"/></l><r>Kaz<s n="abbr"/></r></p></e>
+<e><p><l>KPO<s n="abbr"/></l><r>KPO<s n="abbr"/></r></p></e>
+<e><p><l>kz<s n="abbr"/></l><r>kz<s n="abbr"/></r></p></e>
+<e><p><l>KZ<s n="abbr"/></l><r>KZ<s n="abbr"/></r></p></e>
+<e><p><l>АК<s n="abbr"/></l><r>АК<s n="abbr"/></r></p></e>
+<e><p><l>АКШ<s n="abbr"/></l><r>АКШ<s n="abbr"/></r></p></e>
+<e><p><l>АССР<s n="abbr"/></l><r>АССР<s n="abbr"/></r></p></e>
+<e><p><l>АурАзЭБ<s n="abbr"/></l><r>АурАзЭБ<s n="abbr"/></r></p></e>
+<e><p><l>АХХО<s n="abbr"/></l><r>АХХО<s n="abbr"/></r></p></e>
+<e><p><l>БДБ<s n="abbr"/></l><r>БДБ<s n="abbr"/></r></p></e>
+<!-- <e><p><l>биекл%.<s n="abbr"/></l><r>биекл%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>биол%.<s n="abbr"/></l><r>биол%.<s n="abbr"/></r></p></e> -->
+<e><p><l>Биохим<s n="abbr"/></l><r>Биохим<s n="abbr"/></r></p></e>
+<e><p><l>БМО<s n="abbr"/></l><r>БМО<s n="abbr"/></r></p></e>
+<e><p><l>БТА<s n="abbr"/></l><r>БТА<s n="abbr"/></r></p></e>
+<!--<e><p><l>б%.э%.<s n="abbr"/></l><r>б%.э%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>б%.э<s n="abbr"/></l><r>б%.э%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>б%.э%.к%.<s n="abbr"/></l><r>б%.э%.к%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>б%.э%.к<s n="abbr"/></l><r>б%.э%.к%.<s n="abbr"/></r></p></e> -->
+<e><p><l>ВАЗ<s n="abbr"/></l><r>ВАЗ<s n="abbr"/></r></p></e>
+<e><p><l>ВИЧ<s n="abbr"/></l><r>ВИЧ<s n="abbr"/></r></p></e>
+<!--<e><p><l>геогр%.<s n="abbr"/></l><r>геогр%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>геол%.<s n="abbr"/></l><r>геол%.<s n="abbr"/></r></p></e> -->
+<e><p><l>Гленкор<s n="abbr"/></l><r>Гленкор<s n="abbr"/></r></p></e>
+<e><p><l>ГСДП<s n="abbr"/></l><r>ГСДП<s n="abbr"/></r></p></e>
+<e><p><l>ГЭС<s n="abbr"/></l><r>ГЭС<s n="abbr"/></r></p></e>
+<e><p><l>ДНК<s n="abbr"/></l><r>ДНК<s n="abbr"/></r></p></e>
+<e><p><l>ДТК<s n="abbr"/></l><r>ДТК<s n="abbr"/></r></p></e>
+<e><p><l>ЕБ<s n="abbr"/></l><r>ЕБ<s n="abbr"/></r></p></e>
+<e><p><l>Евросоюз<s n="abbr"/></l><r>Евросоюз<s n="abbr"/></r></p></e>
+<!--<e><p><l>е%.<s n="abbr"/></l><r>е%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>елл%.<s n="abbr"/></l><r>елл%.<s n="abbr"/></r></p></e> -->
+<e><p><l>Ембемунайгаз<s n="abbr"/></l><r>Ембемунайгаз<s n="abbr"/></r></p></e>
+<e><p><l>ЗАГС<s n="abbr"/></l><r>ЗАГС<s n="abbr"/></r></p></e>
+<e><p><l>Казатомпром<s n="abbr"/></l><r>Казатомпром<s n="abbr"/></r></p></e>
+<e><p><l>КазМУ<s n="abbr"/></l><r>КазМУ<s n="abbr"/></r></p></e>
+<e><p><l>Казмунайгаз<s n="abbr"/></l><r>Казмунайгаз<s n="abbr"/></r></p></e>
+<e><p><l>Казпошта<s n="abbr"/></l><r>Казпошта<s n="abbr"/></r></p></e>
+<e><p><l>КазССР<s n="abbr"/></l><r>КазССР<s n="abbr"/></r></p></e>
+<e><p><l>КазТАГ<s n="abbr"/></l><r>КазТАГ<s n="abbr"/></r></p></e>
+<e><p><l>КамАЗ<s n="abbr"/></l><r>КамАЗ<s n="abbr"/></r></p></e>
+<e><p><l>КВН<s n="abbr"/></l><r>КВН<s n="abbr"/></r></p></e>
+<e><p><l>КГБ<s n="abbr"/></l><r>КГБ<s n="abbr"/></r></p></e>
+<e><p><l>кг<s n="abbr"/></l><r>кг<s n="abbr"/></r></p></e>
+<e><p><l>КДУ<s n="abbr"/></l><r>КДУ<s n="abbr"/></r></p></e>
+<!--<e><p><l>к%.<s n="abbr"/></l><r>к%.<s n="abbr"/></r></p></e> -->
+<e><p><l>ККП<s n="abbr"/></l><r>ККП<s n="abbr"/></r></p></e>
+<e><p><l>КМДН<s n="abbr"/></l><r>КМДН<s n="abbr"/></r></p></e>
+<e><p><l>КПРФ<s n="abbr"/></l><r>КПРФ<s n="abbr"/></r></p></e>
+<e><p><l>КПСС<s n="abbr"/></l><r>КПСС<s n="abbr"/></r></p></e>
+<e><p><l>КР<s n="abbr"/></l><r>КР<s n="abbr"/></r></p></e>
+<e><p><l>КФУ<s n="abbr"/></l><r>КФУ<s n="abbr"/></r></p></e>
+<e><p><l>КХДР<s n="abbr"/></l><r>КХДР<s n="abbr"/></r></p></e>
+<e><p><l>КХР<s n="abbr"/></l><r>КХР<s n="abbr"/></r></p></e>
+<!--<e><p><l>лат%.<s n="abbr"/></l><r>лат%.<s n="abbr"/></r></p></e> -->
+<e><p><l>м²<s n="abbr"/></l><r>м²<s n="abbr"/></r></p></e>
+<e><p><l>м2<s n="abbr"/></l><r>м²<s n="abbr"/></r></p></e>
+<e><p><l>м³<s n="abbr"/></l><r>м³<s n="abbr"/></r></p></e>
+<e><p><l>м3<s n="abbr"/></l><r>м³<s n="abbr"/></r></p></e>
+<e><p><l>МАГАТЭ<s n="abbr"/></l><r>МАГАТЭ<s n="abbr"/></r></p></e>
+<e><p><l>МВт<s n="abbr"/></l><r>МВт<s n="abbr"/></r></p></e>
+<!--<e><p><l>мәс%.<s n="abbr"/></l><r>мәс%.<s n="abbr"/></r></p></e> -->
+<e><p><l>млн<s n="abbr"/></l><r>млн<s n="abbr"/></r></p></e>
+<e><p><l>млрд<s n="abbr"/></l><r>млрд<s n="abbr"/></r></p></e>
+<e><p><l>м<s n="abbr"/></l><r>м<s n="abbr"/></r></p></e>
+<e><p><l>мм<s n="abbr"/></l><r>мм<s n="abbr"/></r></p></e>
+<e><p><l>МСОП<s n="abbr"/></l><r>МСОП<s n="abbr"/></r></p></e>
+<e><p><l>МУП<s n="abbr"/></l><r>МУП<s n="abbr"/></r></p></e>
+<e><p><l>НАСА<s n="abbr"/></l><r>НАСА<s n="abbr"/></r></p></e>
+<e><p><l>НАТО<s n="abbr"/></l><r>НАТО<s n="abbr"/></r></p></e>
+<e><p><l>НКВД<s n="abbr"/></l><r>НКВД<s n="abbr"/></r></p></e>
+<!--<e><p><l>обл%.<s n="abbr"/></l><r>обл%.<s n="abbr"/></r></p></e> -->
+<e><p><l>ОГПУ<s n="abbr"/></l><r>ОГПУ<s n="abbr"/></r></p></e>
+<e><p><l>ОДКБ<s n="abbr"/></l><r>ОДКБ<s n="abbr"/></r></p></e>
+<!--<e><p><l>окр%.<s n="abbr"/></l><r>окр%.<s n="abbr"/></r></p></e> -->
+<e><p><l>ОПЕК<s n="abbr"/></l><r>ОПЕК<s n="abbr"/></r></p></e>
+<!--<e><p><l>пед%.<s n="abbr"/></l><r>пед%.<s n="abbr"/></r></p></e> -->
+<e><p><l>РНК<s n="abbr"/></l><r>РНК<s n="abbr"/></r></p></e>
+<e><p><l>РСФСР<s n="abbr"/></l><r>РСФСР<s n="abbr"/></r></p></e>
+<e><p><l>РФ<s n="abbr"/></l><r>РФ<s n="abbr"/></r></p></e>
+<!--<e><p><l>РФ%{ь%}<s n="abbr"/></l><r>РФ<s n="abbr"/></r></p></e> -->
+<e><p><l>СВМДА<s n="abbr"/></l><r>СВМДА<s n="abbr"/></r></p></e>
+<e><p><l>см<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e>
+<e><p><l>СНПС<s n="abbr"/></l><r>СНПС<s n="abbr"/></r></p></e>
+<e><p><l>СПИД<s n="abbr"/></l><r>СПИД<s n="abbr"/></r></p></e>
+<e><p><l>ССРБ<s n="abbr"/></l><r>ССРБ<s n="abbr"/></r></p></e>
+<e><p><l>ССР<s n="abbr"/></l><r>ССР<s n="abbr"/></r></p></e>
+<e><p><l>СССР<s n="abbr"/></l><r>СССР<s n="abbr"/></r></p></e>
+<!--<e><p><l>СССР%{ъ%}<s n="abbr"/></l><r>СССР<s n="abbr"/></r></p></e> -->
+<e><p><l>ССС<s n="abbr"/></l><r>ССС<s n="abbr"/></r></p></e>
+<e><p><l>СЭС<s n="abbr"/></l><r>СЭС<s n="abbr"/></r></p></e>
+<e><p><l>ТАССР<s n="abbr"/></l><r>ТАССР<s n="abbr"/></r></p></e>
+<e><p><l>ТВ<s n="abbr"/></l><r>ТВ<s n="abbr"/></r></p></e>
+<e><p><l>ТДГПУ<s n="abbr"/></l><r>ТДГПУ<s n="abbr"/></r></p></e>
+<!--<e><p><l>тех%.<s n="abbr"/></l><r>тех%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>тирәнл%.<s n="abbr"/></l><r>тирәнл%.<s n="abbr"/></r></p></e> -->
+<e><p><l>трлн<s n="abbr"/></l><r>трлн<s n="abbr"/></r></p></e>
+<e><p><l>ТР<s n="abbr"/></l><r>ТР<s n="abbr"/></r></p></e>
+<!--<e><p><l>т%.<s n="abbr"/></l><r>т%.<s n="abbr"/></r></p></e> -->
+<e><p><l>ТЭМ<s n="abbr"/></l><r>ТЭМ<s n="abbr"/></r></p></e>
+<e><p><l>ТЭЦ<s n="abbr"/></l><r>ТЭЦ<s n="abbr"/></r></p></e>
+<e><p><l>УАЗ<s n="abbr"/></l><r>УАЗ<s n="abbr"/></r></p></e>
+<e><p><l>УЕФА<s n="abbr"/></l><r>УЕФА<s n="abbr"/></r></p></e>
+<e><p><l>ФСБ<s n="abbr"/></l><r>ФСБ<s n="abbr"/></r></p></e>
+<e><p><l>ФЭК<s n="abbr"/></l><r>ФЭК<s n="abbr"/></r></p></e>
+<!--<e><p><l>хим%.<s n="abbr"/></l><r>хим%.<s n="abbr"/></r></p></e> -->
+<e><p><l>ШХО<s n="abbr"/></l><r>ШХО<s n="abbr"/></r></p></e>
+<!--<e><p><l>экон%.<s n="abbr"/></l><r>экон%.<s n="abbr"/></r></p></e> -->
+<!--<e><p><l>эл%.<s n="abbr"/></l><r>эл%.<s n="abbr"/></r></p></e> -->
+<e><p><l>ЭЧ<s n="abbr"/></l><r>ЭЧ<s n="abbr"/></r></p></e>
+<e><p><l>ЭЭМ<s n="abbr"/></l><r>ЭЭМ<s n="abbr"/></r></p></e>
+<e><p><l>ЮНЕСКО<s n="abbr"/></l><r>ЮНЕСКО<s n="abbr"/></r></p></e>
+<e><p><l>ЮХИДИ<s n="abbr"/></l><r>ЮХИДИ<s n="abbr"/></r></p></e>
+
+<!-- TEMPOSTORM -->
+
+
+
+<!-- TEMPOSTORM -->
+     
+    <!-- SECTION: Interjections -->
+
+    <e><p><l>тен<s n="adv"/></l><r>мөгаен<s n="ij"/></r></p></e>
+    <e><p><l>ҫапла<s n="ij"/></l><r>әйе<s n="ij"/></r></p></e>
+
+    <!-- SECTION: Punctuation -->
+ 
+
+
+    <e><p><l>,<s n="cm"/></l>                            <r>,<s n="cm"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l>                          <r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l>                          <r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l>                          <r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l>                          <r>]<s n="rpar"/></r></p></e>
+    <e><p><l>«<s n="lquot"/></l>                         <r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="rquot"/></l>                         <r>»<s n="rquot"/></r></p></e>
+    <e><p><l>“<s n="lquot"/></l>                         <r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="rquot"/></l>                         <r>”<s n="rquot"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l>                          <r>-<s n="guio"/></r></p></e>
+    <e><p><l>—<s n="guio"/></l>                          <r>—<s n="guio"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l>                          <r>'<s n="apos"/></r></p></e>
+    <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l>        <r><s n="sent"/></r></p></e>
+    <e><re>[XVI]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[A-Z][a-z]+</re><p><l><s n="np"/><s n="unk"/></l><r><s n="np"/><s n="unk"/></r></p></e>
+    <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+
+
+  </section>
+</dictionary>
