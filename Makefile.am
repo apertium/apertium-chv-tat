@@ -17,14 +17,6 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 
 @ap_include@
 
-# Use this goal for creating .deps, otherwise make -j2 will give problems:
-.deps/.d:
-	if [ ! -d .deps ]; then $(MKDIR_P) .deps; fi
-	touch $@
-
-# Prevent the .d file from being removed automatically:
-.PRECIOUS: .deps/.d
-
 ###############################################################################
 ## Chuvash→Tatar monolingual transducers
 ###############################################################################
@@ -154,18 +146,20 @@ apertium_chv_tatdir=$(prefix)/share/apertium/$(BASENAME)/
 # $(PREFIX1).prob $(PREFIX2).prob 
 
 apertium_chv_tat_DATA=$(TARGETS_COMMON) \
-		    modes.xml
+		    modes.xml \
+			$(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
+			$(BASENAME).$(PREFIX2).t1x $(BASENAME).$(PREFIX2).t2x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
 
 install-data-local: install-modes
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_chv_tatdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_chv_tatdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_chv_tatdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_chv_tatdir)
+uninstall-local: uninstall-modes
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local: 
 	-rm -rf .deps
+
+test: all
+	apertium-regtest test

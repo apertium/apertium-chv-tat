@@ -1,0 +1,18 @@
+{
+    "story-chv-tat": {
+        "input": "story-chv-tat-input.txt",
+        "mode": "chv-tat"
+    },
+    "story-tat-chv": {
+        "input": "story-tat-chv-input.txt",
+        "mode": "tat-chv"
+    },
+    "chv-tat-t1x": {
+        "input": null,
+        "command": "test/chv-tat-t1x.sh"
+    },
+    "tat-chv-t1x": {
+        "input": null,
+        "command": "test/tat-chv-t1x.sh"
+    }
+}

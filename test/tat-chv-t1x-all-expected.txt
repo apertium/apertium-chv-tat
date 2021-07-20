@@ -1,0 +1,5 @@
+[47DEQpj8HBSa#0] 461 PASS: ^ат<n><nom>/ут<n><nom>$ ^белән<post>/$ ->
+            ^ут<n><ins>$
+
+1 / 1
+[/47DEQpj8HBSa]

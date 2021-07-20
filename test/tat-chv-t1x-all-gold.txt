@@ -1,0 +1,6 @@
+[47DEQpj8HBSa]
+461 PASS: ^ат<n><nom>/ут<n><nom>$ ^белән<post>/$ ->
+            ^ут<n><ins>$
+
+1 / 1 [/option]
+[/47DEQpj8HBSa]

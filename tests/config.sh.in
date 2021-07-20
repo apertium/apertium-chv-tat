@@ -1,6 +1,0 @@
-# Example configuration
-
-declare -r LANG1=tat
-declare -r LANG2=chv
-declare -r PAIRS=( "$LANG1-$LANG2" "$LANG2-$LANG1" )
-declare -r PIPE='apertium $SL_TL-transfer2 -f none -d .. | apertium-cleanstream -n | tee ${transfout} | lt-proc -g ../$SL_TL.autogen.bin | lt-proc -p ../SL_TL.autopgen.bin > ${genout}'

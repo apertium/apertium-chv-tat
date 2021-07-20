@@ -1,0 +1,14 @@
+[47DEQpj8HBSa#0] 234 PASS: ^пахча<n><px1sg>/бакча<n><px1sg>$ ^сӑр<post>/сыз<post>$ ->
+            ^бакча<n><px1sg><abl>$ ^башка<post>$
+
+  237 PASS: ^пахча<n><px2pl>/бакча<n><px2pl>$ ^сӑр<post>/сыз<post>$ ->
+            ^бакча<n><px2pl><abl>$ ^башка<post>$
+
+  240 PASS: ^пахча<n><px3sp>/бакча<n><px3sp>$ ^сӑр<post>/сыз<post>$ ->
+            ^бакча<n><px3sp><abl>$ ^башка<post>$
+
+  243 PASS: ^пахча<n><px2pl><pl>/бакча<n><px2pl><pl>$ ^сӑр<post>/сыз<post>$ ->
+            ^бакча<n><pl><px2pl><abl>$ ^башка<post>$
+
+4 / 4
+[/47DEQpj8HBSa]
